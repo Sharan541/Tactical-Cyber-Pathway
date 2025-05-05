@@ -1,0 +1,37 @@
+- A+
+- (code)
+- Net
+- OS
+- sec+
+- blue
+- (red)
+
+- video, CCCS notes
+- java, python
+- CCST, other files
+- CCST, OS base
+- CCST, sec+ notes, IBM CA
+- LDIO, CySA+ notes, videos
+- pentest+ notes, my notes
+
+- news, YT blogs, Q&A
+- make blogs on medium
+- update all profiles
+
+
+---------------------------
+
+- aptitude
+
+- NDI
+
+---------------------------
+next:
+
+AWS security
+AZ900 / SC200 / AZ500
+
+---------------------------
+
+job -> masters -> job plan
+
