@@ -1,0 +1,823 @@
+LINUX OS
+
+===============================================
+INTRODUCTION:
+
+open source
+fast, small
+powerful
+customizable
+
+-------------------------
+INSTALL A VM ON PC - LAB
+
+===============================================
+LINUX BASICS:
+
+-------------------------
+WHAT IS LINUX:
+-----
+1991
+needs less hardware resources
+by community of programmers
+wristwatches to supercomputers
+for network based applications
+-----
+open source -> 
+any can get kernel source code
+inspect, modify, re-compile
+-----
+Linux distribution
+packages by organizations
+distros = kernel with customized tools, software
+mostly, free without support
+-----
+Debian
+Red Hat
+Ubuntu
+CentOS
+SUSE
+etc...
+
+-------------------------
+LINUX VALUE:
+-----
+open source = flexible. modify for needs.
+powerful CLI. GUI is easy but needs more resources.
+CLI = directly + remotely.
+more control over OS.
+better network communication control
+
+-------------------------
+LINUX IN SOC:
+-----
+tailor it to an analysis platform
+add necessary packages only to OS,
+making it lean and efficient.
+-----
+Sguil analyst console
+in security onion (Linux version) = [ SIEM ]
+open source suite of tools
+network security analysis
+-----
+some tools used in SOC:
+> wireshark - network packet capture software
+> malware analysis tools
+> IDS - monitor real time traffic, inspect
+> firewalls - allow/deny with pre-defined rules
+> log managers - record events. manage it
+> SIEM - real time analysis of alerts,
+log entries by IDS, firewall...
+> ticketing system - assign alerts with this
+
+-------------------------
+LINUX TOOLS:
+-----
+for pen testing too,
+kali Linux has them
+see, not them...
+
+===============================================
+WORKING IN LINUX SHELL:
+
+-------------------------
+LINUX SHELL:
+-----
+user - CLI/ GUI - OS.
+Linux starts with GUI
+GUI -> access CLI.
+use terminal emulator
+some:
+** eterm
+** terminator
+** xterm
+** konsole
+** gnome-terminal
+-----
+JSLinux = Linux in browser
+emulated version.
+-----
+shell, console, console window,
+CLI terminal, terminal window
+used interchangeably.
+-----
+-- ls
+-- uname -a
+-- ls -l Documents/ | grep OS
+
+-------------------------
+BASIC COMMANDS:
+-----
+Linux commands
+program to do a task
+use man,
+read documentation.
+-- man ls
+-----
+commands = program on disk
+user - command - shell - search disk - execute
+searches in specific directories(path)
+specify location if command not in path
+can add directories to path if needed.
+-----
+type command name
+shell finds system path
+executes it
+-----
+-- mv
+-- chmod
+-- chown
+-- dd
+-- pwd
+-- ps
+-- su
+-- sudo
+-- grep
+-- ifconfig
+-- apt-get
+-- iwconfig
+-- shutdown
+-- passwd
+-- cat
+-- man
+-----
+use the man
+learn about it
+
+-------------------------
+FILE & DIRECTORY COMMANDS:
+-----
+command line tools in linux
+adjust commands with parameters, switches
+commands for files, directories:
+-----
+-- ls
+-- cd
+-- mkdir
+-- cp
+-- mv
+-- rm
+-- grep
+-- cat
+
+-------------------------
+WORKING WITH TEXT FILES:
+-----
+text editors
+different features
+some GUI, some CLI
+CLI -> remote edit
+GUI -> easy to use
+text based remote shell -> no GUI?
+nano good.
+-----
+GNU nano = control with keyboard only
+ctrl + O = save file
+ctrl + W = open search menu
+ctrl + G = help screen
+edit firewall rules
+
+-------------------------
+TEXT FILE IMPORTANCE IN LINUX:
+-----
+Linux -> everything = FILE
+memory, disks, monitor, directories
+info on display = write to file
+that represents display device
+-----
+computer = configured through files
+configuration files
+text file with settings, adjustments for service
+all needs 'configuration files' to work
+-----
+user with permission, change configuration
+file contents with text files
+specify how we want service to behave
+services checks config files, adjust behaviour
+-----
+host configuration file
+open with nano -> edit.
+-----
+static mappings of host IP addresses to names
+change...
+-- sudo nano /etc/hosts
+open it
+-----
+sudo = superuser do
+superuser privilege to use nano text editor
+
+-------------------------
+WORKING WITH TEXT FILES IN CLI - LAB
+
+-------------------------
+GET FAMILIAR WITH LINUX SHELL - LAB:
+
+===============================================
+LINUX SERVERS AND CLIENT:
+
+-------------------------
+AN INTRO TO CLIENT-SERVER COMM:
+-----
+server = provide service across network
+services types...
+external resource services: file, email, web
+upon client request.
+other services: maintenance:
+log management, memory management, disk scanning...
+a service needs its server software
+-----
+file server software?
+clients with ability to retrieve, submit files
+
+-------------------------
+SERVERS, SERVICES, THEIR PORTS:
+-----
+1 computer = server for multiple services
+use ports for that.
+port = reserved network resource
+used for a service.
+server -> listen on a port
+-----
+admin decide which port for a service
+clients -> configured specific port by default
+leave service running in its default port
+-----
+well known ports:
+FTP - 20/21
+SSH - 22
+telnet - 23
+SMTP - 25
+DNS - 53
+DHCP - 67/68
+TFTP - 69
+HTTP - 80
+POP3 - 110
+NTP - 123
+IMAP - 143
+SNMP - 161/162
+HTTPS - 443
+-----
+
+-------------------------
+CLIENTS:
+-----
+program to communicate with
+a specific type of server.
+client applications.
+uses well-defined protocol to communicate with server
+web browsers = web clients uses HTTP
+FTP client software -> FTP server
+
+-------------------------
+USE A PORT SCANNER TO DETECT OPEN PORTS - LAB + VID:
+-----
+network mapping
+port scanning
+security auditing
+monitor hosts
+-----
+open ports -> services
+-----
+what OS
+manage service upgrade schedules
+what services running
+what packet filters or firewalls running
+comm exchanged with TCP/UDP port numbers
+(comm over internet)
+65000 ports used by any IP address
+well known, registered, dynamic.
+20 21 22 23 25 53 67 68 69 80 443
+70% attacks over common ports
+analyse, focus on those...
+-- nmap localhost
+22 23 631
+use these ports to attack
+-- sudo nmap -sU localhost
+631 5353
+flood with DNS request
+-- nmap -sV localhost
+-- nmap -A localhost
+SSH keys
+-- man nmap
+q to exit
+-----
+
+-------------------------
+LINUX SERVERS - LAB:
+-----
+
+===============================================
+BASIC SERVER ADMINISTRATION:
+
+-------------------------
+SERVICE CONFIGURATION FILES:
+-----
+config files -> manage services
+common options =
+port numbers
+client location
+authorization details.
+start service -> load config files in memory
+modify config files -> restart service
+superuser privileges to run, edit.
+-----
+config file for
+nginx = Linux's light weight web server
+-- cat /etc/nginx/nginx.conf
+config file for
+NTP
+-- cat /etc/ntp.conf
+Linux based IDS
+snort
+-- cat /etc/snort/snort.conf
+-----
+no rule for config file format
+choice of the service’s developer
+option = value format used.
+
+-------------------------
+HARDENING DEVICES:
+-----
+securing device
+protect administrative access
+-----
+maintain passwords
+configure enhanced remote login features
+implement secure login with SSH
+levels of access to infrastructure devices
+-----
+many services enabled by default.
+some = enabled for historic reasons
+no longer required.
+stop those services
+ensure they don't start automatically
+during boot time.
+-----
+OS updates
+vulnerabilities discovered everyday
+create, issue fixes, patches
+less likely to be compromised
+-----
+basic best practices for device hardening:
+> Ensure physical security
+> Minimize installed packages
+> Disable unused services
+> Use SSH, disable root account login over SSH
+> Keep system updated
+> Disable USB auto-detection
+> Enforce strong passwords
+> Force periodic password changes
+> Keep users from re-using old passwords
+and more...
+-----
+
+-------------------------
+MONITORING SERVICE LOGS:
+-----
+log files = records = keep track of events
+kernel, services, app events -> log files.
+review periodically.
+computer performance, security status, issues
+log file analysis
+prevent issues.
+-----
+Linux log files classification:
+> application logs
+> event logs
+> service logs
+> system logs
+SSEA
+-----
+logs -> daemon info
+background process
+runs without user interaction
+SSSD - system security service daemon
+manage:
+remote access, authentication for single sign-on
+-----
+/var/log/messages:
+generic computer activity logs
+non-critical system messages
+/var/log/syslog (Debian)
+**
+/var/log/auth.log:
+authentication events
+user authorization
+**
+/var/log/secure:
+redhat, centos uses
+sudo, SSH logins, SSSD errors
+**
+/var/log/boot.log:
+boot info
+startup process
+**
+/var/log/dmesg:
+kernel ring buffer messages
+hardware info, drivers
+**
+/var/log/kern.log:
+info logged by kernel
+**
+/var/log/cron:
+schedule automated tasks
+cron job/ scheduled task
+error messages, exe status
+**
+/var/log/mysqld.log or mysql.log:
+MySQL log file
+-----
+-- sudo cat /var/log/messages
+
+-------------------------
+LOCATING LOG FILES - LAB:
+-----
+
+===============================================
+THE LINUX FILE SYSTEM:
+
+-------------------------
+FILE SYSTEM TYPES IN LINUX:
+-----
+many different kinds
+varies on speed, flexibility
+security, size, structure, logic...
+decide according to needs.
+-----
+> ext2:
+extended file system 2
+lash-based storage media
+> ext3:
+journaled file system
+minimized corruption
+improved ext2
+> ext4:
+extensions to ext3
+performance
+supported file sizes
+stability issues
+> NFS:
+network based file system
+local < network?
+> CDFS:
+compact disc file system
+for optical disk media
+> swap file system:
+used when ran out of RAM
+swap partition
+no specific file system
+> HFS+:
+hierarchical file system plus
+apple - Macintosh
+> APFS:
+apple file system
+updated FS used by apple
+encryption, optimized for flash/SSD
+> MBR:
+master  boot record
+at 1st sector of partitioned computer
+loads OS
+-----
+mount -> assign a dir to a partition
+-- mount
+list of file systems
+-----
+
+-------------------------
+LINUX ROLES AND FILE PREMISSIONS:
+-----
+system entities are treated as files.
+enforce boundaries within the computer
+file permissions.
+built into the file system structure
+define permissions on every file
+owner, group, others 
+Read, Write and Execute
+-- ls -l gayathri.txt
+-rwxrw-r-- 1 userg groupg 253 May 20 12:49 gayathri.txt
+-----
+gayathri.txt (-rwxrw-r--)
+"-" -> file
+"d" -> directory
+1st rwx -> user
+2nd rwx -> group
+3rd rwx -> other
+-----
+number of hard links to file = 1
+hard link creates another file with
+different name linked to same place
+in file system ~ "inode"
+in contrast to a symbolic link.
+253 -> bytes (file size)
+-----
+- or d
+rwx
+rwx
+rwx
+hard links
+user
+group
+size
+date, time of last modification
+fie name
+-----
+000 = 0 = --- = no access
+001 = 1 = --x = exe
+010 = 2 = -w- = write
+011 = 3 = -wx = write, exe
+100 = 4 = r-- = read
+101 = 5 = r-x = read, exe
+110 = 6 = rw- = read, write
+111 = 7 = rwx = read, write, execute
+-----
+binary, octal, permission, description
+-----
+root user -> override file permission
+full control over a Linux computer
+root credentials should use strong passwords
+not be shared with other normal ones.
+-----
+
+-------------------------
+HARD LINKS AND SYMBOLIC LINKS:
+-----
+hard link = another file
+points to same location of original file
+-- ln ramya.txt ramya.hard.txt
+-- ls -l ramya*
+-- echo "test text" >> ramya.hard.txt
+-- ls -l ramya*
+-- rm ramya.hard.txt
+-- more ramya.txt
+-----
+both file point to same location
+symbolic link = symlink or soft link
+applying changes to symbolic link
+will also change original file.
+-----
+-- echo 'hai bro' > it3.txt
+-- ln -s it3.txt myit3.txt
+-- echo "hehe" >> myit3.txt
+-- more it3.txt
+-- rm it3.txt
+-- more myit3.txt
+-- ls -l myit3.txt
+-----
+adding text to test.txt also adds to mytest.txt.
+symbolic links have a single point of failure
+-----
+hard link hard to locate
+hard link limited to created FS
+symbolic link:
+link to a file in another FS.
+system itself uses hard links to define
+hierarchy of directory structure.
+symbolic links can link to directories.
+-----
+
+-------------------------
+NAVIGATING LINUX FS, PERMISSION SETTINGS:
+-----
+Exploring Filesystems in Linux
+File Permissions
+Symbolic Links and other Special File Types
+
+===============================================
+WORKING WITH LINUX GUI:
+
+-------------------------
+X WINDOWS SYSTEM:
+-----
+GUI  in Linux based on
+X Window System.
+windowing system
+basic framework for a GUI
+Linux GUI varies greatly from
+distribution to distribution.
+-----
+
+-------------------------
+LINUX GUI:
+-----
+OS does not require a GUI to function
+more user-friendly than the CLI
+ubuntu ->  Gnome 3 as its default GUI
+
+-------------------------
+WORKING ON A LINUX HOST:
+-----
+end-user apps are complex programs
+written in compiled languages
+package managers to aid installation
+package = program, supporting files.
+package manager -> all necessary files
+placed in correct file system location
+-----
+vary depending on Linux distributions
+> pacman
+arch Linux
+> dpkg
+Debian 
+> apt
+advanced packaging tool
+Debian, ubuntu
+-----
+-- sudo apt-get update
+-- sudo apt-get upgrade
+-----
+update -> get package list from
+package repository,
+update local package database.
+upgrade -> update all packages to
+latest versions.
+-----
+
+-------------------------
+KEEPING SYSTEM UP TO DATE:
+-----
+patches
+OS updates periodically
+address known vulnerabilities
+update schedules...
+unscheduled updates too
+for major vulnerability fix
+in OS code.
+-----
+> install a package:
+-- pacman -S
+-- apt install
+> remove a package
+-- pacman -Rs
+-- apt remove
+> update local package
+-- pacman -Syy
+-- apt-get update
+> upgrade all
+-- pacman -Syu
+-- apt-get upgrade
+-----
+do in Linux GUI too
+Software Updater app
+-----
+
+-------------------------
+PROCESSES AND FORKS:
+-----
+process = running instance of computer program
+multi tasking OS = many processes at same time
+-----
+forking:
+kernel -> processes create copies of itself
+process scalability
+apache web server
+apache -> fork -> serve more requests
+with few system resources than
+single process based server.
+-----
+parent process -> child
+after fork -> independent process
+different process ID
+runs same program code.
+-----
+-- ps
+list running process
+of current or other users
+sudo to kill or modify other's process
+-- top
+list running process
+dynamic
+q to stop, exit
+-- kill
+modify process behaviour
+parameters -> remove/restart/pause
+ps or top before kill
+to learn PID
+-----
+
+-------------------------
+MALWARE ON A LINUX HOST:
+-----
+viruses, Trojan horses, worms...
+affect the OS
+-----
+due to design components such as
+file system structure
+file permissions
+user account restrictions
+Linux OS -> better protected.
+not immune to malware
+vulnerabilities found, exploited.
+server software to kernel.
+as Linux = open source,
+fixes or patches made in
+hours after discovery.
+-----
+common Linux attack vector
+services and processes.
+vulnerabilities found in
+server, process code
+connected to network.
+outdated apache web server
+probe open ports to assess
+version and nature
+research for any known issues
+-----
+update system
+close unused ports, services
+reduce attack likelihood.
+-----
+attacker using Telnet command to probe
+-- telnet 209.165.200.224 80
+server -> nginx version 1.12.0
+next:
+research known vulnerabilities
+in nginx 1.12.0 code.
+
+-------------------------
+ROOTKIT CHECK:
+-----
+increase attacker privilege
+to secure a backdoor
+-----
+compromise host, install rootkit
+or auto install rootkit.
+changes kernel code, its modules
+rootkits can hide intrusion
+remove any installation tracks
+tamper troubleshooting, diagnostic tools
+their output hides presence of rootkit.
+-----
+rootkit requires root access
+difficult to detect rootkits
+boot system from trusted media
+diagnostics OS live CD
+-----
+compromised drive mounted
+trusted system toolset
+trusted diagnostic tools
+inspect compromised file system
+includes,
+> behavioural-based methods,
+> signature scanning,
+> difference scanning,
+> memory dump analysis.
+-----
+rootkit removal is
+complicated, often impossible
+especially when
+rootkit resides in the kernel
+re-install OS = only way
+Firmware rootkits =
+require hardware replacement.
+-----
+-- chkrootkit
+check for known rootkits
+a shell script
+uses common Linux tools
+strings and grep
+compare signatures of core program
+traverses the /proc file system
+compare ps output for signs.
+not 100% reliable though...
+-- sudo ./chkrootkit
+-----
+
+-------------------------
+PIPING COMMANDS:
+-----
+command -> perform specific task
+combine commands -> complex task
+piping technique.
+chaining commands together.
+feed output of 1 to another
+-----
+ls -l | grep host
+ls -l | grep file
+-----
+
+-------------------------
+APPS, ROOTKITS, PIPING COMMANDS:
+-----
+automate installation, removal of software
+package managers...
+-- sudo pacman -Sy
+-- sudo pacman -S mlocate
+-- sudo updatedb
+-- locate messages
+-----
+ubuntu -> apt
+-- sudo apt-get update
+update packages
+-- sudo apt-get install chkrootkit
+-- sudo chlrootkit
+-- cat /var/log/syslog | grep http
+-----
+
+-------------------------
+CONFIGURE SECURITY FEATURES IN WINDOWS, LINUX:
+-----
+Create Backups and Restore Points
+Configure Firewall Rules
+Disable Services
+Restore
+-----

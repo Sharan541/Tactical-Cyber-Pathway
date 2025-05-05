@@ -1,0 +1,876 @@
+Linux:
+
+================================================================
+E1: BASICS:
+
+Linux Kernel
+Parrot OS
+Distributions..
+
+Kali, Cent, Ubuntu, Debian...
+
+Kernel interfaces with hardware
+application - kernel - hardware
+
+GUI = visible
+terminal = no
+
+-- pwd = folder location
+-- ls = folder contents
+-- cd Desktop = open folder
+-- cd .. = back button
+
+================================================================
+E2: FILE SYSTEM HIERARCHY:
+
+-- whoami
+-- clear
+
+all are files
+root = all starts here
+
+at root: bin = binaries = command binaries
+can list all commands here
+
+-- cat = open a file
+cat ls = see command binaries. its a  file. proved.
+
+-- cp ls list
+copy binary content of ls to list file
+
+-- sudo = please open
+pretend to be root or admin
+
+-- rm ls
+remove the ls file
+
+default:
+cp list ls
+rm list
+
+cat the cat
+cat also file
+
+at root: sbin = special commands for admins
+
+-- adduser gayu
+
+at root: usr = has bin, sbin too
+2 locations
+usr bin more cmds than root bin
+
+-- which ls
+find loc of command binaries
+
+at usr: local = command binaries
+store own commands here for efficiency
+
+at root:
+boot = boot process
+var = log files
+tmp = lost when shut
+lib = libraries
+dev = devices file. hardware.
+home = where users live
+etc = configs here. network = interfaces = see ip-address
+mnt, media = mount drives
+
+root not in home. loner.
+
+ctrl + l
+ctrl + c
+
+/ -> root, home inside
+root = ~
+home = home
+~ means root's home ?
+
+explore file structure in lab
+
+================================================================
+E3: GET HELP:
+
+terminal = hardware device
+now GUI. terminal emulator
+(to get access to commands)
+shell = UI to interact with OS
+
+terminal emulator(device) -> shell(UI)
+bash shell, power shell
+
+-- ps
+list running process
+bash, pwsh
+
+terminal bash shell console...
+its actually terminal emulator
+we using bash shell.
+
+[ username@hostnameoflinux-locationinfilesystem ]
+
+$ login as user
+# login as root
+
+-- id
+show me your id sir
+-- hostname
+-- uname
+-- uname -r
+-- uname -a
+-- ifconfig
+-- ip
+-- netstat
+-- ss
+-- who
+-- env
+-- lsblk
+-- lsusb
+-- lsof
+
+ugh
+
+-- man ip
+manual page
+-- uname --help
+get help
+-- apropos usb
+find commands with keyword
+
+================================================================
+E4: USER MANAGEMENT:
+
+you're a user:
+-- whoami
+
+different users =
+different access level
+
+create user:
+-- adduser analyst
+-- useradd coder
+
+only root can add user
+use sudo
+
+look for users:
+-- cat /etc/passwd
+name:x:10:10::/home/name:/bin/bash
+name, pswd, id's, home dir, shell
+
+set password for users:
+-- passwd coder
+
+look for passwords:
+-- cat /etc/shadow
+
+adduser =
+slower, more complete, in home, bash shell.
+
+look for hidden files:
+-- ls /home/analyst
+-- ls -al
+
+modify users:
+-- usermod -h
+-- usermod coder --shell /bin/bash
+change default shell
+-- usermod -l sai chandru
+
+get home by default:
+-- useradd security -m
+
+super user do = sudo su
+
+switch between user:
+-- su -
+-- exit / logout / ctrl+d
+-- su - analyst
+-- (analyst) - useradd spider
+no.
+
+sudoers file define who uses sudo.
+
+best practice to edit:
+-- sudo visudo
+a root, groups
+edit the file, give permissions.
+
+delete an user:
+-- userdel thor
+
+create a group:
+-- group resistance
+
+see the groups:
+-- cat /etc/group
+
+add an user to a group:
+-- usermod -aG resistance iron
+
+list the groups available
+-- groups
+
+add an user to a group:
+-- gpasswd -d thanos resistance
+[edit]
+
+delete users:
+-- userdel thanos
+-- groupdel resistance
+
+================================================================
+E5: PACKAGE MANAGEMENT:
+
+apps or programs to install
+contained in packages
+Linux's store = packages
+
+
+package managers:
+
+dpkg
+apt
+
+aptitude
+snap
+
+pip
+git
+
+----------
+dpkg = depackage tool = low level package manager
+
+go to website
+download
+.deb
+save file
+
+go to cmd
+downloads
+ls to see discord
+
+windows = .exe
+linux = .deb, .rpm
+mac = .dmg
+
+-- dpkg -i discord-0.0.15.deb
+-i = install
+.deb file name in downloads
+
+dependency problems...
+won't do automatically.
+
+-----------
+apt = advanced package tool = high level package manager
+
+-- sudo apt update
+-- sudo apt install pidgin
+package name
+-- sudo apt --fix-broken install
+-- sudo apt install pidgin
+automatically install dependencies
+
+dpkg = requires to download .deb file
+apt = just package name
+
+apt relies on repository
+a server with all software
+common ones...
+
+apt - server
+update list of things
+
+there are many repositories
+-- sudo apt edit-sources
+/etc/apt/sources.list.d/parrot
+parrot.list
+https://deb/parrot.sh/parrot/
+browse the repository...
+
+find a repository
+add that to sources list
+and install:
+-- sudo apt -h
+-- sudo apt list
+-- apt list --installed
+-- apt list --installed | grep ^nmap
+-- sudo apt show nmap
+-- sudo apt search nmap
+
+remove:
+-- sudo apt remove nmap
+app removed, user data stays
+-- sudo apt purge nmap
+all gone
+
+-- sudo apt upgrade
+update applications, packages
+-- sudo apt update && sudo apt upgrade
+check repository and upgrade
+-- sudo apt update && sudo apt full-upgrade
+remove previously installed apps unwanted
+
+-- dpkg -l
+-- dpkg -l | nmap
+
+----------
+-- sudo aptitude
+
+----------
+snap is not like repository
+but a store
+snapd
+takes time to add app in repo
+store means instant
+-- apt install snapd
+-- snap install --classic code
+package name of vscode is code
+-- code
+
+----------
+Python's package manager = pip
+ruby uses gems
+-- gem install rails
+
+----------
+get tools from github
+-- sudo apt install git
+find turbo lister in github
+get the url
+-- git clone link
+requirements.txt
+-- pip3 install -r requirements.txt
+
+-- python3 script_name -h
+-- python3 turbolist3r.py -d hackthebox.in
+-d = domain
+passive reconnisance
+
+----------
+apt has:
+
+update
+upgrade
+full-upgrade
+
+--fix-broken install
+
+edit-sources
+list
+--installed
+
+show nmap
+install nmap
+search nmap
+remove nmap
+purge nmap
+
+================================================================
+E6: LINUX SERVICES:
+
+Daemons in background
+Find these services..
+
+process = instance of program.
+launch a program,
+there is a process running.
+eg: nano
+
+launch sublime text editor
+launch cmd
+
+-- ps -aux
+so many
+-- ps -aux | grep sublime
+process for that application
+
+close sublime
+-- ps -aux | grep sublime
+process gone
+
+interactive process.
+process starts only,
+when u start program
+
+-- ps -aux
+a lot of process that we didnt open
+these... daemons.
+process we dont start.
+services...
+they run network, ssh, printing...
+to make them work.
+
+'d' at end = daemon
+ssh -> sshd
+-- ps -aux | grep ssh
+daemons make sure you make remote connection.
+runs in background.
+
+-- ps -aux | grep ntp
+network time protocol
+keeps time in sink
+ntpd
+
+how to find is known
+but how to control?
+
+manage the services..
+
+daemon = greek
+supernatural being
+no goal or evil.
+
+the master daemon
+= systemd daemon
+control other daemons
+
+systemd:
+service manager
+init system
+
+init system vital for boot process
+power up - boots - load system kernel - systemd - mount filesystem - start services.
+
+systemd = first service/ process/ daemon started.
+systemd - forking - start other services...
+
+-- pstree
+discover the tree structure from root to leaf
+
+-- ps -aux
+processes has a process id
+systemd = pid = 1
+
+for managing services:
+use 'systemctl'
+
+systemd calls daemons as units.
+daemons = units.
+
+-- systemctl stop sshd
+use ssh system, stop = over.
+loose ur connection to it.
+
+many services start during boot
+disable them (actually don't do)
+
+-- systemctl disable ntp
+enable = starts automatically
+during next boot.
+
+-- systemctl list-units
+see all active ones
+services, sockets, device, target... daemon types
+
+-- systemctl list-units -t service
+t = type
+see active services
+
+-- systemctl list-units | grep nginx
+shows it only if it is active
+
+-- systemctl list-units --all | grep nginx
+shows all that are parsed, loaded to memory
+
+-- systemctl list-unit-files | grep nginx
+found nginx, its disabled!
+
+-- systemctl status nginx
+
+nginx = webserver
+need to:
+start on boot
+start nginx
+
+-- systemctl enable nginx
+-- systemctl start nginx
+failed!
+find way with error
+-- journalctl -xe
+should have logs
+it itself a daemon
+
+-- systemctl list-units | grep journal
+restart it
+-- systemctl restart systemd-journald
+
+-- systemctl start nginx
+-- journalctl -xe
+better. its working.
+looks like port 80 used by someone else
+need to fix that.
+
+find daemons, manage daemons. done.
+
+=====
+start
+status
+stop
+restart
+reload
+reload-or-restart
+disable
+enable
+is-active
+is-enabled
+list-units
+list-unit-files
+--all
+=====
+
+================================================================
+E7: PROCESS MANAGEMENT:
+
+launch an application
+linux process running
+-- ps
+see running processes
+
+only ps = shows shell, ps cmd itself.
+need to be specific with ps.
+-- ps -u username
+
+open firefox app,
+a running linux process
+-- ps -u username | grep firefox
+
+note:
+cmd line:
+[username@hostname]-[~]
+
+grep = global regular expression print
+
+kill a process:
+firefox frozen and
+not responding ...
+-- kill process-id
+
+-- pgrep firefox
+to get process id too
+
+-- ps --help
+-- ps --help simple
+
+explore the a,u,x switches
+a = all users
+u = list user
+x = processes not executed by this terminal
+-- ps -aux
+-- ps -aux | grep firefox
+
+monitor processes:
+-- top
+shows running processes on linux
+store by CPU usage
+-- htop
+-- q
+
+2 process types:
+- foreground
+- background
+
+-- ping -c 100 networkchuck.com
+c = count
+ask: hi, how u doin 100 times..
+get reply: im awake 100 times..
+a foreground process
+in front of us.
+-- ctrl+ c
+-- sleep 30
+
+make foreground process liKe ping to background processes.
+-- ping -c 1000 networkchuck
+-- ctrl+z
+z to put it into sleep
+-- jobs
+asleep but still foreground process
+-- bg pid
+ping became background process
+try ctrl + c to stop, wont work.
+
+to stop:
+make it foreground process again
+kill it.
+-- fg pid
+now, ctrl+c to stop. done.
+[ bg, fg ]
+
+recap:
+ping, sleep(ctrl z), jobs, bg, fg
+
+-- ping -c 1000 google.com &
+& at end = background process
+
+-- jobs
+-- fg 12
+-- ctrl + c
+
+linux process states:
+running, waiting, stopped, zombie
+
+kill cmd -> kill signal
+-- kill -l
+eg: sigterm, sigint, sigkill
+sigkill = kill for sure.
+-- sleep 900 &
+
+-- kill -19 21374
+~ ctrl + z
+
+kill all:
+-- pkill -9 ping
+done. cool.
+
+================================================================
+E8: MANAGE WEB SERVERS:
+
+-- python -m http.server
+web server is running
+non standard port 8000
+
+firefox -> localhost:8000
+listing of files...
+a file on desktop, access through a web server
+another way to transfer files beyond usual ways
+
+transfer files with: ssh, ftp, netcat, webserver
+
+can also specify custom port:
+-- python -m http.server 7600
+-- localhost:7600
+
+see list of files because it doesnt have index.html file to look at.
+
+-- mkdir website
+-- cd website
+-- nano index.html
+    hello, welcome to my website!
+-- python -m http.server 7600
+it will launch in whatever directory ure in
+no list of files because only 1 file there.
+
+another terminal:
+-- php -S 127.0.0.1:8085
+loopback address. back to you.
+localhost = dns of 127.0.0.1
+
+2 websites running on our computer
+firefox:
+localhost:7600
+localhost:8085
+
+-- npx http-server -p 8086
+another server
+firefox:
+localhost:8086
+
+popular = apache webserver
+-- systemctl start apache2
+port 80 being already used
+-- nano /etc/apache2/ports.conf
+edit 'listen 80' to 'listen 8080'
+save.
+
+-- systemctl start apache2
+journalctl to troubleshoot if needed
+firefox -> search -> localhost:8080
+apache default page
+
+talk to websites... from cli
+new terminal:
+-- curl localhost:7600
+client url
+got output file content
+
+-- curl localhost:8080
+got html code
+download sourcecode of website
+
+-- curl -o web1 localhost:8080
+downloaded content, saved in file web1
+-- cat web1
+
+-- curl -I localhost:8080
+response HEADER.
+not actual message but details.
+
+-- curl -v localhost:8080
+verbos = v
+request HEADER
+> request header
+< response header
+get, post, put, update methods.
+get request, post request...
+--> GET HTTP/1.1
+request -> response
+
+-- wget localhost:7600
+downloads the file
+pulled down index.html
+got http headers too.
+200 OK = best message
+404 not found = bad.
+
+just scratched the surface. one google search away...
+
+================================================================
+E9: SOME HACKS TO BE FAST:
+
+bash shell = green
+power shell = blue
+
+-- cd
+-- cd Desktop
+-- cd /
+-- cd path
+jump around
+
+-- pwd
+
+-- cd ..
+takes 1 step back
+
+-- cd ../..
+takes 2 steps back
+
+-- clear
+ctrl + l
+clean your room
+
+directional arrows to get to previous commands
+
+-- cd
+at home
+left your purse at previous directory?
+go back
+-- cd -
+home to previous place
+
+looks into built in variable $OLDPWD
+-- echo $OLDPWD
+
+-- ls
+list contents
+-- ls -l
+top down content, more info
+-- ls -al
+see hidden files
+l = list form, a = all
+.name = hidden files
+-- ll
+same as ls -l
+-- la
+same as ls -al
+
+ll, la = alias. create ur own commands
+-- alias lumos="ls -al"
+to make it permenant: bashrcfile
+-- nano .bashrc
+tab to complete commands
+edit that file: alias lumos="ls -al"
+stays forever.
+
+ctrl shift + = zoom
+ctrl shft c, ctrl shft v = copy, paste
+ctrl a = go to beginning of line
+useful when cmd went wrong
+
+ctrl e = end of cmd
+ctrl u = delete all before cursor
+ctrl y = back to deleted command
+ctrl k = delete all after cursor
+
+alt backspace = delete last word
+ctrl x e = edit the typed command and run
+
+ctrl l
+log files:
+/var/log/auth.log
+big. things gets added constantly
+cat cant do much
+-- less /var/log/auth.log
+less instead cat
+-- sudo !!
+!! = run most recent command
+
+see most recent logs
+-- tail /var + tab tab
+gives options to choose
+-- tail /var/log/auth.log
+
+see real time logs:
+-- tail -f /var/log/auth.log
+see file in real time
+go to another terminal, create a user
+see realtime logs in the old terminal
+
+search command history:
+ctrl r
+reverse search commands
+with half known keyword
+
+================================================================
+E10: MAKE 1 MILLION DIRECTORIES:
+
+bash shell
+
+-- touch thri.txt
+empty file created
+
+-- touch thri nand sug
+create 3 empty files
+
+-- cat > file.txt
+put things inside
+ctrl d = save it
+
+-- cat << EOF > thri1.txt
+lfhqrfhxy
+wjehwe
+liwuhwhek
+EOF
+
+-- echo "go f urself" > saish.txt
+
+-- ls -l
+
+-- mkdir summertimes
+
+d = directory
+- = file
+
+-- mkdir thri2 thri2 thri3
+created 3 directories
+
+directory = hold files
+
+-- mv saish.txt ./summertimes
+file moved to new place
+
+-- ls summertimes
+
+-- mv thri2.txt ./summertimes newname.txt
+move and rename things at same time.
+
+-- cp thri2.txt ./summertimes/
+
+-- cp txt txt .ba name
+
+-- mkdir -p 00rir
+
+-- tree
+working directory in tree
+
+move a directory.
+-r = recursive
+
+-- touch dontdelete.xom
+-- rmdir command
+-- rm --help
+-- rm -rf --no-preserotve-ro
+
+-- tree
+... ....
+
+================================================================
+

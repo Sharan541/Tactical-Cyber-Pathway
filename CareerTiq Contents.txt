@@ -1,0 +1,1483 @@
+CareerTiq Running notes:
+
+===========================================
+Episode 1:
+
+technical terms:
+unauthorized access
+exploit
+privacy
+threat actor/ bad actor/ adversary.
+
+V T R:
+vulnerability = weakness
+threat = malware, soc eng...
+risks = impact, incident probability.
+
+threat landscape = dynamic
+
+website defacement = hack a website, put your content.
+
+Controls: DEFENCE IN DEPTH
+physical
+logical
+administrative
+
+government = rules & regulations.
+organizations = standards.
+
+priority vs severity.
+
+risk mitigation techniques...
+
+HACKING PROCESS:
+	1 = gather info
+	2 = scan
+	3 = gain access
+	4 = persistence
+	5 = clear digital footprints
+
+[ exploitDB ]- a website
+
+writtern permissions
+
+financial, reputational consequences.
+
+require = cyber hygiene, updates, passphrase management.
+responsible = individual, organizational, governmental.
+behaviour, protocols, policies.
+
+money, data, bad activities...
+
+skills = network security, coding, analytics, communication, explore, adapt, resilience.
+
+CAPTCHA: to protect against automated bots
+
+65535 * 2 = 131070 ports. TCP + UDP.
+
+data classification:
+structured - database
+unstructured - hard disk, cloud...
+in terms of security it is different:
+public, internal, sensitive, confidential...
+
+Learning management system
+
+-- super scan
+-------------------------------------------
+PPT-1:
+
+Cybersecurity = defend devices, data, networks from digital attacks.
+Importance = digitalization, dependence on it.
+Information, finance, security.
+
+===========================================
+Ep2:
+
+[ MITRE ATTACK FRAMEWORK ]
+
+[ wikileaks ]
+[ Hack Tricks ]
+OSINT tools
+[ Pimeyes tool ]
+
+Cybersecurity frameworks:
+framework= provides basement\ blueprint for development process
+set of guidelines, best practices for organizations
+NIST (US)
+ISO IEC 27000 series (EU)
+SOC-2
+NERCCIP
+HIPAA
+GDPR
+FISMA
+Need: to reduce vulnerabilities
+
+TYPES:
+control framework
+program framework
+risks framework
+
+THREAT= has a potential to cause damage
+threat linked with vulnerability causes damage
+MALICIOUS INTENT!!!
+
+Threat actors types:
+  cyber criminal(s) = monetary
+  misconfigs = mismanagement
+  script kiddies = noob with a tool
+  extortionists = forcible manner
+  state sponsored = cyber WAR
+
+-------------------------------------------
+ppt:
+
+[ SIEM ] = security information and event management
+
+collect, aggregate, analyze
+live monitoring, detect threats, generate alerts, incident response
+compliance reports
+centralized
+pre defined rules
+audit trails, automated controls...
+
+analyze logs, events = SIEM. IDPS = monitor, prevent.
+Firewall = control.
+Endpoint protection = secure a host alone.
+[ UEBA ] = analyze user behaviour patterns for insiders.
+
+SOAR = Security orchestration, automation, response.
+automate incident response, orchestrate security tools.
+
+SIEM + [ SOAR ] = >>>
+
+Splunk
+IBM QRadar
+LogRhythm
+ArcSight
+Elastic SIEM.
+
+Define clear use cases, objectivies to deploy for aligning with goals. integrated work, updates, train...
+
+[ ISIM ]
+Information security and incident management.
+
+-------------------------------------------
+
+explore dashboard
+event logs, alerts, reports.
+normalized log data.
+set up rules to monitor, detect events or anomalies.
+test events or simulate incidents to trigger alerts.
+analyze the details
+find causeisolate compromised endpoints
+compliance report
+review reports, ensure it meets compliance standards.
+find non-compliance, take actions.
+metrics = rate, time, false positivies.
+fine-tune, rules...
+
+-------------------------------------------
+
+Threat landscape
+Cyber threats
+Attack vectors
+Motive
+Emerging threats
+Regulatory, compliance requirements
+Global nature of threats
+Collaborative defense
+Stuxnet worm
+Sony pictures hack
+Wannacry ransomware
+Equifax data breach
+Solarwindssupply chain attack
+Colonial pipeline ransomware
+Kaseya supply chain attack
+
+===========================================
+Ep3:
+
+Elements of Information security:
+
+confidentiality (hide)
+integrity (real)
+availability
+authenticity (get in)
+non-repudiation (you did that for sure)
+CIA++
+
+authentication = check id. login detail.
+authorization = check authorities to access. privilege/ permission/ access.
+
+authentication types:
+what you [ KNOW -  HAVE  -  ARE ].
+
+attack classification:
+active = damage
+passive = monitor
+close-in = within range
+
+insider = imposter
+distribution = hard to categoize good/ bad.
+
+motive
+method
+vulnerabilities
+
+get ddos from github
+
+networking concepts:
+1 ip-address for 1 device
+1 port for 1 service = logical entry points
+(1 device multiple services simultaneously)
+
+send packet without ip address in dark web
+
+segmentation = security = virtual segrigation:
+1 LAN with multiple hosts use 1 public IP address for all hosts.
+
+[ CIDR notation ]
+classless interdomain routing
+
+subnet calculator in google
+
+[ Angry IP scanner ] = like Nmap...
+
+2 logical system = realPC, fakeVM
+run wireshark in fakeVM
+note the realPC ip, ping it in fakeVM
+see details in wireshark running in fakeVM.
+look at unencrypted data, metadata.
+Wireshark got your back.
+-------------------------------------------
+ppt:
+
+Threat actor types:
+* criminal organizations (financial) = DDoS, malware spread
+* Nation-State actors = APT groups. espionage, sabotage... 
+* Hacktivists = social/ political cause. protest.
+* Insiders = employees, contractors, partners with access. misuse, revenge, espionage. imposter among us.
+* terrorists (nonstate actors) politically/socially motivated, violence.
+
+Hacking process =  ------ RECON  SCAN  ACCESS  STAY  CLEAN -----
+
+Risk management
+
+Response to Incidents
+
+Ethical Hacking, pentesting
+
+Compliance and regulatory knowledge
+
+Communication and collaboration
+
+Continue learning ...
+
+-------------------------------------------
+
+BREACH = loss of control
+INTRUSION = attack maybe
+THREAT
+ZERO DAY
+EVENT  =  alert. observable occurrence
+EXPLOIT
+INCIDENT  =  affects CIA. 100% occured
+VULNERABILITY = weakness
+
+threat actor
+threat landscape
+attack vector
+
+===========================================
+Ep 4:
+
+Cryptography Basics:
+secure communication
+plain text - cipher text
+authorized user, keys
+
+Key management:
+generate, store, distribute, revoke
+Types:
+symmetric = [AES, DES].
+asymmetric = [RSA, ECC].
+
+Hash functions = data into fixed size hash values
+data integrity, verification, digital signatures
+collision resistance, preimage resistance.
+
+Should not hinder availability. resist DOS.
+Non-repudiation- sender cannot deny message origin.
+Digital signature provide non-repudiation by associating sender's ID with message.
+
+Concepts:
+Digital signatures.[authentication]. (asymmetric key use in opposite way...)
+Hash functions.[data integrity].
+secure key exchange protocols.
+SSL/TLS, SSH = cryptographic protocols.
+Cryptanalysis. break cryptographic systems.
+
+Cryptography Ensures:
+Confidentiality   (encryption)
+Integrity   (hash functions, digital signatures)
+Authentication   (HMAC) - verify user. hash based message authentication code
+Nonrepudiation
+Key management
+
+Symmetric
+Asymmetric
+Hash functions
+Steganography
+
+hashing = 1 way
+encryption = 2 way
+
+integrity
+privacy
+
+resources
+secure key management
+
+-------------------------------------------
+
+Internet = forest
+anyone can listen
+
+VPN = encrypt, tunnel.
+Proxy = intermediate.
+
+Tor uses proxy(6)- 3 open, 3 anonymous.
+Anonymity. not safety.
+No log policy.
+
+Tails, Qubes... = safe OS.
+
+Visit darkweb for scientific purposes...
+gore, warcrimes, drugs, humans, trade...
+
+SYN = hi
+SYN, ACK = roger, hi
+ACK = roger
+client starts it. The " Threeway Handshake ". exclusively TCP.
+
+TCP 3 way handshake
+TLS handshake
+
+Different packet types. FIN...
+
+UDP = no retransmission.
+QUIC = new L4 protocol. uses sockets.
+
+HTTP methods and response codes:
+  1.. = informational message
+  2.. = success
+  3.. = redirection
+  4.. = client error
+  5.. = server error
+
+first page = index.html
+
+elements of security: CIA++
+
+Tamper proof data
+
+difference, realtime use of sym & asym cryptography.
+
+Bank statements = Symmetric.
+HTTPS = Asymmetric.
+
+Symmetric = 1 key
+Asymmetric = 2 keys. TLS handshake does it.
+no lock symbol = http = no TLS handshake. No Asymmetric encryption.
+
+Public key exchange between client and server
+PKI = public key infrastructure
+Keys are there!! = in browser.
+
+cloud widely used nowadays. secure remote connection.
+ssh widely used = shell = no GUI and only CLI.
+
+to check public, private key:
+  pwd
+  ls
+  ls -a = see hidden files
+  --- ssh-keygen
+  cd .ssh
+  cat id_rsa
+
+windows = ssh = access linux machine.
+windows = ssh client = pre installed.
+
+connect realPC and fakeVM with ssh connection
+fakeVM = server. realPC = client.
+
+--- sudo su = super user
+--- systemctl start ssh
+--- systemctl start apache2 = start own server
+
+ifconfig = note the fakeVM ip address
+paste it in realPC browser
+
+cd /var/www/html
+ls
+rm index.html
+ls
+pwd
+rm index.nginx-debian.html
+echo "it is what it is" > myfile2
+pwd
+ls
+systemctl stop apache2
+systemctl stop ssh
+
+systemctl == [ start stop status enable disable ]
+
+tcpdump = cli version of wireshark
+
+===========================================
+Ep5:
+
+registry is for control, not for storage
+
+:c\windows\system32\config\sam
+can't read sam file when system is on.
+need to read hard disk, retrive sam.
+
+Linux = shadow file
+/etc/shadow
+
+/bin/zsh
+/var/log
+
+salting = adding random values in between hash values to make it uncrackable
+
+--- cat /etc/passwd | grep /bin/zsh
+--- cd /var/log = log of server stored here
+--- cd apache2
+
+to search in a folder
+--- grep -r folder
+--- sudo grep -r "19.168.145.144"
+
+check acces logs of the yesterday server
+concentrate on one ip address
+--- cat ssh.log
+--- grep -r parrot (or) user
+
+dig a log to find an incident
+do full analysis, find root cause
+
+virtualbox > workstation
+
+in windows = event manager or event viewer
+SIEM tools to manage Event Viewer to see logs in windows
+
+DLP tool:
+to make sure analyser prevents unauthorized copy.
+no copy, no share, no alter. all in logs are analysed.
+
+[ FP, TP, FN, TN ]
+format = [ ATTACK ALERT ]
+FP = no attack but alert
+TP = attack, alert
+TN = attack, no alert. TN is dangerous
+FN = no attack, alert
+SIEM not properly configured.
+
+brute force = explore all options until answer found.
+permutations and combinations.
+4 digit pin. find possibilities. 1000.
+10 digit, lowercase = 141 T possible. 12 days to crack.
+
+need for CPU + GPU
+GPU = faster mathematical calculations
+GPU = 10x of CPU.
+GPU based machine = Crackers/ miners = a service.
+5 char = 11 minutes with GPU.
+crack with kali = CPU alone. overheat, fail too.
+change motherboard.
+brute force complications:
+digits, symbols, upper, lower case = buteforce takes a lifetime.
+passphrase = infinity war.
+
+dictionary attack >> brute force attack (efficiency)
+various password lists available. famous = "rockyou.txt". 137mb file in github
+1.6 crore most commonly used passwords there.
+
+
+birthday attack
+collect info from social media, create own word list
+[ CRUNCH ] tool available in github. create own wordlist
+
+find a hash, crack it with rockyou.txt
+MD5 hashing algorithm.
+
+text to md file. a tool.
+[ | = to combine ]
+--- echo saish | md5sum > sfile.txt
+--- ls
+--- cat sfile.txt
+
+hashcat = gpu based tool
+hydra = online based tool
+jhontheripper = cpu based tool
+
+can't do brute force with john
+
+===========================================
+Ep6:
+
+[ absolute path - relative path ]
+
+rockyou.txt from github
+
+--------------------
+CREATE AND CRACK HASH WITH JOHN:
+
+--- echo password12 | md5sum
+--- echo -n password12 | md5sum
+[ both above gives different hash ]
+[ use the one with -n, find why ]
+
+--- echo -n pasword12 | md5sum > hash3
+--- cat hash3
+--- john hash3 -w=rockyou.txt
+
+error. why?
+see the hash3 file again. find "-" extra. delete it, redo.
+--- cat hash3
+--- nano hash3 = edit the hash content
+(or)
+--- mousepad hash3 = edit the hash content
+--- john hash3 -w=rockyou.txt
+
+error. solution in the error message:
+--- john hash3 -w=rockyou.txt --format=RAW-MD5
+
+format = john filename wordlist / john enemy coordinates
+
+--------------------
+HASHING, CRACKING WITH HASHCAT:
+
+--- hashcat --help
+--- hashcat --help | grep md5
+--- hashcat --help | grep sha256
+
+find attack mode from above command
+--- hashcat -a 0 -m 0 hash3 rockyou.txt
+
+edit hash file, remove "-" from end
+--- mousepad hashtext3 = edit the hashfile
+--- cat hashtext3 = check
+--- hashcat -a 0 -m 0 hash3 rockyou.txt
+---------------------
+
+pdf2john test.pdf /home/user/Desktop
+-- pdf2john test.pdf > hash7.txt
+nano hash7.txt
+cat hash7.txt
+-- hashcat test.pdf rockyou.txt
+hashcat --help
+hashcat -m 10700 hash7.txt rockypu.txt -O
+-- john hash7.txt -w=rockyou.txt
+
+===========================================
+Day7:
+
+john, hashcat = crack passwords with hash file
+hydra = online, no need hash file
+
+didnt get password...
+different ways or formats to use hydra
+
+-- hydra -l jenny -P rockyou.txt 10.10.90.116 ftp -t 64
+got password...
+
+[ revshells.com ] = good place to install shell scripts.
+
+browser -> 
+start listener, then trigger the file.
+-------------
+use internet without a browser.
+- curl http://10.12.87.143/rev.php
+
+to install an application, need admin.
+check which user are we using.
+- whoami
+
+run apache server as root = gone.
+permission management. give limited accesss.
+misconfiguration. chmod. blindly follow.
+
+password reuse vulnerability
+
+available in kali is outdated. stable shell is needed.
+find in github, revshell.com
+---------------
+
+-- which tool-name
+
+use /bin/zsh or /bin/sh or /user/zsh
+
+art of finding the right resource in the internet.
+refer but understand how it does it.
+
+oscp < ceh
+- stty raw -echo; fg
+
+
+read flag.txt
+- find / -iname flag.txt
+- find / -iname flag.txt 2>/dev/null
+---------------------------------------
+
+- ps aux | grep openvpn   (there but still)
+- htop (there)
+like task manager
+
+gobuster
+dirbuster
+wfuzz
+for finding directory
+
+seclists = a word list used for?
+
+vnc tech means?
+------------------------------------
+
+- ps  =  task manager in linux
+- kill pid  = stop a process
+
+get root access in 30 minutes or get out
+
+ineptitude   .   quintessential
+
+===========================================
+Tiq ppt Day 6,7,8:
+
+Data classification:
+based on sensitivity
+prioritize measures, allocate resources optimally
+- public, internal, confidential, highly sensitive -
+access controls, encryption.
+
+Risk management:
+identify, assess, mitigate risk to organize assets, operations, reputation.
+likelyhood, impact to determine significance
+controls, measures to reduce risk
+monitoring and review effectiveness.
+
+Compliance to standards, regulations:
+best practices
+Standards(guidelines, best practices) = ISO/IEC 27001, NIST, PCI DSS.
+Regulations(legal requirements) = GDPR, HIPAA, CCPA.
+Compliance requirements = implement specific security controls, risk assessments, breach notifications.
+
+Compliance challenges:
+resources, cultural barriers, complexity, evolving threats, effectiveness.
+
+Compliance benefits:
+Trust,  security, risk management, risk mitigation
+
+Data Protection:
+encryption, prioritize protection, restrictions or access controls.
+
+Data governance: CIA
+establish guidelines, policies to manage
+
+Data Classification:
+internal use = employee directories, within org
+confidential = finance records, trade secrets
+public data = unrestricted access
+sensitive data = government info, business strategies
+
+data review
+assessment criteria = based on value, imapact..
+
+communicate to relevant stakeholders
+well defined classification policy
+updates
+review each repo
+analyze
+
+document reasons, maintain records.
+
+-------------------------------------------
+Day8:
+
+In a holistic approach as an cs engineer.
+
+[ VERACRYPT ] = disk encryption tool.
+partition, encrypt disk.
+portable. share the disk.
+can't grow or shrink.
+2 different passwords to show 2 different data to use when forced.
+-- veracrypt2john = crack encrypted disk password
+
+passphrase = gud.
+create, mount disk in veracrypt.
+
+[ bctextencoder ]
+encrypt text. share it.
+symmetric encryption.
+
+compliance terms:
+regulations
+standards
+policies
+procedures
+guidelines
+
+compliance: implement specific sec ctrl, risk assessments, data breach notifications
+enter permesis by 8. take a note of it. calculate the deviation in the year end.
+
+audits. internal, external audits. audit is a compliance.
+all works as per company's vision and mission.
+
+regulations = laws given by government eg: GDPR (not in in but eu).
+individual companies = policies enforced by procedure which are steps to follow.
+comply with the rules.
+Industry creates standards to follow by companies.
+
+data classification:
+
+risk = a potential to cause damage.
+iso 27001, iso27002 = 2 diff standards
+
+prioritize based on impact, likelyhood
+
+passive and active
+
+link between regulation/ standard with an incident
+
+IT act = indian regulation
+cheat an user for 1 rupee or 1000 crore, 1 year punishment for all
+
+gdpr = none can escape
+pci dss = payent card industry
+
+internet presence itself a risk now.
+
+regulations by gov sucks. need company policies.
+
+protect people.
+save server room or people?
+human ethics
+data > people for company
+people are replacable.
+
+disaster recovery plan.
+incident response teams.
+diff teamns, diff thinking...
+
+risk management:
+
+risk treatment process:
+avoid = 00% gone
+reduce = ear helmet
+transfer = insurance
+acceptance = know it will fail eventually but ok.
+
+risk monitoring:
+firewall, anti virus
+
+SIEM tools = SPLUNK = free
+
+=========================
+less than 7.5LPA = no tax
+more than 15LPA = 25% tax
+=========================
+
+===============================================
+
+file management:
+different in Linux and Python
+
+in python, magic method = __name__
+python filename
+
+file management, permission management
+
+- rwx rwx
+- = file
+d = directory
+l = link
+confuse forensic investigators with tampering
+
+--- ls -al
+--- ls -l
+
+activity:
+--- sudo su
+--- mkdir Yamada
+--- ls
+--- ls -l
+--- cd Yamada
+--- touch Ryo.txt
+--- exit
+--- ll
+--- cd Yamada
+--- cat Ryo.ttxt
+--- touch "Hai bro" > Ryo.txt
+(permission denied)
+
+user
+group
+others
+all
+
+touch
+echo
+nano
+mousepad
+
+=============================================
+ppt:9
+
+Identity and access management:
+-------------------------------
+
+IAM
+framework of policies, techs, processes to manage digital id, authentication, authorization, access control within it infra.
+
+Identity lifecycle management:
+includes, provisioning deprovisioning, modify accounts, access rights...
+
+Authentication:
+includes passwds, mfa, biometrics, single sign on SSO solutions.
+to verify ID of users accessing it resources.
+
+Authorization:
+roles, responsibilities, least privilege principles.
+policies, controls, governing access rights, permissions granted to authenticated users.
+
+Access control:
+level of access based on ID, role, attributes, context.
+to enforce access control policies.
+
+Privileged access management:
+special controls to manage, monito privileged accounts.
+prevent misuse, unauthorized access.
+
+Identity governance and administration:
+segregation of duties SOD, access certification processes.
+define, enforce, audit id related policies, compliance requirements.
+
+Directory services:
+LDAP directories, microsoft active directory
+central repo to store, manage user id, attributes, access rights.
+
+... these are the services provided by IAM.
+
+Federation:
+mechanism to access resources acros multiple domains or systems.
+no need separate authentication for each.
+share authentication info securely.
+
+RBAC, ABAC:
+role based access control: give permission based on user role. simple. enforces least privilege principle.
+attribute based access control: considers various attributes. access control decisions dynamically.
+
+ppt 10: MFA
+-----------
+
+extra layer of security beyond passwords
+2 or more forms of authentication
+factors of MFA:
+something you [ know, have, are ]
+
+access governance:
+access certification, segrigation of duties SOD, entitlement management, access request, approval, access monitoring and reporting.
+to manage access to resources.
+
+Customer IAM:
+manage id, access rights of customers, external users.
+CIAM: user registration, onboarding, single sign on, social login, consent management, self service profile management, id verification.
+
+API security:
+authentication, authorization, encryption, rate limiting, input validation, sanitization, auditing, monitoring, secure development practices.
+protect API from abuse...
+
+ppt 11: Identity as a service:
+------------------------------
+
+IDaaS = cloud based service model
+id, access management to orgs.
+
+features:
+user authentication, user provisioning, lifecycle management, access control, authorization, directory services, identity federation, compliance, governance.
+
+user authentication:
+secure access to resources
+various methods
+passwords, mfa, sso
+
+user provisioning and lifecycle management:
+policies, workflows, automated user account creation, update, deactivate user accounts.
+
+access control and authorization:
+secure resource access, enforce granular access controls, based on roles, permissions, contextual factors.
+
+directory services:
+centralized user directories, managing user id and attributes, group memberships.
+
+identity federation:
+across multiple domain/ providers, establish trust relationships, enables single sign on.
+
+compliance and governance:
+compliance, security, policies, audit mechanisms, reporting.
+
+granular permissions:
+least privilege principle, rbac, abac, dynamic access control.
+
+privileged identity management;
+just in time privileged access, privileged session management, privileged elevation and delegation, password vaulting, approval workflows.
+
+========================================================
+
+13/5/24:
+
+networking
+packet tracer
+configure OSPF...
+important
+
+OSI layers
+
+L7 firewall = WAF
+
+terminologies
+
+exploit, intrusion, POC?
+event...
+revise
+
+tools for VA?
+tools for PT?
+
+learn the tools
+do some project
+
+craft your resume for cybersecurity
+college resume parallely
+
+do resume in MS word = pro
+
+Excel is life skill
+
+ssh port number, command?
+
+splunk
+
+project: tool to search in dark web. machine learning usage.
+
+choose offensive or defensive and get deeper
+
+surface web vs dark web
+
+innovative projects
+
+instead copying code from GitHub, learn from GitHub
+do your own code.
+
+code your own nmap, splunk
+
+zero touch attack
+smart TV
+if Bluetooth running, can steal info
+simple python code by a student/ researcher
+
+mobile hacking
+hard but
+need to work on own
+
+burpsuite tool
+intercept the traffic, investigate
+zaproxy, burpsuite tool
+
+more us mobile so attack mobile
+
+create your tool like haveibeenpawned
+
+security code review tool
+instant review = no need VAPT
+sast, dast with burpsuite
+
+dynamic, static code review
+burpsuite = d
+static analysis = white box testing = source code
+static code review
+
+code, security test
+sast plugins in PyCharm = snyk tool
+scans for vulnerabilities
+sql injection, xss etc...
+
+fix in code itself = no need vapt
+save time ,money
+
+DSA
+AIML
+
+Dec TCS target ad get it. that's it.
+make a plan, write it down.
+
+setup splunk
+logs of Linux = /var/log
+/var/www/html
+
+SQL
+r join l join lam nah but simple ones, concepts needed
+architecture
+software architecture
+SDLC also needed
+
+PLAN A PROJECT, CHECK ALL SUBJECTS IN DEGREE, USE THEM
+LITE IS ENOUGH BUT REAL.
+
+active directory
+
+learn to code to build your own security tool
+for that learn web dev, dsa, apt, eng.
+
+OWASP top 10
+WAPT >>> VAPT
+
+OWASP, OSI = questions mostly
+top10 vulns, layers
+
+tcp,tls handshakes wat??
+
+push
+urgent
+fin
+reset
+packets???
+
+127.0.0.1
+not in any class
+our system's ip address
+
+create an algorithm
+quantum computers also can't break RSA algorithm
+
+google chronical
+gemini, chatgpt… but chronical also came
+
+use duckduckgo
+
+ahimiea for darkweb
+no need to use tor for this
+
+encoding
+hashing
+encryption
+
+base64 encode and decode
+
+encode pictures with to save in db
+
+ascii sheet paste on wall
+
+UTF8? UTF16?
+
+backend should understand frontend
+so we do encoding
+normal text to backend understanding language
+major = ascii table
+%20, %22 ???
+
+encoding to bypass WAF?
+
+malware analysis
+IR
+off
+def
+
+learn assembly language
+
+crack or mod apps = due to reverse engineering
+
+gidramp
+ghitra
+
+reverse engineering
+assembly > binary
+
+exe file
+
+authorization = access control
+
+verification vs validation ?
+
+SDET
+developers < testers
+
+security comes in non-functional
+
+load, stress, security tester?
+
+manual testing with sdlc
+
+ISTQB certification
+
+manual testing
+compliance testing (set of rules)
+
+active directory
+
+if it feels unimportant, it will come in interview
+
+risk analysis?
+chart?
+priority?? sceiveriaty??
+decide vulnerability priority??
+
+bug vs error
+bug = deviation from actual requirement
+fix a bug or find root cause of bu = debugging
+
+bug vs vulnerability
+deviation, weakness
+
+error = mistakes or typo
+syntax, runtime etc...
+- ISTQB
+
+error displayed before execution
+bug = after execution
+
+ISTBQ has meanings for words
+bug, defect...
+
+software certifications
+
+do aws or azure or google now
+
+deployment model vs service model
+4 deployement model: public, private, 
+
+kali is not any spi. its not a service. it is local.
+
+easy to instance
+s3 bucket
+s3 = simple storage server?
+
+it news
+
+signature based, behaviour based means what?
+signature = hash. refer in virus total.
+
+anti virus slows down system
+
+Linux or mac = no anti-virus = faster
+
+windows defender = malware analysis tool. antivirus software...
+3rd party anti-virus = signature based. 
+calculate hash, check in virus total
+
+incident = IDS, IPS...
+
+Mid course test analysis:
+
+do in power shell itself without any hashcalc
+
+-- GetFileHash filename
+
+learn from now
+do more
+target TCS
+
+
+http
+request - get, post, options
+response
+
+touch web essentials
+
+-----------------------------------------------------------
+
+splunk forwarder in optional files
+
+do the ground work on company
+
+delete /opt = kali still works
+delete /bin = can't use terminal
+
+binary file is an executable file
+.sh in Linux
+.exe in windows
+.py also
+
+change repo from http to https
+sources.list file
+
+sudo updatedb
+sudo apt update
+sudo apt upgrade
+
+tun0 = tunnel OpenVPN
+lo = loopback
+enp0s3 = ethernet
+
+- name = case sensitive
+- iname = case insensitive
+
+know the attacks
+know the tools
+know the steps
+know how to secure
+
+[ website.informer.com ] = footprinting
+
+website details
+
+website grading, coding error
+
+[ sitechecker.pro ]= audit tool
+coding errors there?
+
+code
+network
+Linux
+
+no sir
+
+find public ip = what is my ip
+find private ip = ping in cmd
+
+public ip = track you
+
+--------------------------------
+gather info from email?
+from ip ok
+but email?
+
+footprinting process bro
+
+show original
+get ip
+track ip -> 
+
+footpriting
+scanning
+
+need data analytics dashboard
+
+private eye
+people search
+
+see open ports without nmap in our system?
+control panel -> system & security -> firewall ->
+advanced setting -> inbound, outbound rule -> see
+ports.
+
+ip scanner tool to track the ip
+advance port scanner to scan for ports
+angry ip scanner = scan a network
+
+tools zone in every module is better
+
+nmap wont be used by all bro
+need alternatives for all
+
+first do network scanning, find hosts
+then go port scanning
+
+accunetix tool
+
+REPORT
+
+banner grabbing
+getting server details
+
+DO PRACTICALLY BROO
+
+nslookup
+akamaiedge.net
+
+id serve
+-> gives banner grabbing info of website
+the server details
+
+super scan -> enumeration tool
+netstat -a
+net use
+enumeration = enter PC, see the drive
+
+trail version of acunetix
+
+many tools for sae process there
+find the easier one
+
+VAPT
+
+CCST = base
+go fast
+CEH = home
+target = experience
+
+research
+- shadon.io
+gathering info
+
+--------------------------------------
+
+its simple
+
+learn about the 2 parties
+learn the attacks
+learn the defence
+KEEP GOING
+--------------------------------------
+
+5/6/24:
+
+access control = authorization
+so, ACL = authorization list?
+http status codes
+
+index page loaded as default
+
+var/www/html
+default path of web server
+etc/passwd
+etc/shadow
+
+owner-group-others
+rwx-rwx-rwx
+
+directory traversal
+
+where to look for etc/passwd directory?
+
+/var/www/html/images/218.png
+
+/etc/passwd = 404 error
+../../../etc/passwd = 404 again?
+../../../../etc/passwd …
+automate this
+= directory traversal payload:
+payloadallthethings github repo
+also seclists
+
+add these repo in your GitHub
+share in resume
+
+copy payload -> paste -> check
+keep checking until you get 200 code
+directory_traversal.txt
+
+try:
+deep_traversal.txt
+840 lines here. there 140 lines.
+damn
+write a python code to automate
+simple for loop
+use burp suite to automate things
+
+python request response module?
+OOP not needed but functions, file handling, requests...
+
+advent of cyber 2023?
+
+burp suite
+
+vulnerability analysis = zaproxy
+pentesting = burpsuite
+
+= sign in url
+do dir traversal there
+
+filename=
+…
+find a point where they are loading a file from somewhere
+
+user_id = 1
+means do sql, NoSQL injection
+
+how data is being transported
+NoSQL
+like in dictionary
+data sent in JSON or XML
+
+when data gets loaded from directory
+try directory traversal
+
+open image in new tab
+do dir traversal
+
+used image tag
+but trying to load a text file
+rendered image
+
+page source of image
+
+view page source is disabled
+
+in url do
+view-source tag
+
+valid users with a shell
+grep bin/bash
+
+burpsuite = intermediate between client and server
+
+initiate final year project work
+
+burp suite = a proxy
+
+view-source before https
+
+revshells.com
+
+investigate in forensics
+find unwanted ones
+close the process
+
+BPS tabs:
+error displayed in dashboard
+target tab = all website we load
+(sitemap = total directories
+
+burpsuite port number 8080
+don't run any other erver in 8080
+leave for burpsuite
+
+proxy -> settings -> local host/ loopback address
+
+change if you want
+chromium
+burpsuite has a browser within
+to make it legal
+
+if browser don't open
+use foxyproxy extension
+allows to switch proxy
+
+download certificate...?
+
+-------------------------------------------------------
+6/6/24:
+
+robots.txt
+to control bots
+
+install certificates
+burp suite
+see what is happening in backend
+
+ctrl + f to keyword search
+view-source
+
+solve with cookies - browser
+solve with burpsuite
+
+lab link
+cop and paste in burp suite browserproxy -> open browser
+check http history -> all things here
+sort in time
+see status code
+GET my-account -> 320 to login
+GET login -> 200
+
+
+in response,
+render la ye browser see
+
+clear objective
+
+/admin after the domain
+
+remove from scope = unwanted pages
+to remove unwanted requests
+
+scope
+out of scope
+
+-------------------------------------------------------------
+
+understand weapon in hand
+
+cyberchef tool

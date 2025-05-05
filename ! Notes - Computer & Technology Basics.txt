@@ -1,0 +1,658 @@
+==================================
+computer?:
+
+laptop
+desktop
+smart phones
+smart watches
+
+----------------------------------
+
+electronic device that manipulates info/data
+
+sees data as binary
+but it knows how to combine them into
+much more complex things
+such as a photo, website, games etc
+
+----------------------------------
+
+computers use a combo of
+- hardware
+- software
+
+hardware: physical part of computer
+internal and external components
+like monitor, keyboard
+
+software: set of instructions that
+tells hardware what to do
+like web browser, media player etc
+
+==================================
+computer types:
+
+people -> computer -> mostly personal computer
+
+common ones uses Windows OS, Chrome OS, Mac OS
+iOS, Android OS in mobile phones
+
+computers comes in many different shapes and sizes
+
+appliances with built in computers
+limited capabilities
+
+other type = server
+sends info to other computers on network
+
+web servers -> internet service
+
+servers in offices
+
+many types out there
+
+==================================
+buttons and ports on a computer:
+
+some universal buttons
+power buttons placements...
+
+power chord -> power socket
+laptop? -> charging port
+
+USB ports -> plug in any device needed
+keyboard, printers, USB drives
+
+some -> USB C ports
+
+some laptop -> C port charging
+
+desktop -> monitor port -> connect monitor
+
+monitor connection types:
+- HDMI
+- VGA
+- mini DisplayPort
+- USB-C
+
+laptop -> display port -> monitor
+
+ethernet port -> connect to internet
+if no wi-fi
+
+ethernet cable -> modem/router
+
+audio jack? -> wired headphone/speaker
+
+disk drive (may have)
+insert CD/DVD/blue-ray disc
+
+some big port -> older peripherals like mice, keyboards,
+printers
+newer versions connect via USB/wirelessly
+
+every computer is different
+tech is always changing
+take a closer look at your computer
+to find what options you have
+
+==================================
+basic parts of a computer:
+
+many computer types
+similar parts to operate
+
+parts, uses
+
+reference with standard desktop model
+
+----------------------------------
+
+computer case -> holds main components
+where the actual processing happen
+
+tower cases (vertical)
+can come in other shapes, sizes too
+
+to view things -> need monitor
+uses video processor in computer case
+to display contents
+
+LCD/LED display
+thin
+
+all in one models = more compact
+combines monitor, computer case into
+a single unit
+
+interact? -> need keyboard/mouse/touchscreen
+
+wireless, ergonomic keyboards
+
+mouse -> optical sensor -> detect movements
+
+laptops:
+built in screen
+computer case
+keyboard
+touchpad
+
+small touch sensitive area
+control mouse pointer
+
+portability
+
+built in battery
+
+can connect external monitor, mouse, keyboard
+if wanted
+
+laptop -> made into a desktop
+
+each part -> different role
+
+==================================
+inside a computer:
+
+there are many important parts inside a computer
+what exactly do they do?
+
+components
+
+computer -> large circuit board -> mother board
+
+motherboard:
+- CPU -> processor (brain)
+tends to get hot
+covered by a heatsink
+draws heat away from processor
+- RAM -> short term memory
+uses when performing calculations
+can't store files
+cleared when shut down
+
+hard drive:
+provides long tern storage
+(storage, not memory)
+keeps all computer data
+many use a magnetic platter
+new ones have solid state drives
+faster, durable, expensive
+
+desktop computer -> motherboard -> expansion slots
+upgrade by adding expansion cards
+add video card -> better graphics performance
+add wireless card -> connect to wireless home network
+
+most laptops -> no expansion slots
+
+computer's components need electricity to run
+
+power supply unit
+designed to take power from wall outlet and
+send it to all components that need power
+
+laptops -> built in battery
+
+so:
+motherboard
+hard drive/SSD
+power supply unit/battery
+extra fan, heatsink
+
+==================================
+getting to know laptop computers:
+
+portable unlike desktop
+
+no need to setup
+just start
+smaller though
+
+battery
+recharge
+
+power cut time also works
+
+built in touchpad/trackpad
+
+desktop?
+can buy any monitor, mouse, keyboard
+laptop?
+no such freedom
+as it's all built in
+
+can use laptop's ports to connect to a
+separate monitor, keyboard, mouse
+
+turning a laptop to a desktop
+best of both worlds
+
+disconnect when wanted and move
+
+as per needs
+
+==================================
+OS:
+
+us, computer speak different languages
+
+it speaks in 1s, 0s
+can't communicate directly with computer
+that's why we have OS
+
+OS = program that lets us interact with computer
+
+OS, computer hardware = complete system
+that determines what our computer can do
+
+many different OS
+2 most common = windows, mac OS
+
+windows OS comes pre-loaded on most
+personal computers
+
+OS as per device
+iOS, android OS...
+mobile, tablet, smart watch etc
+
+before downloading a new program/application,
+know if it is available for that OS or not
+
+some work on all devices
+others on certain ones
+
+==================================
+applications:
+
+alarm app
+YouTube app
+games
+
+app = software program
+that lets us DO things
+
+complete tasks
+for fun
+
+mobile apps run on smartphone or tablet
+
+computer apps
+emails, word docs...
+all are apps
+
+some are pre-installed
+other you can download online
+or buy more online
+
+apps = communication, productivity, entertainment...
+so many possibilities
+
+==================================
+setting up a desktop computer:
+
+unpack
+arrangement plan
+
+monitor cable:
+new (HDMI/USB-C)
+old (VGA/DVI)
+
+monitor - cable - CPU
+
+keyboard, mouse
+wired? mostly USB
+or wireless
+
+mouse to keyboard too
+(wired)
+
+wireless:
+use the tech already in computer
+or use an adapter
+
+pair, then use
+instructions page
+
+speaker/headphone
+green audio port
+USB connectors too
+
+power supply
+2 cables
+monitor, CPU -> power supply
+extension box is better
+
+turn it ON!
+
+==================================
+connecting to the internet:
+
+the need to setup a home internet connection
+
+access to email, news, shopping, TV shows etc
+
+got a working internet connection?
+can now create a wireless home network
+let whole family connect their devices
+
+internet connection types:
+- dial-up
+connect to phone line
+slow but options
+
+- DSL
+- Cable
+(both = broadband)
+faster
+
+- fibre
+fastest broadband
+costly
+not available everywhere
+
+- cellular
+4G, LTE, 5G
+good broadband alternative
+depends on area you live
+
+internet service?
+purchase it from your ISP
+cable company/phone company
+or shop around for better
+price
+
+ISP -> guide you to connect to internet
+technician to home to turn it on
+gives you and sets up a modem
+
+or you can buy a modem from the store
+and set it up with instructions page
+
+phone jack or cable TV connection ->
+modem -> ethernet cable ->  computer
+
+start surfing
+
+to connect several devices to the internet
+create a wireless home network (Wi-Fi network)
+
+need a wireless router
+takes the internet connection from modem
+and broadcasts it throughout your home
+
+modem may have built in wireless router
+
+router setup guide:
+- choose network name (SSID)
+- security level
+- password
+
+home device -> Wi-Fi -> network name -> password
+
+any device not ready for wireless?
+just plug them into the router with
+ethernet cable or purchase a wireless card
+
+setting up an internet connection and
+Wi-Fi network
+a work but once done -> !
+
+==================================
+cloud:
+
+----------------------------------
+
+stored online (internet server)
+
+access on, from anywhere
+
+web apps
+
+cloud based storage
+
+protect from accidents, viruses and more
+
+IDRIVE, BACKBLAZE to backup regularly?
+
+have resent version stored
+
+phone dead?
+transfer backup from cloud to another
+
+==================================
+cleaning:
+
+off, unplug it all
+
+turn keyboard upside down, shake
+or compressed air spray
+
+optical mouse needs no cleaning
+no moving parts
+
+mechanical mouse?
+unplug, remove tracking ball, clean
+put it back
+
+clean monitor?
+no direct spray
+damages screen
+wipe with a cloth with mater
+
+microfibre cloth better to wipe casings
+
+compressed air good
+never spray on it
+better spray on cloth, wipe
+
+ammonia diluted with water
+
+watch airflow around case
+let air go through
+
+==================================
+protecting:
+
+we rely on computer for many things
+we trust its safe
+
+malware!
+damage or gains access
+virus, ransomware, trojan horses, spyware, keyloggers
+
+protect?
+AV
+scan, remove
+
+avoid sus downloads
+
+regular update
+
+configure storage sense
+(disk clean up)
+
+optimize drives
+
+backup regularly
+external hardware
+windows backup
+Mac time machine
+
+online backup service >>
+
+all files needs to be when we need them
+
+==================================
+safe:
+
+ergonomics
+
+good chair
+eye strain
+back pain
+
+keyboard position
+raise the chair more
+
+comfort
+
+office chair >>
+
+monitor not too close
+arm length better
+
+laptop?
+get external mouse, keyboard
+
+brightness not too dim, too bright
+blend with environment
+
+blue light filter
+
+20-20-20
+
+move around
+
+sitting all day is hard
+ergonomics matter
+
+==================================
+browser security features:
+
+install malware without knowing it
+
+precautions
+
+check domain names
+learn to read domain names
+
+web browsers will show warning
+
+https -> 3rd parties wont see it
+
+updated version of browser
+
+about google chrome -> update
+
+==================================
+spam, phishing:
+
+scammers, cyber criminals...
+
+identify, avoid
+
+email inbox
+junk or spam emails
+
+be cautious when opening emails
+
+turn off email images
+
+gear -> settings -> ask before displaying external images
+
+spam? -> spam folder -> no accident opening
+need to check though...
+
+select -> ! -> spam
+
+advertisements
+bringing fear to get data
+
+instead clicking, retype in address bar
+
+easy to recreate original ones
+
+whole game is to make an exact copy
+so don't go easy on it
+
+spam, scan, phishing keeps changing
+stay updated
+
+==================================
+digital tracking:
+
+shopping online for watch
+check health site -> shoe advertisement
+open YouTube -> shoe ad
+…
+
+websites use various ways to track our browsing habits
+
+each site gather little info
+but together it forms a digital profile
+that advertisers use
+
+tracking cookie planted on your computer
+
+probabilistic matching
+identify your devices
+
+targeted ads
+
+privacy concerns
+
+can insurance companies deny coverage
+after my browsing history has street race search?
+
+blocking tracking cookie in browser settings
+easy to get around
+high sophisticated methods to track us...
+
+digital tracking -> modern online reality
+
+personalized feeds
+
+==================================
+windows basics:
+
+taskbar at the bottom
+
+start button
+
+file explorer
+
+desktop -> main workspace
+
+each file opens in new window
+
+==================================
+MacOS basics:
+
+desktop
+menu bar at the top
+dock -> shortcut for some folders, apps
+
+different ways to navigate files, folders
+
+launchpad -> access all apps
+
+name -> quit
+
+apple icon -> preferences, recent, shut down
+
+spotlight -> search content needed in computer
+
+notification centre
+track alerts
+customizable
+
+desktop itself a place to store files
+
+natural scrolling?
+
+net
+book
+
+==================================
+browser basics:
+
+tool to access internet
+
+address bar -> web address
+
+browser history
+
+bookmarks
+
+==================================

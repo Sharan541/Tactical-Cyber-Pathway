@@ -1,0 +1,1018 @@
+OPERATING SYSTEM BASICS:
+
+===============================================
+WINDOWS OS:
+
+=========================
+WINDOWS HISTORY:
+
+---------------
+DSK OS
+-----
+no modern storage devices in past like:
+hard drive
+optical drive
+flash storage.
+but:
+punch cards
+paper tape
+magnetic tape
+audio cassettes.
+-----
+floppy disk, hard disk storage
+needs software to perform its operations
+Disk OS = OS for this need. [DOS]
+-----
+file system to organize files on disk
+Microsoft bought DOS, developed MS-DOS.
+uses CLI to do it's operations.
+-----
+windows 10 not a DOS (CLI)
+it is windows NT (GUI)
+NT = OS with multiple user, processes
+DOS = single user, single process
+MS-DOS became a function of windows OS
+-----
+commands in DOS:
+-- dir
+-- cd directory
+-- cd ..
+-- cd\
+-- copy s d
+-- del filename
+-- find
+-- mkdir directory
+-- ren oldname newname
+-- help
+-- help command
+
+---------------
+WINDOWS VERSIONS:
+-----
+20 releases based on NTOS since 1993
+general public and businesses
+file security by file system in NTOS
+-----
+from windows XP = 64 bit edition
+64 bit = new architecture
+64 bit address space instead 32 bit
+not simply TWICE. these are binary
+32 bit: address < 4GB of RAM
+64 bit: 16.8 million TB theoretically
+both OS, Hardware support 64bit = ok
+more power to computing
+backward-compatible
+-----
+windows 7 = 6 editions
+windows 8 = 5 editions
+windows 10 = 8 editions
+windows 10 = last version of windows
+FUTURE:
+windows a service than just an OS.
+-----
+windows OS:
+7, server 2008 R2, home server 2011,
+8, server 2012, 8.1, server 2012 R2,
+10, server 2016.
+these 9 OS had many versions.
+
+---------------
+WINDOWS GUI:
+-----
+main area = desktop
+work with datafiles, software
+can be customized...
+supports multiple users
+desktop can store files
+-----
+desktop -> recycle bin
+taskbar ->
+start menu, quick launch, notification
+-----
+restore or delete from recycle bin
+truly deletes when deleted in bin
+start menu -> programs, options
+-----
+R click an icon = context menu
+many additional functions...
+-----
+-=- windows file explorer
+open folders, manipulate files
+
+---------------
+OS VULNERABILITIES:
+-----
+OS = millions of lines of code
+installed software also has many lines of code.
+with all these comes vulnerabilities
+technique or tool to exploit it
+-----
+goal = gain unauthorized control
+change permissions, steal or manipulate data
+-----
+common windows security recommendations:
+malware protection =
+-=- windows defender (turn ON)
+> unknown or unmanaged services (background too)
+> encryption
+-=- windows security policy
+> review firewall settings
+> file sharing permissions
+> password protection
+> standard user + admin password > logging in as admin
+
+=========================
+WINDOWS ARCHITECTURE & OPERATIONS:
+
+---------------
+HARDWARE ABSTRACTION LAYERS:
+-----
+different hardware uses windows OS
+should work in all
+> WINDOWS ARCHITECTURE DIAGRAM:
+-----
+application
+user mode drivers - windows API
+other kernel mode drivers - OS kernel - file system drivers
+hardware abstraction layer
+hardware
+-----
+HAL software = bridge between OS, HW
+kernel = core of OS, controls computer
+handles I/O requests, memory etc...
+OS to HW. not always via HAL
+-----
+
+---------------
+USER MODE AND KERNEL MODE:
+-----
+modes of CPU operation
+installed apps = user mode
+OS code = kernel mode
+-----
+code executed in kernel mode:
+has full access to hardware
+execute any CPU instruction
+refer memory address directly
+reserved for trusted functions in OS
+crash in kernel mode code = computer crash
+-----
+applications in user mode:
+no direct access to hardware, memory locations
+go through OS, access hardware resources
+isolation = crash is restricted, recoverable
+-----
+most programs run in user mode
+device drivers etc... in kernel mode maybe
+-----
+code in kernel mode use same address space
+kernel mode drivers = no isolation from OS
+user mode = restricted address space
+-----
+
+---------------
+WINDOWS FILE SYSTEM:
+-----
+> exFAT
+> HFS+
+> EXT
+> NTFS
+-----
+NTFS =
+widely used, compatible, secure.
+-=- security descriptors = data access control
+timestamps MACE = modify, access,
+create, entry = forensics.
+file system encryption = secures storage media.
+-----
+partition the disk
+format disk with file system
+partition = logical storage unit
+OS auto partition, format drive available with NTFS.
+-----
+NTFS formatting drive creates:
+partition boot sector:
+1st 16 sectors = location of master file table
+MFT = has location of files...
+system files = hidden files with other volume, file info
+file area = main partition area where files stored
+-----
+formatting a partition,
+may still recover previous data
+not all = completely removed
+examine free space
+-=- secure wipe on drive = safe
+-----
+
+---------------
+ALTERNATE DATA STREAMS:
+-----
+data stream = continuous chain of items
+-----
+NTFS = files stored as series of attributes
+file's data in
+-=- $DATA attribute = data stream
+connect ADS to a file with NTFS
+easy to hide malware in ADS,
+then called from different file
+-=- Testfile.txt:ADS in NTFS file system
+-----
+-- echo "alternate data here" > Testfile.txt:ADS
+-- dir
+-- more < Testfile.txt:ADS
+-- dir /r
+a text into an ADS of a file
+dir = file created
+there is data in file ADS data stream
+ADS of text file shown
+
+---------------
+WINDOWS BOOT PROCESS:
+-----
+press power button -> … -> load OS
+> WINDOWS BOOT PROCESS DIAGRAM
+-----
+BIOS initialization | UEFI initialization
+MBR | EFI files
+POST |
+Bootmgr.exe
+BCD
+Winload.exe | Winresume.exe
+KMCS | Hiberfil.sys
+Ntoskrnl.exe |
+HAL |
+SMSS |
+Logon
+-----
+computer firmware types:
+BIOS - basic input output system. 1980
+UEFI - unified extensible firmware interface
+with new features to replace old
+-----
+BIOS firmware:
+BIOS initialization phase
+hardware devices initialization
+POST to confirm (power on self-test)
+POST ends if disk discovered
+POST looks for MBR (master boot record)
+MBR has program for OS
+BIOS executes it, OS loads
+-----
+init BIOS -> start hardware -> POST -> MBR -> OS code
+-----
+UEFI firmware:
+more visibility in boot process
+loads EFI program files (.efi)
+in special disk partition (ESP)
+EFI System Partition
+UEFI system stores boot code in firmware
+more secure at boot time
+goes directly into protected mode
+-----
+UEFI -> EFI program from ESP
+-----
+either BIOS or UEFI
+Bootmgr.exe file
+real to protected mode
+use all system memory
+Bootmgr.exe reads BCD (extra code to start system)
+BCD's info = system hibernated or cold start
+if hibernated -> boot process -> Winresume.exe
+reads Hiberfil.sys -> has computer state
+if cold start -> Winload.exe file load ->
+creates hardware config in registry
+which is record of all settings, options,
+hardware, software of computer
+-----
+winload.exe also uses KMCS - kernel mode code signing
+make sure all drivers digitally signed for safety
+winload.exe -> run Ntoskrnl.exe -> windows kernel, setup HAL
+SMSS reads registry, creates user environment,
+starts Winlogon service, prepare user's desktop
+-----
+-> Bootmgr.exe -> BCD ->
+Winresume.exe -> Hiberfil.sys (or)
+Winload.exe -> …
+
+---------------
+WINDOWS STARTUP:
+-----
+2 registries to start apps, services automatically
+-=- HKEY_LOCAL_MACHINE = windows configs stored in this key
+-=- HKEY_CURRENT_USER = info of logged in user stored
+-----
+entry type defines
+which services, apps will start.
+entry types:
+Run, RunOnce, RunServices, RunServicesOnce, Userinit.
+-----
+enter manually in registry too
+safe to use:
+-=- Msconfig.exe tool
+> system configuration tool.
+view, change all start-up options
+search box -> Msconfig tool
+-----
+general = choose startup type
+boot = choose installed OS
+services = installed services to start at startup
+startup = enable auto startup
+tools = launch common OS tools
+-----
+safe boot -> troubleshoot startup
+
+---------------
+WINDOWS SHUTDOWN:
+-----
+proper shutdown >>
+time to close apps, shut down service,
+record config changes before off
+-----
+closes user mode app first
+kernel mode processes next
+if user mode process late = wait/ force close
+kernel mode process late = hang
+shut down with power button
+-----
+cmd -> shutdown
+start menu -> power
+-=- ctrl + alt + del
+power icon
+-----
+shutdown
+restart
+hibernate - saves state to resume later
+
+---------------
+PROCESSES, THREADS, SERVICES:
+-----
+windows app made of processes
+process = program in executing state
+process made of at least 1 thread
+threat = part of process, can be executed
+processor calculates on thread
+Task manager -> config windows processes.
+-----
+threads of a process in same address space
+can't access others = prevent corruption of processes
+windows multitasks
+multiple threads executed at same time
+number of threads at a time ~
+number of computer processor...
+-----
+some windows process = service
+programs that run background to support OS, apps
+auto or manual, stop, restart, disable.
+-----
+caution manipulating services settings
+some may rely on others
+shut down a service = affect apps or other service
+
+---------------
+MEMORY ALLOCATION AND HANDLES:
+-----
+instructions in RAM until CPU processes it
+process given with virtual address
+entry in page table - translate virtual to physical address
+32-bit windows computer = 4GB virtual address space
+64-bit -> up to 8TB virtual address space
+-----
+process runs in private address space
+isolated from other processes
+use profile handle to access kernel resources
+as user space process can't
+directly access kernel resources
+-=- RAMMap tool = view memory allocation
+a part of
+-=- windows sysinternals suite of tools
+get from Microsoft.
+
+---------------
+WINDOWS REGISTRY:
+-----
+all info in large database = registry
+hierarchical database
+highest value = hive
+keys, subkeys
+registry key = up to 512 levels deep
+-----
+5 hives of windows registry:
+-=- HKEY_CURRENT_USER (HKCU)
+-=- HKEY_USERS (HKU)
+-=- HKEY_CLASSES_ROOT (HKCR)
+-=- HKEY_LOCAL_MACHINE (HKLM)
+-=- HKEY_CURRENT_CONFIG (HKCC)
+-----
+can't create new hives
+can create, modify, delete registry
+in hives with admin privilege
+-=- regedit.exe tool to modify registry
+should be careful using it
+similar to file explorer to navigate
+-----
+a registry key has subkey/ value
+values:
+-=- REG_BINARY = num, bool values
+-=- REG_DWORD = num > 32 bits, raw data
+-=- REG_SZ = string values
+-----
+registry holds OS, user info
+need to keep it safe
+malware -> add registry keys -> starts when system starts
+review app startup locations in registry during audits
+has user activities information too
+useful for forensic information.
+
+---------------
+EXPLORE PROCESS, THREATS, HANDLES, WINDOWS REGISTRY - LAB:
+-----
+
+---------------
+TEST:
+-----
+HKEY_CLASSES_ROOT:
+has info of OLE registrations.
+(object linking, embedding)
+-----
+HKEY_CURRENT_CONFIG:
+information of current hardware profile
+-----
+HKEY_USERS:
+info of all user accounts on host
+
+=========================
+WINDOWS CONFIGURATION AND MONITORING:
+
+---------------
+RUN AS ADMINISTRATOR:
+-----
+don't login with admin account
+or account with admin privilege
+program executed will inherit
+malware with admin privilege
+you died
+-----
+some software needs those privileges:
+run as administrator from context menu
+even for command prompt.
+
+---------------
+LOCAL USERS AND DOMAINS:
+-----
+first start = create account = local user
+others = guest, admin (disabled).
+tasks to perform as administrator:
+> install
+> access
+> execute
+software.
+instead giving privileges,
+ask for password = safe.
+-----
+guest account also not safe
+Groups to administer users.
+groups with permission sets
+a user in many groups also.
+worst permission overrides.
+groups for specific tasks:
+eg: performance log users group
+-----
+local users, groups managed with
+-=- lusrmgr.msc
+control panel applet
+-----
+like with groups,
+domains to set permissions too
+like a network service where all stored
+in database stored in domain controllers
+authenticate to access network resources
+
+---------------
+CLI AND POWERSHELL:
+-----
+CLI:
+run programs
+navigate file system
+manage files
+batch files to execute multiple commands in succession
+like a basic script
+-----
+cmd.exe
+-----
+not case sensitive
+storage device -> reference letter
+drive letter:\ -> root or highest level of device
+C:\Users\Saish\Desktop\file.txt
+refers a file from that area
+optional switches with /
+delineate command, switch option
+Tab key = auto complete
+command history -> arrow keys
+switch between storage device
+device letter, :, enter key
+-----
+CLI is limited, can't work with core, GUI
+windows powershell environment = better
+create scripts to automate tasks
+integrated program within windows
+run with admin privilege too
+-----
+powershell command types:
+> cmdlets = commands
+> scripts = files with .ps1 with commands
+> functions = code to refer in script
+-----
+4 levels of help in powershell:
+-- get-help cmd
+-- get-help cmd [-examples]
+-- get-help cmd [-detailed]
+-- get-help cmd [-full]
+
+---------------
+WINDOWS MANAGEMENT INSTRUMENTATION:
+-----
+WMI to manage remote computers
+retrieve components, hardware, software stats info
+monitor health
+-----
+control panel -> admin tools -> computer management
+services and applications tree
+WMI control icon -> properties
+general, backup/ restore, security, advanced
+-----
+WMI used to exploit systems
+modify registry
+run commands
+common traffic, avoids detection
+limit WMI access = safe.
+
+---------------
+NET COMMAND:
+-----
+administer, maintain OS
+sub commands, switches.
+-- net help
+-----
+net accounts = set login requirements to users
+net session = list or end session between systems
+net share = create, manage shared resources
+net start = start network service, list running ones
+net stop = stop a network service
+net use = connect, disconnect, info of network resources
+net view = show list of devices on network
+
+---------------
+TASK MANAGER & RESOURCE MONITOR:
+-----
+insights on apps, services, processes running
+CPU, memory, network usage
+investigation...
+-----
+task manager:
+info on running software, general performance
+-----
+processes
+performance
+app history
+startup = program starts when system boots, disable if
+users
+details
+services
+-----
+resource monitor:
+more detailed info of resource usage needed
+search for abnormal activity causes here
+-----
+overview
+CPU = PID, number of threads, usage...
+memory
+disk
+network = current TCP connections, ports, listeners...
+
+---------------
+NETWORKING:
+-----
+network and sharing centre
+verify or create network connection
+configure network sharing
+change network adapter settings
+-----
+see the computer's home group
+create a home group
+home group removed?
+-----
+access adapter properties
+access TCP/IPv4 properties
+change settings.
+
+---------------
+ACCESSING NETWORK RESOURCES:
+-----
+network for web, email, file services
+SMB protocol - [server message block]
+by IBM, aided by Microsoft.
+SMB = access files on remote hosts
+UNC format to connect to resources
+universal naming convention
+\\servername\sharename\file
+-----
+restrict with access control
+administrative shares with $
+C$, D$
+admin$ = windows installation folder
+printer's folder = print$
+-----
+UNC of share in windows explorer...
+access shares on remote hosts
+-----
+login to remote host, manipulate it
+uses RDP - remote desktop protocol
+search: remote desktop
+a target to threat actors
+unpatched legacy ones = risk
+limit exposure of RDP to internet
+zero trust >>
+
+---------------
+WINDOWS SERVER:
+-----
+windows server OS used in data centre
+services provided:
+network - DNS, DHCP, Hyper-V, terminal, controller
+file - SMB, NFS, DFS
+web - FTP, HTTP, HTTPS
+management - group policy, active directory
+domain services control
+
+---------------
+CREATE USER ACCOUNTS - LAB
+
+---------------
+USE WINDOWS POWERSHELL - LAB
+
+---------------
+WINDOWS TASK MANAGER - LAB
+
+---------------
+MONITOR, MANAGE RESOURCES - LAB
+
+=========================
+WINDOWS SEECURITY:
+
+---------------
+NETSTAT COMMAND:
+-----
+malware in system -> opens communication ports
+to send, receive data.
+netstat -> look for unauthorized
+inbound, outbound connections.
+displays all active TCP connections
+programs listening for connections
+if a program is sus, research it
+shut it down with task manager, malware removal software
+link connections to running processes in task manager
+-- netstat -abno
+cmd with admin privilege
+needs elevation if not used as admin
+-----
+more than 1 process with same name?
+PID to find correct process
+task manager -> table heading -> PID
+
+---------------
+EVENT VIEWER:
+-----
+logs history of apps, security, system events
+log files provides info  to troubleshoot
+-----
+event logs:
+windows logs
+app & service logs
+-----
+events in logs has level = info, warning, error, critical
+ID, date, time, event source
+-----
+create custom view
+Administrative Events
+good to troubleshoot
+-----
+security event logs in windows logs
+
+---------------
+WINDOWS UPDATE MANAGEMENT:
+-----
+no software is perfect, so is windows OS
+zero day exploits
+security software developers
+update OS with latest service packs, security patches
+patch + upgrade = service pack
+track, install security updates
+settings -> windows update
+choose when to restart
+
+---------------
+LOCAL SECURITY POLICY:
+-----
+secures network, data, systems in organization.
+active directory configured with
+domains on a windows server.
+-----
+domain security policy
+local security policy
+-----
+set password guidelines:
+local security policy ->
+account policy -> password policy.
+define criteria for users on computer
+-----
+account lockout policy in account policies
+prevent brute force login attempts
+-----
+lock when screen saver starts
+-----
+LSP same on all stand alone computer?
+export policy feature
+save policy, use the policy file in others
+-----
+configure user rights, firewall rules,
+restrict files from users, groups with AppLocker
+
+---------------
+WINDOWS DEFENDER:
+-----
+malwares = virus, worm, trojan, keylogger, spyware, adware
+invade privacy, steal info, damage computer, corrupt data
+protect with anti malware programs:
+-----
+antivirus protection = quarantine or delete if found
+adware protection
+phishing protection = blocks IP of phishing websites
+spyware protection = scan for keylogger etc...
+trusted/ untrusted sources = unsafe programs, websites warning
+-----
+use multiple protection programs
+to completely remove all malware
+but one at a time
+McAfee, Symantec, Kaspersky
+built-in = Windows Defender
+WD, works in background
+can do manual scans of computer, storage devices
+update virus, spyware definitions
+History tab to see previous scans
+
+---------------
+WINDOWS DEFENDER FIREWALL:
+-----
+selectively allow or deny traffic
+to a computer or network segment
+open or close ports
+restrictive security policy
+permissive security policy
+-----
+past devices came with permissive settings
+due to neglection of configuring by users
+systems became vulnerable
+now devices come with restrictive, easy setup
+-----
+control panel -> systems & security -> WDF -> allow program
+turn windows firewall off, use different software firewall
+advanced settings ->
+create in, out bound traffic rules with different criteria
+import, export policies or monitor firewall
+
+-------------------------
+TOOL BOX:
+
+windows defender firewall = selectively denies traffic
+to a computer or network segment
+-----
+task manager = provides information about applications,
+processes, and services running
+-----
+resource monitor = resource information, such as memory,
+CPU, disk, and network
+-----
+windows defender = built-in virus and spyware protection
+-----
+event viewer = logs history, application, security, and
+system events
+-----
+windows registry = database that stores all the information
+about hardware, applications, users, and system settings
+-----
+netstat = look for inbound or outbound TCP connections
+-----
+nslookup = finds the IP address of a server from a URL
+
+=========================
+SUMMARY:
+
+---------------
+HISTORY:
+----
+first computers with DOS to manage files
+MS-DOS as a CLI to access disk drive, load OS files
+GUI over MS-DOS
+modern windows versions in direct control of computer
+supports multiple user processes
+single user single process = MS-DOS
+20 releases based on NT OS since 1993
+
+---------------
+ARCHITECTURE AND OPERATIONS:
+-----
+HAL software in between hardware, kernel
+kernel controls computer, handles I/O, memory, peripherals
+-----
+windows operate on 2 modes: user, kernel
+kernel mode: allows OS code direct access to hardware
+user mode: most programs use this
+windows supports various file systems but NTFS mostly used
+NTFS = partition boot sector, master file table,
+system files, file area.
+boot = first access system info, code from BIOS hardware
+BIOS boot code does system self-test (POST), locate & load OS,
+load other programs to start OS. shutdown properly.
+-----
+computer works by storing instructions in RAM
+until the CPU processes them.
+Each process in 32-bit Windows computer supports
+virtual address space that enables addressing up to 4 GB.
+Each process in a 64-bit Windows computer supports
+virtual address space of up to 8 TB.
+-----
+Windows stores all of the information about hardware,
+applications, users, system settings in a large database
+known as the registry.
+registry is a hierarchical database where highest level
+is known as a hive, below that there are keys, followed by
+subkeys.
+There are five registry hives that contain data regarding the
+configuration and operation of Windows.
+There are hundreds of keys and subkeys.
+
+---------------
+CONFIGURATION AND MONITORING:
+-----
+security reason. don't login with admin account
+don't give privileges.
+off guest account unless computer is to be used
+by people who do not have accounts.
+Windows groups to make administration of users easier.
+Local users and groups are managed with the
+lusrmgr.msc control panel applet.
+-----
+CLI or the Windows PowerShell to execute commands.
+PS = create scripts, automate tasks. CLI can't.
+Windows Management Instrumentation (WMI) is used
+to manage remote computers.
+net command can be combined with switches to focus
+on specific output.
+-----
+Task Manager provides information about what is running,
+general performance of the computer.
+Resource Monitor provides more detailed information
+about resource usage.
+Network and Sharing Centre used to configure networking
+properties, test networking settings.
+Server Message Block (SMB) protocol used to share network
+resources such as files on remote hosts.
+Universal Naming Convention (UNC) format used to
+connect to resources.
+Windows Server provides network, file, web, and management
+services to a Windows network or domain.
+
+---------------
+WINDOWS SECURITY:
+-----
+Malware can open communication ports to communicate and spread.
+Windows netstat command displays all open communication ports
+also displays software processes associated with ports.
+malicious software to be identified and shutdown.
+Event Viewer provides access to logged events regarding
+operation of a computer.
+Windows logs Windows events and applications and services events.
+Logged event severity levels...
+up to date to guard against new security threats.
+Software patches, updates, and service packs.
+can be configured to install and restart computer at
+specified times of day.
+
+-------------------------
+FINAL TEST:
+-----
+
+.ps1 = powershell script
+
+cmdlets, powershell scripts, powershell functions
+
+change windows system settings =
+changes stored in windows registry
+
+net: account, session, share, start, stop, use, view
+
+ipconfig / displaydns = displays previously resolved DNS entries
+nslookup = manually query DNS server
+net = manage network computers
+
+-- cd
+-- mkdir
+-- ren
+-- dir
+
+partition = logical drive that can be formatted to store data
+
+kernel provisions hardware resources to meet software requirements.
+
+OS = shell, a kernel, and the hardware
+
+Windows Task Manager utility includes a Users tab from which
+system resources consumed by each user can be displayed.
+
+netstat -abno
+
+===============================================
+
+Essential windows commands:
+
+-- dir
+list directory contents
+
+-- cd directory_name
+change directory
+
+-- mkdir directory_name
+make directory
+
+-- rmdir directory_name
+remove directory
+
+-- del file_name
+delete files
+
+-- copy source_file destination_file
+copy files
+
+-- move source_file destination_file
+move files
+
+-- type file_name
+display file contents
+
+-- notepad file_name
+open a text file in notepad
+
+-- tasklist
+list running process
+
+-- taskkill /F /PID process_id
+terminate a process
+
+-- ipconfig
+display network configuration
+
+-- ping host
+check network connectivity
+
+-- netstat
+display network statistics
+
+-- sc query/start/stop service_name
+manage windows services
+
+-- schtasks
+schedule tasks
+
+-- wmic
+cli to wmi- windows management instrumentation
+
+-- regedit
+open registry editor
+
+-- net use/net view/net share
+manage network resources
+
+-- shutdown /s /t 0
+-- shutdown /r /t 0
+shutdown, restart computer
+
+-- gpupdate
+update group policies
+
+-- cipher
+display or alter encryption of directories (windows NT)
+
+-- diskpart
+disk management utility
+
+-- netsh
+network configuration tool
+
+dir
+type
+tasklist
+ping
+ipconfig
+
+===============================================
+

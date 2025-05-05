@@ -1,0 +1,8368 @@
+***********************************************
+***********************************************
+NETWORK BASICS:
+
+===============================================
+M1 = COMMUNICATION IN CONNECTED WORLD
+
+-------------------------
+INTRODUCTION:
+-----
+networks
+devices
+working
+troubleshooting
+-----
+
+-------------------------
+NETWORK TYPES:
+-----
+world of networking
+what is being online?
+who owns internet?
+local networks
+mobile devices
+connected home devices
+other connected devices
+-----
+
+-------------------------
+DATA TRANSMISSION:
+-----
+types of personal data
+bit
+data transmission methods
+-----
+
+-------------------------
+BANDWIDTH AND THROUGHPUT:
+-----
+bandwidth
+throughput
+-----
+
+=========================
+SUMMARY:
+
+-------------------------
+not owned by individual
+network of networks - global
+-----
+~ -=-
+[cooperate], exchange info
+with common [standards].
+---------------
+[medium]:
+- telephone wires
+- fibre-optic cables
+- wireless
+- satellite links.
+---------------
+- SOHO network ->
+corporate network, centralized resource.
+- medium to large in colleges.
+- internet = network of networks.
+connect millions world-wide.
+---------------
+you got devices that connect
+to the internet =
+smartphone, tablet, smartwatch...
+-----
+your home =
+smart TV, appliance, security system
+-----
+out of home =
+smart cars, RFID tags, medic devices
+---------------
+
+-------------------------
+classify types of personal data:
+> volunteered data = explicit share
+> observed data = record actions
+> inferred data = based on analysis
+---------------
+bit = binary digit
+represents smallest piece of data
+a bit = 0/1. 2 possible value
+---------------
+signal [transmission] 3 common methods:
+> electric signals = [pulse] on copper wire
+> optic signals = convert electric signal to [optical pulse]
+> wireless signals = IR, micro, [radio wave] in air
+---------------
+
+-------------------------
+bandwidth:
+[capacity of medium] to carry data
+data amount / time
+Kbps, Mbps, Gbps
+-----
+factors influence throughput
+data amount, latency
+-----
+highway capacity = bandwidth
+actual cars going = throughput
+---------------
+
+-------------------------
+test:
+category of network components
+with wires, cables
+in wired network = media
+-----
+actuator =
+device, create physical movement
+-----
+track with RFID tags
+-----
+8 bit = 1 byte
+-----
+internet =
+[network type] to do online shopping
+-----
+
+===============================================
+M2 = NETWORK COMPONENTS, TYPES, CONNECTIONS:
+
+-------------------------
+INTRODUCTION:
+-----
+network infra device roles
+end, intermediate devices, media
+-----
+
+-------------------------
+CLIENTS AND SERVERS:
+-----
+clients and servers
+client and server roles
+peer to peer networks, applications
+multiple roles in network
+~ [ad Hoc network]
+-----
+
+-------------------------
+NETWORK COMPONENTS:
+-----
+network infrastructure symbols
+network infrastructure
+end devices
+-----
+
+-------------------------
+ISP CONNECTIVITY OPTIONS:
+-----
+ISP services
+ISP connections
+cable and DSL connections
+additional connectivity options
+-----
+
+SUMMARY:
+=========================
+
+-------------------------
+[web, file, email]
+[client & server.]
+-----
+host = participate directly in network
+host = client/server/both
+[software] determines the role.
+-----
+peer to peer (P2P) = both
+advantages, disadvantages
+---------------
+a network has:
+> intermediate devices
+> end devices
+> network media
+---------------
+- LAN media = ethernet, Wi-Fi
+- WAN media = ISP connection
+-----
+device, media = physical elements
+---------------
+
+-------------------------
+ISP links [home - internet]:
+> local cable provider
+> landline TSP
+> cellular network
+> independent provider who [leases bandwidth]
+on other company infra
+---------------
+TV, TSP, LTE, independent
+---------------
+~ -=-
+- ISP - ISP … internet
+- hierarchical manner - ensure short path
+- internet backbone = fibre optic
+---------------
+
+-------------------------
+complex web of fibre-optic cables
+expensive networking switches, routers
+interconnection of ISPs
+---------------
+~ [LAN - router - modem - ISP]
+---------------
+- coaxial cable
+- DSL
+- cellular
+- directly fibre optic
+- dial-up telephone
+- satellite
+---------------
+
+===============================================
+M3 = WIRELESS AND MOBILE NETWORKS:
+
+-------------------------
+WIRELESS NETWORKS:
+-----
+types of wireless networks
+cell phone interactions with different networks
+other wireless networks
+-----
+
+-------------------------
+MOBILE DEVICE CONNECTIVITY:
+-----
+mobile devices and Wi-Fi
+Wi-Fi settings
+configure mobile Wi-Fi connectivity
+configure cellular data settings
+Bluetooth configuration on a windows laptop
+simple connectivity with Bluetooth
+Bluetooth paring
+explore your network settings on your mobile device
+-----
+
+SUMMARY:
+=========================
+
+-------------------------
+wireless networks:
+~ -=-
+- 4G/5G mobile network
+- Wi-Fi
+- Bluetooth
+- GPS - global positioning system
+- NFC - near field comm
+---------------
+power consumption:
+Wi-Fi radio < cellular radio
+but need to connect securely
+-----
+less consumption but
+needs security
+---------------
+cellular data plans =
+- bandwidth limitations
+- charges
+-----
+[SSID + passphrase] - Wi-Fi
+---------------
+~ -=-
+configure and verify
+Wi-Fi, cellular, Bluetooth
+access, explore settings
+explore devices around...
+---------------
+
+-------------------------
+mobile phone
+voice signal
+radio waves
+tower's antenna
+-----
+~ [relay] from tower to tower
+connection not lost
+during transition from
+source to destination
+---------------
+calls, messages
+~ [GSM network]
+global system for mobile communication
+3G, 4G, 4G-LTE, 5G
+enhanced cell phone network
+fast data transmission.
+-----
+LTE is a standard
+its between 3, 4G
+-----
+LTE = circuit switching
+4G = packet switching
+4G > LTE.
+-----
+GSM also a standard
+[like LTE].
+---------------
+Wi-Fi usually [private]
+guest or public access
+transmitters, receivers
+-----
+hotspot =
+wi-fi signal available area
+-----
+Bluetooth =
+short distance comm
+connect multiple devices?
+-----
+NFC =
+exchange data
+very close proximity
+---------------
+
+===============================================
+M4 = BUILD A HOME NETWORK:
+
+-------------------------
+HOME NETWORK BASICS:
+-----
+typical home network setup
+components of a home network
+typical home network routers
+-----
+
+-------------------------
+NETWORK TECHNOLOGIES IN HOME:
+-----
+LAN wireless frequencies
+wired network technologies
+-----
+
+-------------------------
+WIRELESS STANDARDS:
+-----
+Wi-Fi networks
+wireless settings
+-----
+
+-------------------------
+SETUP A HOME ROUTER:
+-----
+first time setup
+design considerations
+wireless router and client configuration
+configure a wireless router and client
+-----
+
+SUMMARY:
+=========================
+
+-------------------------
+home network has 2 separate network.
+ISP - public network - router - LAN.
+---------------
+home router
+connected to internet
+-----
+wired, wireless capabilities.
+ethernet + internet ports.
+ethernet ports for wired usage.
+radio antenna for WAP.
+-----
+home network = small LAN
+---------------
+wireless =
+easy, inexpensive, mobile,
+scalable, flexible, reliable.
+---------------
+
+-------------------------
+wireless -> EMW -> info exchange
+~ [EM spectrum]:
+- radio
+- TV broadcast bands
+- visible light
+- x-rays
+- gamma rays
+-----
+radio waves:
+more wavelength, less frequency
+gamma rays:
+less wavelength, more frequency
+-----
+some type can't carry data.
+others regulated by government,
+licenced to orgs.
+---------------
+[unlicenced] spectrum sections
+in consumer products
+-----
+Wi-Fi routers
+2.4 GHz, 5 GHz frequency ranges
+-----
+Bluetooth -> 2.4 GHz
+-----
+2.4, 5 -> wireless LAN
+with various IEEE 802.11 standards
+802.11 = high power, range, throughput
+than Bluetooth.
+-----
+Bluetooth = IEEE 802.15, no longer...
+now by [SIG]
+---------------
+~ -=-
+wired better for some
+ethernet protocol
+patch cable
+UTP cat 5e
+4 pairs of twisted wires
+reduced electric interference.
+-----
+homes without UTP wiring
+can use powerline.
+---------------
+
+-------------------------
+IEEE 802.11 standard govern
+WLAN environment
+-----
+WLAN uses 2.4, 5 GHz frequency bands
+collectively -> Wi-Fi.
+-----
+~ [Wi-Fi alliance] test WLAN devices
+from various manufacturers.
+---------------
+Wireless routers
+802.11 standards
+multiple setting
+-----
+> network mode:
+[802.11 a/b/g/n, mixed]
+-----
+> network name (SSID):
+to identify WLAN
+have SSID to participate in WLAN
+-----
+> standard channel:
+specify channel
+for  communication
+set to auto,
+WAP decides.
+-----
+> SSID broadcast:
+determine if broadcasted
+to all device in range
+---------------
+throughput based on
+network environment
+all connect with same standard,
+max speeds.
+-----
+if an AP configured with one
+802.11 standard, it can't connect
+with other standard users.
+a/b/g/n.
+mixed mode allows to connect.
+-----
+- STA = device comm with 802.11
+- disable SSID, enter manually
+in hidden networks.
+---------------
+
+-------------------------
+home router -> auto setup utility
+configure basic settings on router
+---------------
+host - patch cable - router LAN port
+-----
+link lights on NIC
+need IP address
+local DHCP server
+---------------
+config utility or
+manually via web browser
+-----
+consider purpose:
+- who can access
+- need to setup guest access?
+- restricted to internet only
+- what others can they do?
+- secure ways to run it
+---------------
+
+===============================================
+M5 = COMMUNICATION PRINCIPLES:
+
+- protocols, standards, [models]
+
+-------------------------
+COMMUNICATION PROTOCOLS:
+-----
+communication protocols
+why protocols matter
+-----
+
+-------------------------
+COMMUNICATION STANDARDS:
+-----
+devices in a bubble
+internet and standards
+network standards organizations
+-----
+
+-------------------------
+NETWORK COMMUNICATION MODELS:
+-----
+network protocols
+protocol stack
+TCP/IP model
+OSI reference model
+compare two models
+-----
+
+=========================
+SUMMARY:
+
+-------------------------
+~ [protocols = rules] for
+proper communication.
+---------------
+human = method, language,
+confirmation.
+-----
+- speak the same language
+- share a common protocol
+---------------
+~ -=-
+message:
+- format - specific structure
+- size - according to channel
+- time - bits/sec at network
+-----
+~ -=-
+message - [encode] - bits -> wave/pulse
+header of S, D - [encapsulate]
+pattern - ack, request response pattern
+-----
+- encode = new form
+- encapsulate = add info
+---------------
+
+-------------------------
+topology =
+view network representation
+end, intermediate devices
+---------------
+how a device see a network?
+bubble. can see own alone...
+-----
+[PROTOCOLS FOR THE BLIND]
+- MAC
+- IP
+- DNS
+---------------
+~ -=-
+[standard = rules] set
+how it should be done.
+-----
+ensure all devices use
+same rules or protocols.
+-----
+diff device type share
+info to each other.
+---------------
+internet standards are
+developed, published, maintained
+by [various organizations]
+-----
+new standard -> RFC docs -> track evolution
+-----
+standards for networks
+by IETF.
+---------------
+~ -=-
+- IETF
+- IEEE
+- IANA
+- ICANN
+- ITU
+- TIA
+---------------
+
+-------------------------
+protocols:
+rules to [govern] communication.
+-----
+successful comm needs
+a number of protocols
+[HTTP, TCP, IP, EP]
+---------------
+~ [interaction between protocols]
+as a [protocol stack].
+- layered hierarchy
+- higher level protocol
+depends on lower ones.
+---------------
+~ -=-
+TCP/IP [protocols]:
+> application = represent, (encode) data
+> transport = (support) communication
+> internet = determine (best path)
+> network access = (devices) that makeup network
+-----
+~ [NITA]
+-----
+describes functions
+structural view
+---------------
+~ -=-
+OSI model:
+open systems interconnection:
+-----
+> application:
+[protocols] for [process to process] comm
+-----
+> presentation:
+common [representation] of data
+-----
+> session:
+services to present, [organize]
+-----
+> transport:
+[transfer], reassemble
+-----
+> network:
+services to [exchange packets]
+-----
+> data link:
+methods to [exchange frames]
+-----
+> physical:
+mechanical, electrical, functional, procedural
+means for [bit transmission]
+-----
+OSI project
+international ISO
+data network design
+operation specification
+troubleshooting
+~ [APS TN DP]
+---------------
+TCP/IP - OSI:
+1,2 -> 1
+3 -> 2
+4 -> 3
+5,6,7 -> 4
+---------------
+
+===============================================
+M6 = NETWORK MEDIA:
+
+=========================
+NETWORK MEDIA TYPES:
+
+-------------------------
+THREE MEDIA TYPES:
+---------------
+data transmit across media
+media gives a [channel]
+-----
+> metal wires within cables
+> glass/plastic fibres in cables
+> wireless transmission
+-----
+copper, fibre-optic, wireless
+---------------
+criteria to choose:
+distance, environment,
+amount, speed, cost.
+---------------
+
+-------------------------
+COMMON NETWORK CABLES:
+---------------
+> twisted-pair cable - ethernet technology
+> coaxial cable - early type, cable TV
+> fibre-optic cable - high peed, long distance
+---------------
+
+===============================================
+M7 = THE ACCESS LAYER: [L2]
+
+-------------------------
+ENCAPSULATION AND ETHERNET FRAME:
+-----
+fields of internet frame
+encapsulation
+-----
+
+-------------------------
+THE ACCESS LAYER:
+-----
+ethernet switches
+MAC address tables
+-----
+
+=========================
+SUMMARY:
+
+-------------------------
+access ethernet LAN
+with ethernet NIC.
+---------------
+NIC -> MAC address
+embedded on card
+unique, permanent
+-----
+ethernet frame
+NIC - NIC communication
+---------------
+~ -=- fields of ethernet frame:
+-----
+[in bytes]
+> *preamble - 7 - receive in sync
+> *start frame delimiter - 1 - info starts here
+> D MAC address - 6 - D MAC on that network
+> S MAC address - 6 - S MAC on that network
+> length/type - 2 - data portion length, IPv4 or v6 packet?
+> DATA - 100 - actual encapsulated data
+> *frame check sequence - receiver does error checks
+---------------
+addressing formats in mail packages
+content inside is same
+but addressing, packaging different
+---------------
+place 1 message format into another
+= ~ [encapsulation]
+-----
+de-encapsulation
+message encapsulated into frame
+sent over network
+---------------
+IP packets share messages
+over one or more networks
+---------------
+
+-------------------------
+ethernet switch
+operate at L2 of OSI
+-----
+forwarding decisions
+with L2 info
+-----
+ethernet header info
+MAC address tables.
+---------------
+to share data between hosts
+builds an ethernet frame.
+frame = [ D MAC, S MAC, data(IP packet, data) ]
+-----
+search for D MAC -> find port -> send
+---------------
+how switch builds MAC address table?
+H1 -> ethernet frame -> H4
+---------------
+switch -> receive E frame:
+-----
+1- do I have S MAC on table?
+add to correct port(FA 0/1)
+-----
+2- is D MAC on table?
+don't know where?
+-----
+3- act like a hub. send to all port
+except incoming port (broadcast)
+not match?, ignore rest of frame
+-----
+4- match -> receive frame.
+if there in table already,
+just send it there. (unicast)
+-----
+5- this info stays for [5 minutes]
+---------------
+access layer -> people gain
+access to other hosts...
+[first line] of networking devices
+-----
+switch > hub
+avoid collision...
+---------------
+
+===============================================
+M8 = THE INTERNET PROTOCOL:
+
+=========================
+PURPOSE OF AN IPv4 ADDRESS:
+
+-------------------------
+IPv4 ADDRESS:
+---------------
+host -> IPv4 -> [participate] on internet, LANs
+logical network address
+-----
+unique within LAN for local communication
+unique in world for remote communication.
+---------------
+IPv4 assigned to NIC in device
+servers with multiple NIC
+router has IPv4 address too
+---------------
+- packet has S, D IPv4
+ensure delivery, reply
+---------------
+
+-------------------------
+OCTETS AND DOTTED DECIMAL NOTATIONS:
+---------------
+IPv4 = 32 bits
+11010001101001011100100000000001
+hard ugh...
+-----
+32 bits grouped into 4 bytes
+octets: 8 bits each
+11010001.10100101.11001000.00000001
+better but still hard...
+-----
+bits in octet -> decimal value
+209.165.200.1
+okay... I guess?
+---------------
+easier one for us
+but it is what it is
+binary for system
+---------------
+connect to a web server -=- LAB
+-----
+
+=========================
+IPv4 ADDRESS STRUCTURE:
+
+-------------------------
+NETWORKS AND HOSTS:
+---------------
+IPv4 -> hierarchical, 2 parts
+[network part + host part]
+1st 3 bytes + last 1 byte generally
+2nd last byte for subnet
+---------------
+subnet mask:
+identify host's network
+-----
+with IPv4 address ->
+~ -=- multiple logical network
+in one physical network.
+---------------
+telephone system -> hierarchical network
+country code, area code, telephone number
+---------------
+
+===============================================
+M9 = IPv4, NETWORK SEGMENTATION:
+
+=========================
+IPv4 UNICAST, BROADCAST, MULTICAST:
+
+-------------------------
+UNICAST:
+---------------
+IPv4 structure over
+different ways to send packet
+[transmission types]
+---------------
+unicast transmission (one - one)
+[source always unicast]
+-----
+1.1.1.1 - 223.255.255.255
+255.255.255.0 or /24 mask
+within = many reserved...
+---------------
+1 to 223
+~ [12223]
+---------------
+
+-------------------------
+BROADCAST:
+---------------
+broadcast transmission (one - all)
+~ [D IP = 255.255.255.255]
+IPv4 uses broadcast packets
+[IPv6 don't]
+---------------
+sent to all in that broadcast domain
+-----
+> directed broadcast -> all hosts on specific network
+host on 172.16.4.0/24 -> 172.16.4.255
+-----
+> limited broadcast -> 255.255.255.255
+routers don't forward broadcasts...
+---------------
+limit broadcast traffic, save resources
+-----
+routers divide broadcast domain
+- subdivide networks = good performance
+---------------
+
+-------------------------
+MULTICAST:
+---------------
+one - selected [group] of devices
+-----
+multicast address range:
+~ [224.0.0.0 - 239.255.255.255]
+subscribe to a multicast [group]
+---------------
+a group gets an IPv4 multicast address
+172.16.4.3, 172.16.4.4 -> 244.10.10.5 group
+- OSPF -> multicast transmission
+-----
+[224 to 239]
+---------------
+
+=========================
+TYPES OF IPv4 ADDRESSES:
+
+-------------------------
+PUBLIC, PRIVATE IP ADDRESS:
+---------------
+like many ways to [transmit] IPv4 packet
+types of IPv4 address there too:
+-----
+~
+-=- some not used in internet
+-=- some to verify connection
+-=- some self assign
+-----
+own, unused, check
+---------------
+
+-------------------------
+ROUTE TO INTERNET:
+---------------
+public IPv4 -> globally routed
+internet <- ISP routers.
+private IPv4 -> internal hosts
+---------------
+due to WWW,
+private IP developed
+to save addresses.
+---------------
+~ -=-
+private IPv4 addresses:
+- [RFC 1918]
+-=- 10.0.0.0/8     = 10.0.0.0 - 10.255.255.255     = 255.0.0.0
+-=- 172.16.0.0/12  = 172.16.0.0 - 172.31.255.255   = 255.255.0.0
+-=- 192.168.0.0/16 = 192.168.0.0 - 192.168.255.255 = 255.255.255.0
+---------------
+private IPv4 -> intranet
+[NAT] -> private to public -> ISP forward packet
+---------------
+
+-------------------------
+SPECIAL ONES:
+-----
+network, broadcast address
+can't be assigned to hosts
+~ [255]
+---------------
+
+-------------------------
+LOOPBACK ADDRESSES:
+---------------
+~ [127.0.0.0/8]
+127.0.0.1 - 127.255.255.254
+-----
+- mostly 127.0.0.1
+- direct traffic to itself
+-----
+- ping an IP to test connectivity
+- ping 127.0.0.1 to test own IP config
+---------------
+~ -=-
+127.0.0.1 is our home
+do a loopback at home
+-----
+
+-------------------------
+LINK-LOCAL ADDRESS:
+---------------
+169.254.0.0/16
+169.254.0.1 - 169.254.255.254
+[APIPA]
+-----
+link-local addresses assigned from address block:
+- 169.254.0.0/16, has 65,536 possible addresses,
+- fe80::/10,  has 2^64 possible addresses in IPv6.
+---------------
+windows client self configure
+if client can't get IP address
+used in P2P,
+not commonly used.
+---------------
+~ -=-
+- 169.254.0.0/16
+- fe80::/10
+link with locals, do 69
+APIPA!
+---------------
+
+-------------------------
+LEGACY CLASSFUL ADDRESS:
+---------------
+[RFC 790]
+allocate network address
+on A, B, C, (D, E).
+---------------
+~ [classes]:
+-=- A = 0.0.0.0/8 -  127.0.0.0/8
+-=- B = 128.0.0.0/16 - 191.255.0.0/16
+-=- C = 192.0.0.0/24 - 223.255.255.0/24
+---------------
+more hosts in numbers: A > B > C
+[16m+ - 65k hosts - 254 hosts].
+---------------
+-=- D = [multicast]
+224.0.0.0 - 239.0.0.0
+-=- E = [experimental]
+240.0.0.0 - 255.0.0.0
+---------------
+was effective with less devices
+50%, 25%, 12.5%, 12.5% (D&E)
+-----
+as WWW came -> more users
+classless addressing
+allocate based on
+number of hosts needed
+---------------
+
+-------------------------
+ASSIGN IP ADDRESS:
+---------------
+IP managed by [IANA]
+-----
+remember:
+standards for networks by IETF
+management by IANA.
+---------------
+address -> [RIR]
+RIR -> IP to ISP
+regional internet registry
+-----
+~ [RIRs]:
+- ARIN
+- LAC NIC
+- AFRI NIC
+- RIPE NCC
+- AP NIC
+---------------
+
+=========================
+NETWORK SEGMENTATION:
+
+-------------------------
+NETWORK SEGMENTATION:
+---------------
+ethernet LAN -> ethernet broadcast
+-----
+[ARP] request for target's MAC address
+[layer 2 broadcast domain]
+router doesn't forward ethernet broadcast.
+---------------
+DHCP discover message
+for DHCP server.
+gives IP etc to client
+router segments
+L2 broadcast domains.
+---------------
+
+-------------------------
+BROADCAST DOMAIN, SEGMENTATION:
+---------------
+broadcast email in school
+sometimes for a segment alone
+-----
+ethernet LAN =
+broadcasts, ARP to locate other devices.
+ARP -> L2 broadcast for MAC
+-----
+switch forwards to other switch
+but router doesn't
+---------------
+
+-------------------------
+LARGE BROADCAST DOMAIN PROBLEMS:
+---------------
+~ -=-
+large broadcast domain
+excess broadcast
+affects network with traffic
+-----
+reduce size:
+create smaller broadcast domains
+~ subnetting
+smaller network spaces = subnet.
+---------------
+~ -=-
+subnetting vs segmentation:
+> [segment] for security [L2]:
+may involve L3, VLAN or physical, reduce collision domains
+> [subnet] to manage [L3]:
+reduce broadcast traffic, better IP util
+---------------
+consider a network:
+172.16.0.0/16
+2 octets for hosts
+-----
+make it 0 and 1
+can make more than 2
+but for current need
+it's not necessary
+-----
+172.16.0.0/24 + 172.16.1.0/24
+400 users -> 200 + 200 users
+a router in the middle.
+-----
+steal host bits ->
+create additional subnets.
+---------------
+
+-------------------------
+REASONS TO SEGMENT NETWORKS:
+---------------
+- reduce traffic
+- improve performance
+- reduce misconfigurations effects
+- security policies
+-----
+subnet based on:
+- location
+- group/function
+- device type
+---------------
+
+===============================================
+M10 = IPv6 ADDRESSING AND RULES:
+
+=========================
+IPv4 ISSUES:
+
+-------------------------
+NEED FOR IPv6:
+---------------
+IPv4 running out
+IPv6 = 128 bit address space
+~ [340 undecillion = 340*10^36]
+-----
+also fixed some limitations - [IETF]
+---------------
+~ -=-
+IETF came with new ones
+IANA manages it.
+-----
+ICMPv6 with:
+- address resolution [in-built ARP?]
+- autoconfiguration
+---------------
+IPv4 -> [4.3 billion addresses]
+private IP + NAT slowing depletion
+NAT = latency, limits in P2P comms
+---------------
+FB, MS, Lin = complete IPv6 internally.
+---------------
+email, webpage, file transfer
+-----
+population, cheap internet, IoT...
+IPv6 is a necessity
+-----
+EWF - email web file
+---------------
+
+-------------------------
+IP [v4, v6] COEXISTENCE:
+---------------
+protocols, tools to [migrate]
+---------------
+[Dual stack]:
+IPv4, v6 on same network segment
+- runs both simultaneously
+- native IPv6
+- IPv6 connection to ISP
+access resource on internet
+---------------
+[Tunnelling]:
+transport IPv6 packet over IPv4 network
+IPv6 packet -> encapsulate -> IPv4 packet
+---------------
+[Translation]:
+~ [NAT64]
+IPv6 devices communicate with
+IPv4 devices with translation
+similar to IPv4 NAT.
+IPv6 packet -> IPv4 packet -> IPv6 packet
+-----
+NAT64 -> 6 to 4
+---------------
+tunnelling, translation
+use only when necessary
+better go full IPv6.
+---------------
+~ -=-
+- dual stack (both)
+- tunnelling (encapsulate)
+- translation (NAT64)
+---------------
+
+=========================
+IPv6 ADDRESSING:
+
+-------------------------
+HEXADECIMAL NUMBER SYSTEM:
+---------------
+IPv6 -> hexadecimal representation
+0123456789ABCDEF
+-----
+hextets -> readable format
+---------------
+
+-------------------------
+IPv6 ADDRESSING FORMATS:
+---------------
+larger than IPv4
+-----
+128 bits
+super hard to read it
+---------------
+group them:
+[bit -> hexadecimal -> hextet]
+-----
+- every 4 bits = 1 hexadecimal digit
+- every 4 hexadecimal digit = 1 hextet
+-----
+- 1hextet = 16 bits
+- 1 octet = 08 bits
+---------------
+128 = 4*32
+32 hexadecimal values
+-----
+hexadecimal 0 to f:
+0000 to 1111 (binary)
+---------------
+total 8 hextets
+[x:x:x:x:x:x:x:x]
+x = 0000 to ffff
+-----
+just a grouping
+in hexadecimal.
+---------------
+-=- 2001 : 0db8 : 0000 : 1111 : 0000 : 0000 : 0000: 0200
+-=- fe80 : 0000 : 0000 : 0000 : 0123 : 4567 : 89ab: cdef [link local]
+-----
+not case sensitive
+---------------
+
+-------------------------
+IPv6 FORMATTING RULES:
+---------------
+~ -=-
+literally hexadecimal to binary:
+2001 = 0010 0000 0000 0001
+a088 = 1010 0000 1000 1000
+---------------
+
+-------------------------
+OMIT LEADING ZEROES:
+---------------
+~ -=-
+01ab = 1ab
+0a00 = a00
+---------------
+
+-------------------------
+DOUBLE COLON:
+---------------
+~ -=-
+2001:0db8:acad:a088:0000:0000:7000:0123
+2001: db8:acad:a088:         :7000: 123
+2001:db8:acad:a088::7000:123
+---------------
+2001:0db8:acad:000a:0000:0000:0000:0001
+2001: db8:acad:   a:              :   1
+2001:db8:acad:a::1
+---------------
+2001:0db8:acad:000a:0000:0000:0000:0000
+2001: db8:acad:   a:              :    
+2001:db8:acad::
+---------------
+[use :: on longest string]
+2001:0db8:0000:0000:0000:1234:0000:5678
+2001: db8:0000:0000:0000:1234:0000:5678
+2001:db8::1234:0:5678
+---------------
+
+===============================================
+M11 = DYNAMIC ADDRESSING WITH DHCP:
+
+=========================
+STATIC AND DYNAMIC ADDRESSING:
+
+- transmission type (unicast etc)
+- address type (public private)
+- address assigning type (static dynamic)
+
+-------------------------
+STATIC IPv4 ADDRESS ASSIGNMENT:
+---------------
+assign IPv4
+- static or dynamic
+---------------
+configure:
+~ [IP address, subnet mask, DGA]
+---------------
+static:
+- more control,
+- time consuming,
+- only basic error checks,
+- permanent,
+- not reused.
+---------------
+
+-------------------------
+DYNAMIC IPv4 ADDRESS ASSIGNMENT:
+---------------
+frequent change in user population
+-----
+I go to college, connect to college
+network, download anime, disconnect
+and leave. other students join...
+static would be hard.
+---------------
+assign IP address
+automation = simple, efficient
+with DHCP
+---------------
+IPv4, subnet mask, DG address,
+other config info...
+-----
+reduce network support staff work
+eliminates errors
+-----
+not permanently assigned
+leased for a period of time.
+---------------
+host -> off ->
+address return to pool -> reuse
+good for mobile users
+come and go on network.
+---------------
+
+-------------------------
+DHCP SERVERS:
+---------------
+device -> local DHCP server -> get IP
+any device with DHCP service software -> DHCP server
+local dedicated PC-based server
+-----
+ISP has DHCP server for home networks
+---------------
+w router + modem
+w router = DHCP client + server
+-----
+as a DHCP client to ISP
+as a DHCP server to LAN
+---------------
+
+=========================
+DHCPv4 CONFIGURATIONS:
+
+-------------------------
+DHCPv4 OPERATIONS:
+---------------
+client - broadcast [discover] packet
+server - respond with [offer] packet
+client - send back [request] packet
+server - respond [acknowledgement]
+-----
+~ [DORA]
+---------------
+LAN:
+router = DHCP server
+-----
+DHCP in:
+~ [MS domain control]
+Linux server
+for large network
+---------------
+
+-------------------------
+DHCP SERVICE CONFIGURATION:
+---------------
+static or automatic
+DHCP enabled router
+router = ports + antenna
+for wired, wireless
+---------------
+router -> GUI to configure
+assign and ping to check
+---------------
+
+-------------------------
+configure DHCP on a wireless router -=- LAB
+-----
+
+===============================================
+M12 = GATEWAYS TO OTHER NETWORKS:
+
+=========================
+NETWORK BOUNDARIES:
+
+-------------------------
+GATEWAYS TO OTHER NETWORKS:
+---------------
+gateway? default gateway?
+way for traffic to leave, enter LAN
+-----
+binary AND ->
+check if D in same LAN or remote
+---------------
+minimum for host in LAN =
+IP, subnet.
+-----
+to send to remote hosts =
+IP, subnet, DG.
+---------------
+DG configured in router
+careful! DG in same LAN
+configure properly.
+---------------
+
+-------------------------
+ROUTERS AS GATEWAY:
+---------------
+gateway -> communicate with
+different networks.
+---------------
+router -> each interface -> separate network
+IP assigned to interface.
+---------------
+router = DG to other networks
+host needs [router interface IP]
+default gateway address
+static or dynamic
+---------------
+configure router as DHCP server
+router gives its [internal IP] of
+that interface as DG address.
+---------------
+
+-------------------------
+ROUTERS AS BOUNDARIES BETWEEN NETWOEKS:
+---------------
+router act as DHCP to LAN hosts
+assign private address to LAN
+- rather than public IP.
+---------------
+router gets [1st host address]
+assign address to hosts in
+same range as router has.
+DHCP = auto IP, subnet, DG to hosts
+---------------
+ISP use DHCP servers to give
+public IP to internet side of
+home routers.
+ISP gives internet routable address
+---------------
+
+=========================
+NETWORK ADDRESS TRANSLATION:
+
+-------------------------
+INTRO TO NAT:
+---------------
+IPv4 = public, private
+private = good within organization
+route between different networks...
+-----
+but outside organization
+across the public internet
+need registered public IP.
+---------------
+192.168.0.0/24 =
+8 bits -> 254 host addresses.
+---------------
+NAT
+router -> table -> private IP -> public IP
+router -> NAT table -> change, pass packet
+---------------
+~ -=-
+switch - MAC address table
+router - ARP table
+router - NAT table
+-----
+tables in router:
+public to private
+IP to MAC
+---------------
+
+-------------------------
+examine NAT on a wireless router -=- LAB
+-----
+
+===============================================
+M13 = THE ARP PROCESS:
+
+=========================
+INTRODUCTION:
+
+-------------------------
+IP changes with location, network
+as DHCP assigns, NAT changes...
+-----
+but MAC always same...
+-----
+need both IP + MAC
+to transfer data
+---------------
+~ -=-
+IP -> for sender to send to receiver
+MAC -> permit device to receive data
+-----
+no DHCP for mac :(
+---------------
+
+=========================
+MAC and IP:
+
+-------------------------
+D ON SAME NETWORK:
+-----
+to send a message,
+need both IP and MAC.
+-----
+know IP but MAC?
+---------------
+-=- 2 primary address assigned to ethernet LAN:
+-----
+> MAC = physical address
+NIC to NIC on same ethernet network
+-----
+> IP = logical address
+send packet from S to D
+D at same or remote network
+---------------
+L2 MAC address to deliver ethernet frame
+with encapsulated IP packet
+---------------
+| D MAC | S MAC | S IP | D IP |
+---------------
+
+-------------------------
+D ON REMOTE NETWORK:
+---------------
+D MAC = MAC of DG address
+router interface MAC
+---------------
+MAC keeps changing as it hops
+-----
+~ -=- router:
+examine D IP, best path
+---------------
+router -> de-encapsulate L2 info
+determine next hop device
+encapsulate IPv4 packet in new frame
+---------------
+frame specific to data link tech
+like ethernet?
+---------------
+IP - MAC associated with:
+ARP for IPv4
+~ [ICMPv6 ND] for IPv6
+---------------
+
+-------------------------
+identify MAC and IP addresses -=- LAB
+-----
+
+=========================
+BROADCAST CONTAINMENT:
+
+-------------------------
+ETHERNET BROADCAST:
+---------------
+D MAC = 48 [1 bit]
+12 F [hexadecimal]
+---------------
+switch gets ethernet broadcast
+floods to all ports except incoming port
+router receives but won't forward.
+---------------
+
+-------------------------
+BROADCAST DOMAIN:
+-----
+LAN ~ a [broadcast domain]
+excessive broadcast traffic
+use router, divide network
+multiple broadcast domains.
+-----
+
+-------------------------
+ACCESS LAYER COMMUNICATION:
+---------------
+~ -=-
+in ethernet LAN,
+NIC accepts frame only if D is
+it's own MAC or broadcast MAC.
+---------------
+IP address to identify location of hosts
+send with IP, find MAC later with ARP...
+IPv6 uses ND.
+---------------
+I need to send to 192.168.1.7
+which device has this IP?
+give your MAC address...
+---------------
+
+-------------------------
+ARP:
+---------------
+~ -=-
+know IPv4 but need device's MAC
+get there with IP, deliver with MAC
+need to encapsulate packet -> FRAME
+---------------
+address not in ARP table
+send ~ [ARP request].
+-----
+whoever has this IPv4 address
+need your MAC address.
+ARP request -> ethernet [broadcast]
+switch floods it...
+-----
+~ [ARP reply] with MAC address
+now, send packet with frame to D
+---------------
+3 step process
+discover, store MAC address
+-----
+> sender -> broadcast frame
+has IPv4 of intended receiver
+-----
+> all host compares IP
+match = sends back its MAC
+-----
+> sender update ARP table
+---------------
+if D host MAC in ARP table
+send directly
+---------------
+~ [reverse ARP -> get IP with MAC]
+---------------
+
+===============================================
+M14 = ROUTING BETWEEN NETWORKS:
+
+=========================
+NEED FOR ROUTING:
+
+-------------------------
+DIVIDING LOCAL NETWORK:
+---------------
+> reduce congestion
+> security
+> based on geography
+---------------
+LAN - router - internet
+LAN broadcast won't reach internet
+because of router
+so what's in home?
+WAP/router.
+---------------
+router =
+divide network
+divide broadcast domain
+---------------
+
+-------------------------
+NEED FOR ROUTING:
+---------------
+need for connection beyond LAN.
+out to other homes, business, internet
+these = remote hosts.
+-----
+need for routers, routing
+identify best path to destination
+---------------
+router =
+connect multiple L3, IP networks
+[distribution layer] of network
+router -> [direct traffic], etc...
+for efficient network operations
+---------------
+switch ->
+forwarding decision based on L2 MAC
+access layer
+-----
+router ->
+forwarding decision based on L3 IP
+distribution layer
+---------------
+packet ->
+[header(S IP, D IP) | body(message)]
+router read network portion,
+~ [find best way]
+---------------
+network portion of S, D host don't match
+forward to router.
+-----
+router -> get message -> de-encapsulate frame
+read IP -> new frame -> forward...
+---------------
+[ D MAC | S MAC | S IP | D IP | data | trailer ]
+D and S MAC is header here
+---------------
+
+=========================
+THE ROUTING TABLE:
+
+-------------------------
+ROUTER PACKET FORWARDING:
+---------------
+home host - remote host:
+-----
+HH ->
+router -> D IP -> best path interface
+-> RH
+---------------
+
+-------------------------
+MESSAGE WITHIN, BETWEEN NETWORK:
+---------------
+host builds the packet
+D MAC | S MAC | S IP | D IP
+data and ?
+---------------
+check network portion to decide
+within or between.
+---------------
+- within -> check ARP table
+- between -> send to router/DG
+routing table...
+---------------
+in remote:
+as it hops, MAC changes..
+IP remains
+---------------
+NIC-NIC in same network =
+MAC or ethernet address.
+---------------
+
+-------------------------
+ROUTING TABLE ENTRIES:
+---------------
+routers ->
+move info between local, remote networks.
+[routing tables] to store network addresses
+[best path] to reach them.
+---------------
+entries = dynamically or manually enter.
+choose [interface] to forward to D
+can't determine = drop it.
+---------------
+configure [static default route] in routing table
+- so packet won't be dropped.
+-----
+connects to another router.
+type | network | port or interface
+---------------
+router -> routing table -> a map
+-----
+~ [ARP, NAT, routing table]
+---------------
+
+-------------------------
+DEFAULT GATEWAYS:
+---------------
+hosts get MAC of router
+using DG address + ARP.
+can't deliver to remote network
+without configuring DG address.
+---------------
+
+---------------
+~ -=-
+EXTRAS - ROUTING PROTOCOLS:
+-----
+-> RIP
+-> EIGRP
+-> OSPF
+-> IS-IS
+-> BGP
+---------------
+
+=========================
+CREATE A LAN:
+
+-------------------------
+LAN:
+---------------
+~ -=-
+> local network
+> interconnected local networks
+> under same admin control
+---------------
+earlier,
+small networks in a physical location
+now it includes multiple locations.
+---------------
+uses ethernet or wireless protocols
+intranet = private LAN of organization
+only members access with authorization
+---------------
+
+-------------------------
+LOCAL, REMOTE NETWORK SEGMENTS:
+---------------
+within LAN,
+all hosts -> 1 local network or
+divide with
+distribution layer device
+---------------
+all in one local network
+one local segment
+[seen by all other hosts]
+---------------
+one broadcast domain
+more direct communication
+hosts -> ARP -> find others in LAN
+---------------
+increase in size decreases
+QoS, security, performance
+---------------
+remote segment
+decrease traffic demand impact
+needs routing to communicate
+with hosts on remote network
+routers -> complexity, latency.
+splits broadcast domain
+invisible to remote segments
+---------------
+
+-------------------------
+observe traffic flow in routed network -=- LAB
+-----
+
+===============================================
+M15 = TCP and UDP:
+
+=========================
+TCP and UDP:
+
+-------------------------
+TCP AND UDP OPERATION:
+---------------
+> UDP = stream, real time comm
+no [overhead]
+data packet -> transport later -> segments
+---------------
+~ -=-
+segment header -> [port info]
+-----
+5023 S -> 53 DNS D
+becomes part of same conversation
+some dropped, out of order
+won't notice until packet is long stream
+---------------
+each packet matters in bank transfer
+T> CP
+few may drop but retransmitted, reliable
+sequence number -> order
+-----
+5305 -> 80 web server
+constant communication
+acknowledgement of received packets
+---------------
+
+=========================
+PORT NUMBERS:
+
+-------------------------
+refer internet for top 50
+cheat sheet better
+---------------
+
+-------------------------
+TRANSPORT LAYER PORT NUMBERS:
+---------------
+setup server -> load apps
+[web, ftp, mail] services...
+port assigned to them
+---------------
+many services at same time
+---------------
+dynamically assigned for hosts
+random (for client).
+-----
+host -> request webpage
+browser picks a port
+5305 -> 80
+-----
+when server responds,
+identify it with port number
+TCP, UDP ports
+5307 -> 21
+-----
+when response comes back
+addressed to 5307
+host knows it is from FTP
+---------------
+
+-------------------------
+TCP AND UDP PORT NUMBES:
+---------------
+access services from internet
+[ DNS web email FTP IM VoIP ]
+single or several server
+---------------
+deliver message with TCP/UDP
+protocols, services identified with port number
+-----
+keep track of a conversation
+numeric identifier within each segment
+---------------
+request -> server -> determine service
+client -> provide D port
+ports assigned, managed by [ICANN]
+---------------
+~ -=-
+- ICANN for L4 ports
+- IETF for new standards
+- IANA for L3 addresses
+---------------
+~ -=-
+ports categories:
+~ [1 - 65,535]
+---------------
+> well known ports [1 - 1023]
+common network applications
+-----
+> registered ports = [ 1024 - 49,151 ]
+orgs register specific apps like IM
+-----
+> private ports [ 49,152 - 65,535 ]
+used as source ports, any apps
+---------------
+~ -=-
+PORT NUMBERS:
+20   = FTP - data
+21   = FTP - control
+22   = SSH
+23   = telnet
+25   = SMTP *
+53   = DNS *
+67   = DHCP server
+68   = DHCP client
+69   = TFTP
+80   = HTTP
+110  = POP3 *
+143  = IMAP
+161  = SNMP *
+443  = HTTPS
+3128 = proxy *
+-----
+53, 67, 68, 69, 161
+DNS, DHCP, TFTP, SNMP.
+uses UDP ports
+-----
+DNS 53 = both protocols
+UDP for client's DNS requests
+TCP for communication between 2 DNS servers 
+---------------
+IANA website -> port registry list
+port - apps
+---------------
+
+-------------------------
+SOCKET PAIRS:
+---------------
+S, D port placed within segment
+segments encapsulated in IP packet
+-----
+IP packet -> S, D IP
+S IP + S port num = socket
+D IP + D port num = socket
+---------------
+IP + port = socket
+segment + S IP, D IP = socket pair
+-----
+socket -> identify service, server
+requested by client.
+---------------
+192.168.1.5:1099
+- web server's socket = 192.168.1.7:80
+- socket pair:
+[ 192.168.1.5:1099, 192.168.1.7:80 ]
+---------------
+~ -=-
+sockets -> multiple processes
+distinguish from each other.
+-----
+source port act as return address
+for requesting application.
+---------------
+socket
+socket-pair
+---------------
+
+-------------------------
+NETSTAT COMMAND:
+---------------
+unexplained TCP connection
+security threat.
+-----
+keep track of
+[active TCP connections]
+~ * netstat
+~ * netstat -n
+-----
+ok. all loopback and own IP.
+---------------
+
+===============================================
+M16 = APPLICATION LAYER SERVICES:
+
+services and protocols
+that work in layer 7..
+
+=========================
+CLIENT SERVER RELATIONSHIP:
+
+-------------------------
+CLIENT, SERVER INTERACTION:
+---------------
+use services via internet
+communicate with others...
+-----
+servers, clients,
+devices for communication
+---------------
+server -> services to others
+web server
+- millions of servers in internet
+websites, email, music downloads...
+-----
+~ [all use agreed standards, protocols]
+---------------
+client software -> web browser
+a client -> [multiple client software]
+-----
+email, file, web = common
+outlook, fire fox, file explorer
+web browser = a client software
+---------------
+client software:
+Spotify
+Gmail
+browser
+Netflix
+YouTube
+---------------
+
+-------------------------
+WEB SERVER, CLIENT IP INTERACTIONS:
+---------------
+client need webpage from webserver.
+webserver in internet.
+-----
+listens on port 80 for web requests
+-----
+[URL - DNS lookup - IP]
+-----
+~ * nslookup
+~ * nslookup cisco.com -> got it's IP
+---------------
+TCP connection
+S, D socket or socket pair
+all packet has socket info
+---------------
+
+-------------------------
+URI, URN, URL:
+---------------
+webservices like [RESTful APIs]
+[identified with URI]
+-----
+uniform resource identifier
+identify specific network resource
+---------------
+URI has URL, URN:
+-----
+> URN =
+only namespace, [no protocol] reference
+-----
+> URL =
+[location] of resource
+HTTP, FTP etc used here
+---------------
+~ [URI parts]:
+-=- protocol - https
+-=- hostname - www.example.com
+-=- path, file name - /author/book.html
+-=- fragment - #page155
+---------------
+https://www.example.com/author/book.html#page155
+-> whole = URI
+---------------
+URN [no protocol, fragment]:
+www.example.com/author/book.html
+-----
+URL [no fragment]:
+https://www.example.com/author/book.html
+---------------
+URN < URL < URI [NLI (descending order)]
+-----
+URN - only name space
+URL - with protocol
+URI - with fragment
+---------------
+~ -=- order:
+- protocol
+- sub-domain
+- domain
+- port
+- path
+- query
+- parameters
+- fragment
+-----
+PSDP PQPF
+-----
+
+***************
+~ -=-
+https://app.letsdefend.io/monitoring
+https = protocol
+app = subdomain
+monitoring = path
+-----
+store.yourwebsite.com
+store = subdomain
+yourwebsite.com = domain
+***************
+
+-------------------------
+WEB TRAFFIC IN PACKET TRACER:
+---------------
+PC ->
+request webpage with web browser
+auto capture?
+-----
+URL on browser
+refer event list
+request - response
+PDU info at PC
+---------------
+
+-------------------------
+CLIENT INTERACTION -=- LAB:
+-----
+
+=========================
+NETWORK APPLICATION SERVICES:
+
+-------------------------
+> internet searches
+> social media sites
+> video, audio streams
+> online shops
+> email, messaging
+---------------
+search, chat, buy, stream
+---------------
+relies on TCP/IP suite
+client-server communication
+---------------
+DNS, SSH, email, DHCP, web, FTP
+servers.
+-----
+SMTP, POP, IMAP
+HTTP...
+---------------
+
+=========================
+DOMAIN NAME SYSTEM:
+
+-------------------------
+DNS SERVERS:
+---------------
+domain name - IP address
+host - DNS server - host
+---------------
+
+-------------------------
+NS LOOKUP COMMAND:
+---------------
+ISP -> DNS server for home router
+DHCP assigns
+---------------
+~ * nslookup
+-----
+name, IP of DNS server
+configured in client
+-----
+manually configure too
+learn dynamically with DHCP
+-----
+~ * www.cisco.com
+~ * exit
+---------------
+
+=========================
+WEB SERVERS AND CLIENTS:
+
+-------------------------
+HTTP AND HTML:
+---------------
+HTTP =
+how info transmitted
+between client, server.
+HTML =
+display webpage
+-----
+~ -=-
+- http transmit
+- html display.
+---------------
+as it goes:
+- user
+- host (client system)
+- web browser
+- domain name
+- DNS server
+- IP address
+- HTTP request
+- HTML web page
+-----
+visit:
+page source
+HTML code
+---------------
+
+-------------------------
+OBSERVE WEB REQUESTS -=- LAB:
+---------------
+
+=========================
+FTP CLIENTS AND SERVERS:
+
+-------------------------
+FTP:
+---------------
+like web services
+transfer files across internet
+-----
+host -> ~ [FTP client software]
+access FTP server
+-----
+file management functions
+server enables client to exchange files
+remote management
+file management commands
+-----
+TCP port:
+- 21 for requests
+- 20 to transfer.
+-----
+[built in most OS, web browsers]
+---------------
+
+-------------------------
+FTP CLIENT SOFTWARE:
+---------------
+~ * FileZilla
+~ [ftp.cdc.gov] = FTP server
+-----
+username = anonymous
+password = none
+quick connect
+local site | remote site
+copy, paste files...
+---------------
+
+-------------------------
+USE FTP SERVICES -=- LAB:
+-----
+
+=========================
+VIRTUAL TRMINALS:
+
+-------------------------
+REMOTE ACCESS WITH TELNET, SSH:
+---------------
+access server remotely
+~ * [tera term] software
+-----
+use telnet or SSH
+SSH is secure.
+---------------
+
+-------------------------
+TELNET:
+---------------
+text based systems before GUI
+terminals attached to computers
+remote access in same way
+---------------
+telnet - 1970
+[oldest in TCP/IP suite]
+emulate text-based terminal devices over data network
+---------------
+~ -=-
+telnet servers listen
+on TCP port 23
+-----
+[virtual terminal session] = (vty)
+-----
+access to server's CLI
+not secure (plain text transfer).
+go SSH.
+---------------
+
+-------------------------
+SECURITY ISSUES WITH TELNET:
+---------------
+start, stop process
+configure device
+shut down system...
+-----
+requires user login
+but no encrypted transportation
+intercept, read.
+SSH = stronger 'authentication' and
+encrypted transfer
+-----
+
+-------------------------
+USE TELNET, SSH -=- LAB:
+-----
+
+=========================
+EMAIL and MESSAGING:
+
+-------------------------
+EMAIL CLIENT, SERVER:
+---------------
+user - [mailbox] - email client
+[access mail server]
+-----
+web based client to access email.
+M365, Yahoo, Gmail.
+-----
+user@c​ompany.domain
+---------------
+SMTP - send - 25 but 587 too
+POP3 - receive - 110
+IMAP4 - receive - 143
+---------------
+
+-------------------------
+EMAIL PROTOCOLS:
+---------------
+SMTP -> send message to
+local email server
+-----
+local email server -> correct mailbox
+SMTP requests to port 25
+---------------
+POP3 -> receive, store mail sent to them
+messages [not kept] on server after access
+-----
+POP3 -> port 110
+---------------
+IMAP4 -> receive, store mail sent to them
+keeps messages in mailboxes on the server
+[unless user deletes it]
+-----
+listens at port 143
+---------------
+25 -> 110, 143
+---------------
+
+-------------------------
+TEXT MESSAGING:
+---------------
+text or instant messaging
+direct, private, chat messages
+---------------
+web based client -> integrated into social media
+-----
+only connects to users of same site
+Webex, MS teams, WhatsApp...
+---------------
+
+-------------------------
+INTERNET PHONE CALLS:
+---------------
+peer-to-peer technology (P2P)
+IP telephony use [VoIP tech]
+-----
+voice data -> IP packets ->
+unique name
+speakers, microphone
+---------------
+Public Switched Telephone Network
+-----
+access with a gateway.
+protocol, port varies.
+---------------
+
+===============================================
+M17 = NETWORK TESTING UTILITIES:
+
+=========================
+TROUBLESHOOTING COMMANDS:
+
+-------------------------
+IPCONFIG COMMAND:
+---------------
+display IP config info
+~ * ipconfig
+---------------
+options:
+> none = display current IP config
+> /all = with MAC,DGA, DNS, DHCP (troubleshooting)
+> /release = release current DHCP bindings
+> /renew = request fresh config info
+---------------
+-=-
+~ none
+~ all
+~ release
+~ renew
+---------------
+
+-------------------------
+PING COMMAND:
+---------------
+test connection to other hosts
+famous network utility command
+-----
+~ * ping 10.10.10.1
+~ * ping www.cisco.com
+---------------
+echo request is sent
+echo reply response
+request timed out/ failure
+---------------
+ping domain -> DNS server -> IP
+ping IP OK, ping name not OK? -> DNS server problem
+---------------
+
+-------------------------
+NETSTAT COMMAND:
+---------------
+display network connections
+---------------
+~ * netstat
+---------------
+
+-------------------------
+TRACERT COMMAND:
+---------------
+display route taken to destination
+---------------
+~ * tracert
+~ * traceroute
+---------------
+
+-------------------------
+NSLOOKUP COMMAND:
+---------------
+query name server for destination domain info
+---------------
+~ * nslookup
+---------------
+
+-------------------------
+~ * ipconfig
+~ * ping
+~ * netstat
+~ * tracert
+~ * nslookup
+-----
+literally all command for a network engineer
+vis the MAN page of these, master it.
+---------------
+
+END.
+
+***********************************************
+***********************************************
+NETWORK DEVICES AND INITIAL CONFIGURATIONS:
+
+===============================================
+M1 = NETWORK DESIGN:
+
+=========================
+RELIABLE NETWORKS:
+
+---------------
+NETWORK ARCHITECTURE:
+-----
+internet gone down? no
+you just lost connection
+to it. haha...
+-----
+network -> range of apps, services
+-----
+-=- ~
+expectations:
+-> fault tolerance
+-> scalability
+-> QoS
+-> security
+-----
+* -=- ~
+these are needed when
+planning architecture
+-----
+
+---------------
+FAULT TOLERANCE:
+-----
+continue operation
+even if a component fail
+multiple paths = redundancy
+quick recovery
+-----
+- " packet-switched network "
+splits traffic into packets
+'route over shared network'
+packets -> different path to same destination
+alternative paths
+-----
+
+---------------
+SCALABILITY:
+-----
+expand quickly
+support new ones
+without degrading performance
+add easily to existing ones
+no need to design again
+-----
+
+---------------
+QUALITY OF SERVICE:
+-----
+voice, live video
+- ensure 'reliable' delivery
+congestion
+- traffic volume > bandwidth
+" hold packets in ~ memory "
+until resource available
+-----
+QoS policy ->
+manage data flow
+prioritize packets
+time sensitive traffic
+-----
+
+---------------
+NETWORK SECURITY:
+-----
+infra security
+info security
+[ infra, service, data ]
+- prevent unauthorized access
+- security measures
+-----
+confidentiality
+integrity
+availability
+-----
+the CIA
+-----
+
+=========================
+HIERARCHICAL NETWORK DESIGN:
+
+---------------
+PHYSICAL, LOGICAL ADDRESSES:
+-----
+your name usually don't change
+home address can change
+-----
+in a device,
+MAC = don't change
+physically assigned to host NIC
+IP = logical address
+based on where host located
+IP = network + host portion
+network part = same for all (Karuna Nagar)
+host part = unique in network
+-----
+-=- ~
+MAC + IP -> communicate on hierarchical network
+name + address -> send a letter
+-----
+
+---------------
+VIEW NETWORK INFO ON DEVICE:
+-----
+info from NIC in PC
+device -> wired + wireless NIC
+- network and sharing centre
+list of active connections
+adapter settings
+wired LAN connection
+wireless connection
+properties -> IP.
+status info of connection
+details...
+-----
+- NIC driver info status
+view in CLI
+-- ipconfig
+-- ipconfig /all
+find address of PC adapter...
+-----
+
+---------------
+VIEW WIRELESS, WIRED NIC INFO -=- LAB:
+-----
+
+---------------
+HIERARCHICAL ANALOGY:
+-----
+hierarchical way to pinpoint a location
+Earth -> Asia -> Russia -> Vladivostok
+-----
+host MAC ~ person name
+individual identity of a host
+" doesn't indicate where on network "
+locate host on network with MAC = insane
+-----
+can't locate me with my name
+but can with my address
+name = MAC, address = IP
+-----
+~ ethernet technology ->
+'more broadcast traffic to communicate'
+consume bandwidth, slow performance
+millions of host -> internet ->
+one ethernet network -> broadcast?
+rest in peace bro
+-----
+large ethernet network with
+many hosts = inefficient
+divide into smaller, manageable ones
+hierarchical design model.
+-----
+
+---------------
+HIERARCHICAL NETWORK DESIGN BEBEFITS:
+-----
+start in small size
+started a business,
+network is growing
+went out of ports!?
+-----
+grow 'organically'...
+not good, not secure.
+-----
+network architecture
+hierarchical design to save
+a "standard".
+organize network,
+'servers separated from user groups'
+also mission critical components
+separated groups...
+scalable
+-----
+* -=- ~
+-> access layer = entrance point to network
+-> distribution layer = interconnect access layers
+-> core layer = high speed processing
+-----
+plan before building
+-----
+-=- cisco switch 2960-XR in access layer
+-----
+message destined to local host
+network portion of IP verified
+message remains local.
+if destined to different layer,
+pass to 'distribution layer'.
+router/layer 3 switch.
+-----
+connection point to remote network
+control flow
+-=- cisco C9300 series
+-----
+-=- ~
+2 96 0
+C9300
+-----
+
+===============================================
+M2 = CLOUD AND VIRTUALIZATION:
+
+=========================
+CLOUD AND CLOUD SERVICES:
+
+-----
+lease services from providers
+less space, equipment, energy
+-----
+why buy a home when you can rent
+just imagine ROI is more...
+-----
+
+---------------
+CLOUD, VIRTUALIZATION:
+-----
+- data centres
+- cloud " computing " - [ SaaS, PaaS, IaaS ]
+- virtualization - type 1, type 2 hypervisor
+-----
+data centres:
+small/large facilities
+gives - [ power, cooling, bandwidth ]
+big companies -> afford private data centres
+give services to users.
+others -> lease space from a data centre
+-----
+CSP - cloud service providers:
+AWS, Azure, Cisco, open stack,
+GCP, rack space, IBM...
+-----
+cloud [models] = public + private
+public = services to general population
+private = service to specific entity
+-----
+cloud [services]:
+subscription model
+on demand service
+license, delivery
+SaaS = office 365, games... via browser
+'software is leased, not owned'
+PaaS = java for developers, DB, 'tools to developers'
+IaaS = virtual computing
+virtual servers, storage, networking
+-----
+excel, IDE, storage
+-----
+virtualization:
+[separate OS from hardware]
+share hardware
+using a hypervisor
+> type 1 - bare metal
+> type 2 - hosted
+-----
+T1 = " virtualization server "
+directly on hardware, then create OS...
+-----
+-=- ~
+KVM, red hat RHEV, Xen, citrix XenServer
+VMware ESXi, VMware cSphere, Hyper-V
+-----
+T2 = app program installed on top of host OS
+-----
+-=- ~
+virtual box, VMware workstation,
+parallels, virtual PC, Qemu
+-----
+virtual switching & routing
+-----
+virtual for another OS
+cloud to rent service.
+-----
+
+---------------
+TYPES OF CLOUDS:
+-----
+- public cloud
+- private cloud
+- hybrid cloud
+- community cloud
+-----
+
+---------------
+CLOUD COMPUTING AND VIRTUALIZATION:
+-----
+~ both used interchangeably
+but are different.
+-----
+'virtualization -> foundation of cloud'
+-----
+VMware -> "host OS" -> support "client OS"
+a virtualizing technology.
+-----
+virtualization:
+creating a virtual rather than physical version
+-----
+-=- ~ CPU, memory, NIC, disk
+-----
+web, email, SQL, file
+DHCP, AD, AAA radius, NMS
+[ -=- ~ AD in windows, AAA in Linux]
+-----
+single point of failure
+-----
+-=- ~ server sprawl:
+no of servers grow faster than
+the ability to manage them
+-----
+
+=========================
+VIRTUALIZATION:
+
+---------------
+ADVANTAGES:
+-----
+less equipment
+less energy
+less space needed...
+-----
+~ server consolidation?
+-----
+easier prototyping
+faster server provisioning
+increased server uptime
+improve disaster recovery
+legacy support
+-----
+
+---------------
+HYPERVISORS:
+-----
+~ hypervisor = [ program, firmware, hardware ]
+adds [abstraction layer on hardware]
+~ creates VM -> access hardware (CPU, mem,
+disk controllers, NIC).
+each virtual machine -> complete, separate OS
+-----
+install Linux in VM, explore GUI -=- LAB
+-----
+
+===============================================
+M3 = NUMBER SYSTEM:
+
+=========================
+INTRO:
+
+base 10 'decimal system'
+0-9
+-----
+base 12, 60...
+-----
+base 2 = binary system
+-----
+hexadecimal numbering system
+for IPv6, MAC.
+-----
+
+=========================
+BINARY NUMBER SYSTEM:
+
+---------------
+BINARY, IPv4 ADDRESSES:
+-----
+IPv4 starts as binary
+difficult to manage
+convert to decimal.
+-----
+network devices -> binary addressing
+binary = 0-1 = bits
+decimal = 0-9
+-----
+IPv4, octets, 32 bit address
+[ dotted decimal address ]
+-----
+convert binary -> dotted decimal
+base 2 -> base 10
+-----
+decimal to binary conversion
+128, 64, 32, 16, 8, 4, 2, 1
+2^(7,6,5,4,3,2,1,0)
+-----
+-=- https://learningnetwork.cisco.com/s/binary-game
+game?
+binary games?
+-----
+
+=========================
+HEXADECIMAL NUMBER SYSTEM:
+
+---------------
+HEXADECIMAL & IPv6:
+-----
+learnt IPv4
+binary to decimal, vice versa
+but IPv6!
+-----
+learn hexadecimal to decimal
+and vice versa.
+-----
+decimal = base 10
+hexadecimal = base 16
+0-9 + A-F
+-----
+0 = 0000 = 0
+10 = 1010 = A
+15 = 1111 = F
+-----
+easy to represent
+single hexadecimal digit than 4 binary bits.
+-----
+hexadecimal numbering system
+~> ethernet MAC address
+~> IPv6 address
+-----
+IPv6 = 128 bit address
+every 4 bits represented by 1 hexadecimal digit
+32 hexadecimal values
+not case sensitive
+format = x:x:x:x:x:x:x:x = 8x
+each x = 4 hexadecimal values
+8 bits in IPv4 = octet
+16 bits in IPv6 = hextet
+4 hexadecimal digits = 16 binary digits
+-----
+hexadecimal = 4 times binary?
+2 4 8 16
+-----
+
+---------------
+convert hexadecimal to decimal:
+-----
+16^1
+16^0
+-----
+2a =
+a*16^0
+2*16^1
+= 32 + 10
+42.
+then easily to binary...
+-----
+
+===============================================
+M4 = ETHERNET SWITCHING:
+
+=========================
+INTRODUCTION:
+
+network upgrade?
+can't afford downtime
+evaluate existing network
+understand what to do
+-----
+ethernet network = common
+" ethernet network with ethernet protocols "
+protocols -> define how data is
+" formatted, transmitted "
+over wired network
+specifies protocols on L1, L2 of OSI
+-----
+
+=========================
+ETHERNET:
+
+---------------
+RISE OF ETHERNET:
+-----
+early = own proprietary methods
+interconnect network devices, protocols
+different vendors with own ways
+can't communicate with different vendor device
+-----
+network become widespread
+need for " standards "
+-=- ~ defines rules by which
+network equipment from different vendors
+should work.
+-----
+-=- ~ use of standards:
+> promote competition
+> interconnection
+> training
+> vendor choices for customers
+> design
+> simple development
+-----
+no official LAN standard protocol
+ethernet  = more common than others
+ethernet = de facto standard
+almost all LAN
+-----
+-=- ~
+the alternatives
+that got buried:
+IBM NCR xerox DEC HP
+802.3 802.4 802.5
+802.3
+-----
+
+---------------
+ETHERNET EVOLUTION:
+-----
+IEEE = maintain network 'standards'
+- ethernet, wireless standards
+connections, requirements, protocols
+tech standard assigned a number
+refers to:
+'committee' responsible
+approve, maintain standard
+802.3 = ethernet standards.
+-----
+ethernet evolving from 1973
+802.3 -> 100BASE-T
+100 Megabit
+'baseband' connection
+twisted-pair cable
+-----
+earlier = 10 Mbps
+now = 10 Gbps
+reason for most used 'standard'
+~ 'evolution'
+-----
+-=- ~
+1973 -> ethernet -> at xerox
+DIX standard ethernet 2
+IEEE 802.3 10 BASE-5 - thick coaxial cable
+IEEE 802.3a 10 BASE-2 - thin coaxial cable
+IEEE 802.3i 10 BASE-T - twisted pair cable
+IEEE 802.3j 10 BASE-F - fibre optic cable
+IEEE 802.3u 100 BASE-xx - TP, fibre
+IEEE 802.3z 1000 BASE-X - fibre optic cable
+IEEE 802.3ab 1000 BASE-T - twisted pair
+IEEE 802.3ae 10G BASE-xx - fibre optic cable
+IEEE 802.3an 10G BASE-T - POE enhancements
+IEEE 802.3at(POE)
+100GbE, 40GbE - 100 or 40 G optical fibre
+2.5GBASE-T, 5GBASE-T - 2.5 or 5 Gb ethernet TP
+-----
+coaxial, TP, fibre optic, POE
+-----
+
+---------------
+ETHERNET ADDRESSING:
+-----
+Frame -> [ S MAC - D MAC - encapsulated data ]
+-----
+
+---------------
+DETERMINE MAC ADRS OF HOST -=- LAB
+-----
+-=- ipconfig/all
+'analyse, determine manufacturer'
+-----
+
+=========================
+ETHERNET FRAMES:
+
+---------------
+ETHERNET ENCAPSULATION:
+-----
+ethernet technology
+" MAC sublayer "
+ethernet frame fields
+-----
+ethernet is 1 of 2
+LAN technology used today
+other = " WLAN "
+-----
+ELAN - WLAN
+-----
+ethernet = wired communications
+twisted pair, fibre optic, coaxial cables
+-----
+ethernet operate at L2 of OSI
+family of network technologies defined in
+[ 802.2, 802.3 standards ]
+-----
+data bandwidth supported:
+10, 100 Mbps
+1, 10, 40, 100 Gbps
+(1000 Mbps = 1 Gbps)
+-----
+ethernet standards define
+L1, L2 protocols
+and technologies.
+-----
+-=- ~
+L2 -> 802.2 (LLC)
+L2 -> 802.3 (MAC)
+L1 -> 802.3
+-----
+802.2 above in OSI
+than 802.3
+-----
+
+---------------
+DATA LINK SUBLAYERS:
+-----
+~ IEEE 802 LAN/MAN protocols including ethernet
+2 separate sublayers of L2
+> logical link control
+> media access control
+-----
+controllers - MAC, LLC
+-----
+-=- LLC sublayer:
+IEEE 802.2 sublayer
+'logical link'
+'network software - device hardware'
+" ~ places info in frame "
+~ allows L3 protocols to use
+same network interface, media.
+-----
+-=- MAC sublayer:
+~ IEEE 802.3, 802.11, 802.15
+'implemented in ~ hardware'
+responsible for data encapsulation
+media access control
+gives data link layer addressing
+integrated with L1 technologies.
+-----
+-=- ~ 802.15 = WPAN
+Bluetooth, RFID...
+-----
+
+---------------
+MAC SUBLAYER:
+-----
+-=- data encapsulation
+-=- accessing media
+-----
+ethernet frame
+ethernet addressing - S, D MAC [ NIC to NIC ]
+FCS trailer for error detection
+-----
+legacy ethernet = bus topology, hubs
+shared, half duplex medium
+-----
+used CSMA/CD
+ensured only 1 transmit at a time
+CSMA/CD allows multiple devices to
+share same half-duplex medium.
+detect collision
+[back-off algorithm] for retransmission.
+-----
+today:
+switches -> full duplex
+no need CSMA/CD
+-----
+
+---------------
+ETHERNET FRAME FIELDS:
+-----
+-=- ~
+ethernet frame size
+min = [64 bytes]
+max = [1518 bytes]
+~ preamble field excluded for size...
+-----
+-=- " VLAN tagging " -> larger frame?
+-----
+frame < 64 bytes = collision fragment/runt frame
+frame > 1500 bytes = jumbo/baby giant frames
+-----
+less than min, more than max =
+auto dropped at receiver side
+drop = due to collision/ unwanted
+jumbo frames supported by FE, GE switches, NICs
+-----
+* -=- ~
+FIELDS OF ETHERNET FRAME: (bytes)
+~ frame = [ 64 - 1518 ]
+~ data = [ 46 - 1500 ]
+> FCS = 4
+> length = 2
+> MAC = 6+6
+> preamble = 7
+> SFD = 1
+-----
+-=- ~
+> preamble
+> start frame delimiter
+> S MAC
+> D MAC
+> data
+> length
+> frame check sequence.
+-----
+-=- preamble, SFD = synchronize between S, D
+-=- data field = encapsulated data from higher layer
+-=- FCS = detect errors in frame
+CRC in FCS field
+calculations match
+-=- small packet encapsulated = additional bits (pad) used
+for minimum needed size
+-----
+
+---------------
+TEST:
+-----
+Ethernet Type field:
+identify upper layer protocol
+encapsulated in eth frame
+-----
+'notify receiver' to get ready for new frame
+preamble
+-----
+MAC:
+> control access to media
+> error checks in received bits
+> CSMA/CD or CSMA/CA to
+support ethernet technology
+-----
+
+---------------
+VIEW TRAFFIC IN WIRESHARK -=- LAB
+-----
+analyse ARP data
+view ARP cache entries on PC
+-----
+
+---------------
+WIRESHARK -> EXAMINE FRAMES -=- LAB
+-----
+
+---------------
+* -=- ~
+examine ethernet "frame header fields ": --7
+> preamble - 7 byte
+> start frame delimiter - 1 byte
+> D adrs - 6 byte
+> S adrs - 6 byte
+> length - 2 byte
+> data - 46 to 1500 byte
+> frame check sequence - 4 byte
+-----
+
+=========================
+ETHERNET MAC ADDRESS:
+
+---------------
+MAC ADDRESS, HEXADECIMAL:
+-----
+IPv4 with decimal base 10
+IPv6, Ethernet address = base 16
+-----
+0   = 0000 0000 = 00
+10  = 0000 1010 = 0A
+128 = 1000 0000 = 80
+255 = 1111 1111 = FF
+-----
+F = 1111
+-----
+leading zeroes for complete 8 bit representation
+-----
+-=- ~
+'0x or 0x73'
+subscript 16
+63H (hex number, H)
+to represent
+hexadecimal number.
+-----
+decimal to hexadecimal?
+decimal -> binary -> hexadecimal
+-----
+
+---------------
+UNICAST MAC ADDRESS:
+-----
+-=- ~
+different MAC address for L2
+unicast, broadcast, multicast
+-----
+192.168.1.5 -> request web page -> 192.168.1.200
+[D IP in packet header]
+corresponding [D MAC at frame header]
+[combine] to deliver data to a specific host.
+-----
+find MAC with IP -> using [ARP or ND]
+S MAC must always be unicast.
+-----
+so that ARP reply can be sent to 1?
+-----
+
+---------------
+BROADCAST MAC ADDRESS:
+-----
+-=- D MAC = FF-FF-FF-FF-FF-FF
+48 ones in binary
+12F here. 12*4 = 48
+received, processed by all in ethernet LAN
+flood to all except incoming port
+-----
+if encapsulated data = IPv4 broadcast packet
+all 1s in host portion
+192.168.1.255
+encapsulated in ethernet frame with FF-FF-FF-FF-FF-FF
+DHCP for IPv4 uses ethernet, IPv4 broadcast addresses
+-----
+
+---------------
+MULTICAST MAC ADDRESS:
+-----
+receive, process by 'group' of devices
+in a LAN belonging to same multicast group
+-----
+* -=- ~ 01-00-5E ->  for IPv4 multicast packet
+* -=- ~ 33-33 -> for IPv6 multicast packet
+-----
+other reserved multicast D MAC address
+when encapsulated data is not IP
+like STP, LLDP.
+-----
+broadcasted unless switch
+configured for [multicast snooping]
+-=- ~ IGMP or MLD?
+-----
+router doesn't forward
+unless configured to route multicast packets.
+-----
+multicast group IP in range:
+-=- 224.0.0.0 to 239.255.255.255
+for IPv6:
+* -=- ~ begins with ff00::/8.
+ff00 group
+-----
+fe80 - link with locals - free 80 kss
+ff00 - multi cast - multi f0
+-----
+multicast address represent a group address
+only used as destination packet
+source = always unicast.
+-----
+routing protocols, other network protocols
+use multicast addressing
+-----
+multicast:
+IPv4
+IPv6
+MAC.
+-----
+
+---------------
+TEST:
+-----
+MAC info overloaded
+-----
+-=- ~ '01-00-5E'-00-00-C8 = IPv4 multicast
+00-07-E9-42-AC-28 = some unicast
+-=- ~ '33-33'-00-58-94-5C = IPv6 multicast
+-=- ~ 'FF-FF-FF-FF-FF-FF' = broadcast
+-----
+-=- ~ 224.0.0.0 to 239.255.255.255
+-=- ~ ff00::/8 = multicast group IP
+-----
+MAC multicast
+IP multicast.
+-----
+01-00-5E = IPv4 multicast packet
+33-33 = IPv6 multicast packet
+-----
+remember fe80, fffe, ff00?
+also class, link-local, loopback, multicast, classful address...
+unrelated but yes
+-----
+
+
+=========================
+THE MAC ADDRESS TABLE:
+
+---------------
+SWITCH FUNDAMENTALS:
+-----
+ethernet MAC addresses done
+how a switch use it to forward frames
+like hub = congestion = halt.
+-----
+L2 ethernet switch
+use L2 E MAC address
+make forwarding decisions
+[unaware of data portion of frame]
+~ packet, ARP message, ND packet
+-----
+examine its MAC address table
+make forwarding decision for each frame
+-----
+4 port switch just powered ON
+MAC address table is empty
+* -=- ~ content addressable memory ("CAM") table
+-----
+
+---------------
+SWITCH LEARNING, FORWARDING:
+-----
+dynamically builds MAC table
+learn + forward
+-----
+examine S MAC
+not there = add in table
+forward by matching in table
+every 5 minutes + reset
+[ MAC | switch port number ]
+-----
+D = unicast
+look for match
+in there = send to specified port
+no = forward to all port
+except incoming port.
+~ unknown unicast.
+frame = broadcast or multicast,
+flooded to all ports...
+-----
+check S MAC
+ok = send or add
+check D MAC
+ok = send or broadcast and add
+-----
+
+---------------
+FILTERING FRAMES:
+-----
+receives frame, populate MAC table
+by examining S MAC of entry frame
+if D MAC there = filter, forward...
+-----
+
+---------------
+MAC ADRS TABLES ON CONNECTED SWITCHES:
+-----
+-=- ~
+multiple MAC -> single port
+common with multiple switches
+separate MAC table for frames
+received with different S MAC
+-----
+2 connected switches
+with some connected hosts
+both switch's MAC table empty
+A wants to send packet to B
+A from S1 send frame with B's MAC
+S1 sees empty MAC table
+notes S MAC with port
+floods frame to all ports
+S2 also receives it
+see empty MAC table
+floods to all ports
+B accepts frame
+S1, S2 has notes S MAC.
+-----
+-=- ~
+see how much flooding
+that's why IP for
+higher address to search
+-----
+
+---------------
+SEND FRAME TO DG:
+-----
+IP address on remote network
+can't send frame directly
+sent to MAC address of DG (router)
+-----
+[S MAC already on table]
+switch refresh 5 min timer
+D no = flood to all ports
+D MAC != own MAC = drop frame
+-----
+router receives frame,
+compare with own MAC.
+match = accept frame.
+-----
+S MAC
+D MAC
+MAC table
+-----
+
+=========================
+TEST:
+
+-----
+data field in E frame:
+-=- [46 - 1500] bytes
+-----
+-=- ipconfig /all
+-----
+MAC = sublayer of ethernet
+control network access with
+CSMA/CD
+-----
+examine D MAC to forward data
+L2 device
+-----
+[runt frames] -> dropped
+-----
+on ethernet network,
+got a frame with unicast D MAC not matching own?
+discard it.
+-----
+
+===============================================
+M5 = NETWORK LAYER:
+
+=========================
+INTRODUCTION:
+
+-----
+network layer
+L3 in OSI
+gives services to devices to
+exchange data across networks
+IP (v4, v6) = L3 communication protocols
+-----
+-=- ~ operations:
+> address end devices
+> encapsulation
+> routing
+> de-encapsulation
+-----
+-=- ~
+address encapsulate route
+-----
+
+=========================
+NETWORK LAYER CHARACTERISTICS:
+
+---------------
+DATA ENCAPSULATION:
+-----
+-=-
+L7   -  HTTPS header + data
+L4   -  TCP header + data
+L3   -  IPv4 header + data
+L2   -  Ethernet header + data + trailer
+L1   -  frame encoded as bits
+-----
+[ protocol + data ]
+of a layer becomes data portion
+of next protocol.
+-----
+
+---------------
+NETWORK LAYER:
+-----
+exchange data across networks
+IPv4, IPv6, ICMP, OSPF
+at L3
+-----
+-=- ~ OSPF at L3?
+-----
+L4 'manage' data export between
+process running on each host
+IP (v4, v6) packet structure to
+carry data from 1 to another host
+-----
+-=- ~
+at L4:
+data encapsulated as segment/datagram
+packet -> encapsulate
+frame
+bits
+routing
+-----
+bit
+frame
+packet
+segment/datagram
+data
+-----
+
+---------------
+IP ENCAPSULATION:
+-----
+IP -> encapsulate transport layer segment
+with IP header
+IP header used to deliver packet
+to D host.
+-----
+[IP header | Data(segment header | data)]
+in () = transport layer PDU
+network layer PDU -> IP packet
+-----
+-=- ~
+[encapsulate data layer by layer]
+enables services at layers to develop
+without affecting others.
+-----
+~ IP header examined by L3 devices
+travels across networks
+-----
+-=- ~
+IP address info remains same
+except when performing NAT for IPv4
+-----
+router -> routing protocols
+-----
+
+---------------
+CHARACTERISTICS OF IP:
+-----
+-=- ~
+IP = protocol with [low overhead]
+necessary functions to deliver
+[can't track], manage flow of packets
+done by TCP at L4
+-----
+[connectionless]
+no established connection before sending packets
+-----
+[best effort]
+IP is unreliable. no guarantee
+-----
+[media independent]
+copper, fibre, wireless
+-----
+
+---------------
+CONNECTIONLESS:
+-----
+-=- ~
+no dedicated end to end connection created
+before sending data.
+letter -> mail box -> receiver
+-----
+no initial exchange of control information
+to establish connection
+-----
+[ IP header | segment ]
+-----
+
+---------------
+BEST EFFORT:
+-----
+no additional fields in header
+reduces overhead
+senders unaware if received
+some packets maybe be lost
+-----
+-=- ~
+ahh I see
+so IP header doesn't have
+any for connection but
+TCP header has right. Now
+you compare IP, TCP header
+-----
+
+---------------
+MEDIA INDEPENDENT:
+-----
+> no capability for packet retransmissions
+> packets are missing
+> out-of-order packets
+-----
+[ reliability is role of TCP at L4 ]
+-----
+[ signals over a medium travel
+over different media ]
+-----
+-=- ~
+maximum transmission unit (MTU)
+maximum size of PDU for medium to transport
+-----
+-=- L2 pass MTU value to L3
+L3 determine packet size
+-----
+-=- ~ fragmenting packet or fragmentation.
+causes latency
+[ router can fragment IPv4, not v6 ]
+-----
+
+=========================
+IPv4 PACKET:
+
+-----
+-=- ~ IPv4 HEADER FIELDS: --12
+> D IP
+> S IP
+> protocol
+> TTL
+> fragment offset
+> flag
+> identification
+> length
+> internet header length
+> header checksum
+> version
+> DS, DSCP, ECN
+-----
+* -=- ~ just remember:
+header checksum, header length,
+protocol, TTL, fragment offset,
+flag, length, ID, version.
+-----
+-> version = 4 bit = 0100 = IPv4 packet
+-> differentiated services [DS] = packet priority
+-> protocol = identify next level protocol
+[ICMP 1, TCP 6, UDP 17]
+-> header checksum = detect corruption
+-----
+Internet Header Length (IHL)
+Total Length
+Header Checksum
+-> fields to identify, validate packet
+-----
+Identification, Flags, Fragment Offset fields
+reorder fragmented packet.
+options, padding fields rarely used
+-----
+
+---------------
+SAMPLE IPv4 HEADERS:
+-----
+- click a packet
+- see the packet details
+- see the field values
+- analyse
+-----
+- control info
+header length
+etc...
+-----
+different packets
+HTTP GET request
+-=- TCP, SSDP, ICMP, DB-LSP
+packet size varies
+-----
+SSDP - simple service discovery protocol
+DB-LSP - dropbox LAN sync protocol
+-----
+
+=========================
+IPv6 PACKET:
+
+---------------
+IPv4 LIMITATIONS:
+-----
+address depletion
+lack of end to end connectivity (NAT)
+complexity
+-----
+
+---------------
+IPv6 OVERVIEW:
+-----
+1990 -> plan for replacement
+IPv6:
+-----
+more address space
+better [packet handling]
+[eliminates NAT]
+-----
+-=-
+4,294,967,296
+340,282,366,920,938,463,463,374,607,431,768,211,456
+-----
+1 billion = 10^9
+1 undecillion = 10^36
+-----
+-=- 4   billion addresses     = IPv4
+-=- 340 undecillion addresses = IPv6
+-----
+
+---------------
+IPv6 packet HEADER FIELDS: --8
+-----
+* -=- ~
+> S IP
+> D IP
+> version - 4 bit - 0110
+> hop limit
+> next header
+> payload length
+> flow label
+> traffic class
+-----
+-=- same as IPv4 =
+S IP, D IP, version
+-=- name, position changed =
+hop limit, next header, payload length, traffic class
+-=- new -> flow label = suggest all packet with same flow
+handled same by routers
+-----
+-=- traffic class = like IPv4 DS = packet priority
+[S class like?]
+-=- next header = IPv4 Protocol field
+data payload type
+-----
+-=- extension headers (EH)
+between IPv6 header and payload
+used for fragmentation, security, mobility.
+[routers do not fragment routed IPv6 packets]
+-=- [header = fixed 40 byte]
+-----
+
+---------------
+SAMPLE IPv6 HEADERS IN WIRESHARK:
+-----
+* -=- ~
+= GUA = 2001:6f8...
+protocol TCP, info http webserver connection
+-----
+header info smaller than v4
+-----
+ICMP v6 neighbour solicitation message
+-----
+* -=- ~
+-= LLA = fe80 [link local]
+-= EUI64 = fffe [I see]
+-= ff02 = multicast packet [ff00]
+-----
+-=- 2001: ?
+it is GUA
+-----
+
+===============================================
+M6 = IPv4 ADDRESS STRUCTURE:
+
+investigate the network
+use it until making upgrades
+create new hierarchical network
+which will use cloud services
+…?
+
+=========================
+IPv4 ADDRESS STRUCTURE:
+
+---------------
+NETWORK, HOST PORTIONS:
+-----
+32-bit hierarchical address
+host + network portion
+-----
+bits within host portion unique
+same network portion = in same network
+-----
+
+---------------
+SUBNET MASK:
+-----
+unique IPv4 address of host
+identify network/host portion of IPv4 address.
+-----
+-=- ipconfig
+-=- ncpa.cpl [win+r]
+-----
+want to reach remote networks?
+need DGA.
+DNS server IPv4 addresses
+for domain name to IP.
+-----
+192.168.10.10
+255.255.255.0
+-----
+ANDing -> identify portion of address
+on binary of course… 
+-----
+
+---------------
+PREFIX LENGTH:
+-----
+no of bits in subnet mask
+easier representation
+slash notation
+easier than dotted decimal subnet mask
+255.0.0.0 = /8
+255.255.255.252 = /30
+binary of course...
+-----
+
+---------------
+DETERMINE NETWORK: LOGICAL AND
+-----
+AND operation -> determine network address
+1 AND 1 = 1, rest = 0
+-----
+IPv4 host address
+subnet mask
+network address
+-----
+network address - 0
+broadcast address - 255
+1st usable address - 1
+last usable address - 254
+-----
+192.168.2.38/24
+network = 192.168.2.0
+first usable = 192.168.2.1
+last = 192.168.2.254
+broadcast = 192.168.2.255
+-----
+
+===============================================
+M7 = ADDRESS RESOLUTION:
+
+=========================
+ARP:
+
+---------------
+ARP OVERVIEW:
+-----
+map IPv4 to MAC
+-----
+IP - ARP - MAC
+-----
+send packet to a host on same LAN
+need IPv4, MAC address of D host.
+D IP known or resolved by device name
+but MAC should be discovered.
+use ARP, determine D MAC:
+-----
+functions:
+> resolve IPv4 to MAC
+> maintain table of IPv4 to MAC
+-----
+-=- ~ resolve & maintain table
+-----
+
+---------------
+ARP FUNCTIONS:
+-----
+packet sent to L2 -> encapsulate with frame
+refer 'table in memory', find MAC mapped to IPv4
+stored temporarily in RAM
+ARP table or ARP cache.
+-----
+D on same network = it's MAC
+D on remote network = DG's MAC
+-----
+need corresponding MAC for an IP in both cases
+-----
+'no entry in cache -> send ARP request'
+right one replies with their MAC
+-----
+
+---------------
+ARP OPS - ARP REQUEST:
+-----
+-=- ~
+ARP messages have
+type field of " 0x806 ".
+-----
+ARP requests are broadcasts
+-----
+D MAC not on ARP table of host?
+hold the packet
+send ARP request
+ARP reply with D MAC
+send
+-----
+
+---------------
+ARP OPS - ARP RESPONSE:
+-----
+only associated devices respond
+encapsulated in an Ethernet frame
+> DMAC
+> SMAC
+> type = type field of " 0x806 "
+tells receiving NIC that
+data portion of the frame needs
+to be passed to ARP process.
+-----
+no ARP reply -> packet dropped.
+-----
+static map entries in ARP table
+rare. do not expire over time.
+-----
+IPv6 -> ICMPv6 ND
+neighbour solicitation, advertisement messages
+similar to IPv4 ARP requests and ARP replies.
+-----
+
+---------------
+ARP ROLE IN REMOTE COMM:
+-----
+D IP not on same network
+D MAC -> DG MAC.
+see table or ARP request for it.
+-----
+every hop requires a MAC address
+-----
+
+---------------
+REMOVE ENTRIES FROM ARP TABLE:
+-----
+ARP cache timer
+remove ARP entries
+unused for a while
+timing differ for OS
+W OS -> 15-45 seconds
+-----
+-=- ~ commands to manually remove
+then it sends ARP request again
+> CIOS:
+-=- show ip arp
+> MW PC:
+-=- arp -a
+-----
+
+---------------
+ARP ISSUES:
+-----
+broadcasts
+~ spoofing
+-----
+more hosts in network
+broadcast slows network
+flooding local media
+-----
+~ ARP poisoning attack
+reply to an ARP request
+attacker -> ARP reply with own MAC
+send packets to threat actor
+-----
+-=- ~
+mitigate with:
+dynamic ARP inspection - [ DAI ]
+in enterprise level switches.
+-----
+
+---------------
+EXAMINE ARP TABLE -=- LAB
+-----
+examine ARP request
+examine switch MAC address table
+examine ARP process in remote comm
+-----
+
+---------------
+VIEW ARP TRAFFIC IN WIRESHARK -=- LAB
+-----
+Capture, analyse ARP Data in Wireshark
+View ARP cache entries on PC
+-----
+
+===============================================
+M8 = IP ADDRESSING SERVICES:
+
+=========================
+INTRODUCTION:
+
+---------------
+-=- nslookup
+verify status of
+[name servers]
+-----
+DNS, DHCP services?
+DNS protocol = automated service
+match resource name to IP
+DHCP instead static configuration
+so both automated ones?
+yes
+-----
+
+=========================
+DNS SERVICES:
+
+---------------
+DNS:
+-----
+* -=- ~
+client -> www.cisco.com -> DNS -> ip address
+OS -> 'local DNS cache'
+not there?
+-----
+query to local DNS (recursive DNS)
+not there?
+-----
+query root name server
+13 root name servers operated by 12 organizations
+750+ server instances around globe
+-----
+refers appropriate TLD server (.com, .org)
+sends TLD IP to local DNS
+-----
+TLD -> IP of authoritative servers
+DNS authoritative server needed
+cisco.com = authoritative server
+-----
+local DNS with IP of cisco.com
+query authoritative server
+for IP of www.cisco.com
+it has all domains for cisco.com
+-----
+like:
+www.cisco.com
+ftp.cisco.com
+developer.cisco.com
+mail.cisco.com
+-----
+local DNS adds in cache, serves the client
+-----
+client
+DNS cache
+local DNS or recursive DNS
+root name servers
+TLD server
+authoritative name server
+add to DNS cache
+-----
+
+---------------
+hard to remember all IP
+DNS good
+fully-qualified domain names (FQDNs)
+change numeric address also domain remains same
+just link new address to old name
+-----
+
+---------------
+DNS MESSAGE FORMAT:
+-----
+-=- ~
+stores resource records to resolve names
+name, address, type
+-----
+types:
+-=- A = end device IPv4 address
+-=- NS = authoritative name server
+-=- AAAA = end device IPv6 address
+-=- MX = mail exchange record
+-----
+
+---------------
+DNS HIERARCHY:
+-----
+DNS protocol -> hierarchical system database
+gives name resolution
+broken to small manageable ones
+-----
+root level domains
+top level domains
+second level domains
+target
+-----
+.
+.com
+cisco.com
+www.cisco.com
+-----
+
+---------------
+NSLOOKUP COMMAND:
+-----
+configure a network device
+1 or more DNS server adrs.
+ISP -> address to use DNS servers
+-----
+connect to a remote device by name
+DNS client -> query name server
+resolve name to numeric address.
+-----
+OS -> nslookup utility
+manually query [name servers]
+resolve a given host name.
+troubleshoot name resolution issues
+verify current status of name server
+-----
+-=- nslookup
+default DNS server
+name of a host or domain at prompt
+> www.cisco.com
+> cisco.netacad.net
+-----
+at first shows all name-ip table
+manually enter domain, get IP.
+-----
+do it directly
+-=- nslookup www.google.com
+
+=========================
+DHCP services:
+
+---------------
+INTRODUCTION:
+-----
+DHCP for IPv4 automate assigning
+IPv4 address, subnet mask, gateways
+other IPv4 networking parameters.
+-----
+dynamic addressing
+there is also static addressing (a pain)
+-----
+host connect to network
+contact DHCP server
+request address
+gets address from pool/range, assigns in lease
+-----
+changes frequently -> prefer DHCP
+for configurable period of time (lease period)
+expire -> DHCPRELEASE message -> address return to pool
+reused to new ones
+-----
+-=- ~ DHCP release = expired
+-----
+PC based server too
+local router mostly
+-----
+local DHCP server (enterprise network)
+router DHCP server
+ISP DHCP server (internet)
+DHCP server (SOHO)
+-----
+use both static, DHCP
+DHCP for general purpose hosts
+static -> gateway routers, switches, servers, and printers.
+-----
+-=- ~ DHCPv6
+[does not provide DGA]
+obtained dynamically from
+[RA message]
+-----
+IPv6
+get DGA from RA, not DHCP
+-----
+
+---------------
+DHCP OPS IN HOME ROUTER:
+-----
+get addressing info automatically
+DHCP for IPv4, IPv6
+both different but result is same
+-----
+home router -> embedded ethernet switch
+-----
+configure DHCP server:
+> pool range
+> subnet mask
+> DGA
+> DNS server
+-----
+ethernet broadcast
+for IPv4 address.
+-----
+ISP's DHCP server -> home router -> hosts
+-----
+
+---------------
+DHCP MESSAGES:
+-----
+-=-
+operation DORA
+discover, offer, request, acknowledge
+-----
+'multiple offer'
+if more DHCP server in network
+choose 1, send request
+lease offer that client is accepting
+-----
+-=- ~ DHCP NAK = [negative acknowledgement]
+begin with new discover message
+lease, renew prior to lease expiry
+with another request.
+-----
+~ DHCPv6 =
+> SOLICIT
+> ADVERTISE
+> INFORMATION REQUEST
+> REPLY
+-----
+~ SAIR
+SA as we know from RS, RA
+then comes request, reply
+-----
+
+===============================================
+M9 = TRANSPORT LAYER:
+
+=========================
+TRANSPORTION OF DATA:
+
+---------------
+ROLE OF TRANSPORT LAYER:
+-----
+'L7 programs generate data'
+exchanged between hosts.
+-----
+-=- ~ L4 for
+[logical communications between apps]
+running on hosts.
+establish [temporary session]
+'reliable transmission' of info.
+-----
+L4 = link between L7 & lower layers
+responsible for network transmission.
+-----
+no knowledge of D host type,
+media type, path taken, congestion, size
+-----
+L4 protocols:
+> TCP
+> UDP
+-----
+
+---------------
+TRANSPORT LAYER RESPONSIBILITIES:
+-----
+> track individual convo
+> segment data
+> reassemble segments
+> add header info
+> [identify apps]
+> convo multiplexing
+-----
+target application identifier:
+port number
+separate, manage multiple communications
+-----
+-=- ~
+531 = chat
+80 = HTTP
+110 = email
+-----
+chat 531!
+-----
+
+---------------
+TRANSPORT LAYER PROTOCOLS:
+-----
+IP -> structure, address, routing
+'not how delivery takes place'.
+-----
+L4 protocols specify how to transfer
+'manage reliability' requirements
+-----
+FTP HTTP SMTP DNS | DNS TFTP
+TCP | UDP
+IP
+LAN | WAN
+-----
+* -=- ~ TCP/IP suite visuals
+-----
+
+---------------
+TCP:
+-----
+reliable, full-featured
+ensures all arrived
+fields that ensure delivery
+additional processing
+-----
+TCP divides data
+into 'segments'.
+-----
+number, track segments
+ack received data
+retransmit un ack data after a time
+sequence data if in wrong order
+efficient rate accepted by receiver
+-----
+TCP establish connection between C, S
+connection-oriented protocol.
+-----
+
+---------------
+UDP:
+-----
+simpler than TCP
+no reliability and flow control
+fewer header fields
+processed faster
+little overhead and data checking.
+-----
+data into 'datagrams'
+referred as segments.
+-----
+connectionless protocol
+stateless protocol.
+" best-effort delivery "
+protocol and
+no acknowledgment.
+-----
+UDP = letter in mail
+just send
+no idea if it's
+received or not
+-----
+TCP =
+hello kekudha?
+haan kekudhu..
+only then
+story starts
+-----
+
+---------------
+RIGHT L4 PROTOCOL TO CHOOSE:
+-----
+video call = UDP
+transactions = TCP
+-----
+UDP for VoIP
+request-and-reply applications
+-----
+some needs in original 'condition'
+some just needs to be 'fast'
+-----
+TCP = VoIP, DNS
+UDP = SMTP/IMAP, HTTP/HTTPS
+-----
+
+=========================
+TCP, UDP OVERVIEW:
+
+---------------
+FEATURES:
+-----
+> specific reliability features
+> how it tracks conversations..
+-----
+TCP:
+session
+reliable delivery
+same order delivery
+flow control
+-----
+TCP HEADER:
+stateful protocol
+track state of a session
+establish, terminate session
+-----
+TCP HEADER FIELDS:
+* -=- ~
+> S port
+> D port
+> sequence number
+> ack number
+> header length
+> reserved
+> control bits
+> window
+> checksum
+> urgent
+> options
+> app layer data
+-----
+PORT = 16 bit
+sequence, acknowledge number = 32 bit
+-----
+TCP:
+= HTTP
+= FTP
+= SMTP
+= SSH
+-----
+UDP:
+lightweight
+same data segmentation, reassembly
+without reliability, flow control.
+-----
+data reconstructed in order received
+segment lost not resent
+'no session' establishment
+not informed about resource availability
+RFC in internet for UDP
+-----
+UDP header:
+none track comm state
+if UDP, 'app should handle reliability' -=-
+can tolerate some data loss
+-----
+UDP HEADER FIELDS:
+* -=- ~
+> source port
+> destination port
+> length
+> checksum
+> app layer data
+-----
+all 16 bit
+-----
+
+---------------
+APPS THAT USE UDP:
+-----
+live video, multimedia apps:
+VoIP
+-----
+'simple request, reply apps':
+DNS, DHCP
+-----
+-=-
+apps that 'handle reliability themselves':
+SNMP, TFTP
+-----
+SNMP
+TFTP
+VoIP
+DNS
+DHCP
+video conferencing
+-----
+
+=========================
+PORT NUMBERS:
+
+-----
+source port number is dynamically generated
+to uniquely identify the conversation.
+-----
+allows multiple conversations to occur simultaneously.
+D port identifies type of service
+service type requested of D web server.
+-----
+D port identifies service type.
+client specify port 80 in D port
+server receives message knows web services requested
+-----
+
+---------------
+SOCKET PAIRS:
+-----
+S, D ports placed in segment
+encapsulated within IP packet
+socket = IP + port
+-----
+header (D MAC, S MAC), data(S IP, D IP, S port, D port, data), trailer
+[FRAME]
+-----
+192.168.1.5:1099
+socket on a web server might be 192.168.1.7:80
+-----
+
+---------------
+PORT NUMBERS GROUPS:
+-----
+[IANA] - internet assigned numbers authority
+-----
+-=- well known ports = 0 to 1023: (politicians)
+reserved, popular
+-----
+-=- registered ports = 1024 to 49151: (business)
+requesting entity to use with specific apps
+-----
+-=- ~ [ cisco = "1812" for RADIUS server ]
+-----
+-=- private/dynamic ports = 49152 to 65635 (citizens)
+-----
+client's OS
+some client OS with registered port number
+-----
+* -=- ~
+popular PORTS to remember
+20  - TCP - FTP data
+21  - TCP - FTP control
+22  - TCP - SSH
+23  - TCP - telnet
+25  - TCP - SMTP *
+53  - TCP UDP - DNS *
+67  - UDP - DHCP server *
+68  - UDP - DHCP client
+69  - UDP - TFTP *
+80  - TCP - HTTP
+110 - TCP - POP3
+143 - TCP - IMAP
+161 - UDP - SNMP *
+443 - TCP - HTTPS
+-----
+-=- ~
+25, 110, 143 = mail
+53, 67, 68 = DNS, DHCP
+69 = TFTP
+-----
+1812 - cisco RADIUS *
+-----
+some apps use both TCP, UDP
+DNS client send request to server
+communication between
+2 DNS servers always uses TCP.
+-----
+DNS:
+client - UDP - server
+server - TCP - server
+-----
+
+---------------
+NETSTAT COMMAND:
+-----
+unexplained TCP connection = THREAT!
+someone is connected to local host.
+know which active TCP connections
+-=- netstat
+-=- netstat -n
+-----
+
+=========================
+TCP COMMUNICATION PROCESS:
+
+---------------
+TCP SERVER PROCESSES:
+-----
+> TCP three-way handshake (3-way)
+> session termination processes
+-----
+app process running on server
+configured to use port number
+-----
+2 services on same port number = no
+active server app
+assigned to a port number = open
+processes segments addressed to that port
+many ports open simultaneously on server
+one for each active server application.
+-----
+
+---------------
+TCP CONNECTION ESTABLISHMENT:
+-----
+SYN
+ACK SYN
+ACK
+3 way handshake
+-----
+hi!
+heard it, hi!
+heard it.
+-----
+
+---------------
+SESSION TERMINATION:
+-----
+close a connection
+'FIN' control flag
+set in segment header
+-----
+4 exchanges to end session
+FIN-c  ACK-r  FIN-r  ACK-c
+4 way handshake to end...?
+-=- FAFA
+-----
+
+---------------
+TCP 3 WAY HANDSHAKE ANALYSIS:
+-----
+maintain state, track each segment
+within a session.
+exchange info about data received
+with info in TCP header.
+-----
+TCP - 'full-duplex protocol'
+each connection represents
+2 one-way comm sessions.
+establish = 3 way handshake
+-----
+control bits in TCP header indicate
+progress, status of connection.
+TCP header field.
+-----
+-=- ~
+control bits:
+> SYN
+> FIN
+> ACK
+> URG
+> PSH
+> RST
+-----
+start: syn, ack
+end: fin, ack.
+urge to push and reset
+-----
+establish 3 way handshake
+close = two 2 way handshake = 4
+-----
+one way, two way
+start, end...
+-----
+-=- ~
+" TCP hijacking " attacks
+explore in Wireshark.
+-----
+
+=========================
+RELIABILITY AND FLOW CONTROL:
+
+-----
+TCP Reliability - Guaranteed and Ordered Delivery
+-----
+TCP Reliability - Sequence Numbers and Acknowledgments
+-----
+TCP Reliability - Data Loss and Retransmission
+-----
+TCP Flow Control - Window Size and Acknowledgments
+-----
+TCP Flow Control - Maximum Segment Size (MSS)
+-----
+TCP Flow Control - Congestion Avoidance
+-----
+
+=========================
+UDP COMMUNICATION:
+
+-----
+UDP low overhead versus reliability
+-----
+UDP datagram reassembly
+-----
+UDP server processes and requests
+-----
+UDP client processes
+-----
+
+===============================================
+M12 = ICMP:
+
+=========================
+ICMP MESSAGES:
+
+---------------
+ICMPv4 AND ICMPv6 MESAGES:
+----
+different types of ICMP
+tools use to send them.
+----
+IP = best effort protocol
+TCP/IP suite gives error, info messages
+[sent with ICMP services]
+for [feedback] of issues
+related to packet processing
+[won't make them reliable]
+[often not required]
+blocked for security reasons
+-----
+-=- ~
+> ICMPv4 = [messaging protocol]
+> ICMPv6 = additional functions
+-----
+~ some common ICMP messages:
+> host reachability
+> D or S unreachable
+> time exceeded
+----
+reachable? nah? time up!
+-----
+
+---------------
+HOST RECHABILITY:
+----
+ICMP [echo] message
+test reachability
+if there, echo reply
+-- ping host-ip
+----
+
+---------------
+D or S UNREACHABLE:
+----
+got a packet it can't deliver?
+ICMP D unreachable message
+notify source about it
+-----
+* -=- ~
+D unreachable codes for ICMPv4:
+0 - net unreachable
+1 - host unreachable
+2 - protocol unreachable
+3 - port unreachable
+-----
+net - host - protocol - port
+0 1 2 3
+ex: switch PC https 443
+-----
+* -=- ~
+D unreachable codes for ICMPv6:
+0 - no route to D
+1 - admin prohibited (firewall)
+2 - beyond S address scope
+3 - address unreachable
+4 - port unreachable
+----
+no way
+she blocked me
+too far
+can't go (adrs, port)
+-=- ~
+0 1 2 3 4
+-----
+
+---------------
+TIME EXCEEDED:
+----
+sent by router
+TTL decremented to 0
+packet discarded
+time exceeded message
+to host
+-----
+ICMPv6 also does
+but instead TTL
+hop limit field
+determine packet expiry
+-----
+used by traceroute tool
+----
+
+---------------
+ICMPv6 MESSAGES:
+----
+[informational]
+error messages
+same in v4, v6
+v6 has [extras]
+-----
+ICMPv6 encapsulated in IPv6
+IPv6 (ICMPv6)
+[4 new protocols] included
+as part of '~NDP':
+-----
+[IPv6 router - IPv6 device]
+dynamic address allocation
+messages:
+~> router solicitation - RS
+~> router advertisement - RA
+-----
+[between IPv6 devices]
+-> duplicate address detection
+messages:
+~> neighbour solicitation - NS
+~> neighbour advertisement - NA
+-----
+ICMPv6 ND has
+redirect message
+similar in ICMPv4
+-----
+-=- RA:
+IPv6 enabled routers
+every 200 seconds
+gives addressing info
+prefix, prefix length, DNS address, domain name
+host using " SLAAC " sets DG to
+LLA of router that sent RA.
+R1 -> RA message:
+-----
+hi, I'm R1. use SLAAC, create IPv6 global unicast address
+prefix = 2001:db8:acad:1::/64
+use my link-local address fe80::1 as your default gateway.
+fe80? well that's a link local address
+-----
+-=- RS:
+router send [RA in response to RS]
+PC1 -> RS message
+determine how to get IPv6 dynamically
+-----
+hi, I just booted up. is there a router?
+how to get my IP address dynamically
+R1 -> RA message as response.
+-----
+-=- NS:
+device assigned with IPv6 GUA or LLUA
+does ~ duplicate address detection - [DAD]
+ensure it is unique
+PC -> NS message with own IP
+if another PC with same address,
+NA message sent to NS source
+if no NA received in a certain time
+unicast address is unique, use it.
+-----
+who has IPv6 address 2001:db8...
+send me your MAC address
+-----
+-=- NA:
+address resolution used when
+host knows D IPv6 unicast address
+but not D MAC address.
+host -> NS message to
+solicited node address
+includes target IPv6
+target responds with NA message
+it has D MAC address
+-----
+-=- ~
+so RS, RA for it's address
+and NS, NA for D MAC...
+-----
+
+---------------
+same in both ICMPv4, v6:
+-----
+D, or S unreachable
+time exceeded
+----
+
+=========================
+PING AND TRACEROUTE TESTING:
+
+---------------
+PING - TEST CONNECTIVITY:
+-----
+situations in which
+ping, tracert used.
+ping = [IP testing utility]
+uses ICMP echo request-reply
+test connectivity.
+-----
+test connectivity with
+another host on network
+echo reply
+feedback of time taken
+measure network performance
+-----
+timeout value for reply
+indicate problem
+indicate security feature blocking
+common for 1st ping to timeout
+if ARP or ND before echo request
+-----
+gives summary with success rate
+average round-trip time
+-----
+ping local loopback
+ping default gateway
+ping remote host
+-----
+
+---------------
+PING LOOPBACK:
+-----
+-=- ~
+test internal configuration
+-=- ping 127.0.0.1
+-=- ping ::1
+tests IP down through network layer of IP
+error = TCP/IP not operational on host...
+-----
+ping self
+-----
+-=- ~
+loopback = self = 127, ::1
+link local, do one 69
+-----
+fe80, ff0, 2001, ?
+now ::1
+-----
+
+---------------
+PING DEFAULT GATEWAY:
+-----
+test ability of host to
+communicate on LAN
+indicates that host, gateway
+both operational on LAN
+-----
+DGA used because router always operational
+if DGA doesn't respond,
+ping another operational host on LAN
+-----
+if DGA fails, other host succeeds
+indicates router has problem
+at interface facing DG.
+-----
+wrong DGA?
+security block?
+-----
+
+---------------
+PING REMOTE HOST:
+-----
+test local host's ability to
+communicate across internet.
+ping operational IPv4 on remote network
+router -> IP routing table
+forward packets
+-----
+can learn a lot from this:
+self is working
+LAN router is working
+D router is working
+D host is working
+D host is connected to internet
+-----
+limit or prohibit entry of ICMP
+messages into corporate network
+security restrictions
+-----
+
+---------------
+TRACEROUTE - TEST THE PATH:
+-----
+ping:
+[test connectivity] between two hosts
+but won't provide:
+details of devices between the hosts
+tracert = utility
+generates [list of hops]
+verification, troubleshooting info.
+-----
+data fails at some hop along the way?
+find where the problem is
+security restrictions...
+-----
+round trip time (RTT):
+round-trip time for each hop along path
+indicates if a hop fails to respond
+time a packet takes to reach remote host
+respond to source host.
+-----
+locate a problematic router in path
+router is configured not to reply?
+high response times or data losses
+at a particular hop,
+resources of router or connections stressed...
+-----
+hop limit:
+TTL field in IPv4
+Hop Limit field in IPv6
+in the Layer 3 headers
+with ICMP Time
+Exceeded message.
+-----
+Traceroute has address of first hop
+progressively increments TTL field
+destination reached,
+host responds with either ICMP
+Port Unreachable or Echo Reply message
+not Time Exceeded message.
+-----
+
+---------------
+VERIFY IPv4, v6 ADDRESSING -=- LAB
+-----
+
+---------------
+USE PING, TRACEROUTE. TEST NETWORK CONNECTIVITY -=- LAB
+-----
+
+---------------
+USE ICMP. TEST , CORRECT NETWORK CONNECTIVITY -=- LAB
+-----
+
+***********************************************
+***********************************************
+NETWORK ADDRESSING AND BASIC TROUBLESHOOTING:
+
+===============================================
+M1 = PHYSICAL LAYER:
+
+=========================
+PURPOSE OF PHYSICAL LAYER:
+
+---------------
+PHYSCAL CONNECTION:
+-----
+connect to local printer
+connect to global website
+-----
+before that
+need physical connection to LAN
+wired with cable or
+wireless with radio waves
+-----
+[type depends on setup]
+corporate office with wired
+colleges with wireless...
+~ shared switch / WAP
+or wireless router:
+-----
+-=- ~ components of APs:
+> wireless antennas
+> ethernet switch ports
+> internet port
+lights, power cable too
+-----
+NIC:
+connect a device to network
+~ ethernet NIC -> wired connection
+~ WLAN NIC -> wireless connection
+-----
+[host can include both NIC types]
+network printer may have E NIC only
+smartphone with only WLAN NIC
+performance varies...
+-----
+
+---------------
+PHYSICAL LAYER:
+-----
+L1:
+transport L2 frame as bits
+across network media.
+accept a frame, " encode " it as
+series of signals
+transmit to local media.
+-----
+encapsulation process
+[ frame -> encode -> bits ]
+~ [ electric, optic, radio ] signals.
+represent bits of a frame
+-----
+signals sent over media
+one at a time.
+-----
+L1 of destination host
+~ restore the bits
+pass to L2 as complete frame
+-----
+ethernet | IP | TCP | Data
+ethernet frame | IP packet | TCP segment | user data
+-----
+* -=- ~
+server -> data field -> load a website
+becomes segment, packet, frame, bit
+along d way, reverse process at client
+-----
+
+=========================
+PHYSICAL LAYER CHARACTERISTICS:
+
+---------------
+PHYSICAL LAYER STANDARDS:
+-----
+high level overview done.
+[into specifics of L1]
+components, media, standards
+-----
+-=- ~
+protocols, operations
+of upper layers done with
+software by engineers.
+services, protocols in TCP/IP suite
+defined by IETF.
+-----
+-=- ~ L1 has:
+-> electronic circuitry
+-> media
+-> connectors
+developed by engineers.
+needs relevant standards
+by various entities...
+-----
+-=- ~ [ hardware, media, encoding, signalling ]
+standards defined, governed by:
+-=- [ ISO, IEEE, ANSI/TIA, ITU ]
+FTC, ETSI.
+-----
+regional cabling standards groups;
+CSA, CENELEC, JSA/JIS
+local specifications...
+-----
+-=- ~ TCP/IP standards implemented in software
+governed by [ IETF ].
+L1 standards implemented in hardware
+governed by many orgs:
+[ ISO, ANSI/TIA, ITU-T, IEEE ]
+-----
+['task force' taken care of software]
+[rest must take care of hardware]
+-----
+
+---------------
+PHYSICAL COMPONENTS:
+-----
+-=- ~ standards address these:
+> physical components
+-> [encoding]
+-> [signalling]
+-----
+physical components:
+electrical hardware
+[ devices, media, connectors ]
+[ example: switch, UTP, RJ45 ]
+transmit bits as signals.
+-----
+IC, interface, connectors, cable materials,
+cable designs specified in standards.
+-----
+ports, interfaces on " C1941 " router = example.
+specific connectors, pinouts from
+standards.
+-----
+
+---------------
+ENCODING:
+-----
+or "line coding" = method to
+-=- ~
+" convert stream of data bits into predefined code ".
+( data bit stream -> pre-defined code )
+[ bit -> code ]
+-----
+~ codes = grouping of bits = not that code
+~ encoding = method/pattern
+[ group bits with a pattern ]
+[ bit -> pattern -> group = encoding ]
+-----
+represent digital info
+similar to ~ [ morse code ]
+encode message with dots, dashes.
+-----
+~ [ Manchester encoding ]:
+0 bit = high to low volt
+1 bit = low to high volt
+transition at middle of each bit period
+[if more complex encoding = faster]
+-----
+10BASE-T used in old Ethernet standard
+Ethernet 100BASE-TX uses " 4B/5B " encoding
+1000BASE-T uses " 8B/10B " encoding.
+-----
+4B 5B 8B 10B
+-----
+
+---------------
+SIGNALLING:
+-----
+L1 -> generate electric/optic/wireless
+~ signals -> represent 1/0 on media
+-----
+standards -> define
+which signal represent 1, which = 0
+-----
+change in level of
+electrical signal or optical pulse.
+example:
+a long pulse might represent a 1
+a short pulse might represent a 0.
+-----
+-=-
+signalling method in Morse code
+series of on-off tones, lights, clicks
+send text over telephone wires
+or between ships at sea.
+-----
+-=-
+electrical signals over copper cable
+time on x axis, voltage on y axis
+-----
+light pulses over fibre-optic cable
+pulses over time
+-----
+-=- ~
+microwave signals in the air
+time on x axis
+[ digi signal/AM/FM/PM ] (voltage) on y axis
+-----
+
+---------------
+BANDWIDTH:
+-----
+data amount that can be
+transmitted, received
+at specific period of time
+measured in bps
+-----
+~ bit's speed depends on medium.
+speed of light in fibre optic
+-----
+-=-
+speed of electric pulse is
+2/3 of light
+-----
+bits speed depends on physical medium
+~ but number of bits sent varies.
+[speed of one, number of bits]
+-----
+same medium, 1 bps = 10 bits in 10 seconds
+same medium, 2 bps = 10 bits in 05 seconds
+increased bandwidth
+-----
+10Mbps, 100 Mbps ethernet
+bits sent in [speed of electricity]
+difference = number of bps.
+-----
+determines bandwidth:
+> physical media property
+> technology chosen to signal, detect signal
+> laws of physics
+-----
+bps = 10^0 = 1
+Kbps = 10^3
+Mbps = 10^6 = millions of bits/sec
+Gbps = 10^9 = billions of bits/sec
+Tbps = 10^12 = trillions bits/sec
+-----
+kilo mega giga tera
+-----
+
+---------------
+BANDWIDTH TERMINOLOGY:
+-----
+> latency
+> throughput
+> goodput
+-----
+latency:
+time taken to travel
+for data from A to B
+includes delays.
+in internetwork or
+network with multiple segments
+throughput < slowest link in
+path from S to D.
+even if most of the segments
+have high bandwidth
+one segment with
+low throughput in path
+creates bottleneck in throughput
+of entire network.
+-----
+throughput:
+~ measure of bits transfer
+across media oven a given
+period of time.
+throughput < bandwidth.
+factors:
+> traffic amount
+> traffic type
+> latency.
+online speed tests to reveal throughput
+-----
+goodput:
+~ assess transfer of usable data
+[ throughput - traffic overhead ]
+-----
+traffic overhead:
+establish sessions, ack, encapsulate, retransmit
+-----
+goodput < throughput < bandwidth.
+-----
+
+=========================
+COPPER CABLING:
+
+---------------
+CHARACTERISTICS:
+-----
+common cabling type
+three different types in it
+used in specific situations.
+-----
+> inexpensive
+> easy installation
+> low resistance to current
+-----
+limits =
+> distance
+> interference
+-----
+data -> electrical pulses
+~ detector -> receive -> decode
+detector in D NIC.
+signal -> deteriorate with distance
+-=- ~ signal attenuation **
+copper media = follow strict distance limitations
+specified by guiding standards.
+-----
+[time, volt] values susceptible to interference
+from:
+~> EMI/RFI
+corrupt data signals
+fluorescent lights or electric motors.
+~> crosstalk
+adjacent wires
+current flow through wire,
+creates small circular magnetic field
+picked up by adjacent wire.
+-----
+pure digital signal
+interference signal
+signal corrupted
+received changed signal
+~ some 0s became 1,
+~ some 1s became 0.
+-----
+- counter EMI/RFI:
+> wrap in metal shield
+> proper grounding.
+-----
+- counter crosstalk:
+> twisted pairs -> opposing circuit
+-----
+-=- ~
+twist -> stop cross talk
+wrap -> stop interference
+-----
+cable according to environment
+cable infrastructure design
+proper handling, termination
+-----
+
+---------------
+COPPER CABLE TYPES:
+-----
+[UTP, STP, coaxial]
+-----
+
+---------------
+UTP:
+-----
+most common network media
+terminated with "RJ45 connectors"
+interconnect network hosts
+intermediary network devices
+-----
+in LAN,
+UTP cable -> 4 pairs
+colour coded, twisted wires
+encased in plastic.
+-----
+
+---------------
+STP:
+-----
+noise protection = STP > UTP
+expensive, difficult to install.
+uses [ RJ-45 ] connector.
+-----
+shielding -> counter EMI, RFI
+twisting -> counter crosstalk
+terminate with:
+shielded STP data connectors.
+-----
+twist the cross talkers
+shield the interference
+-----
+cable not grounded properly:
+shield act as " antenna ",
+picks up unwanted signals.
+-----
+outer jacket
+foil shield*
+foil shield for each*
+twisted pairs
+-----
+
+---------------
+COAXIAL CABLE:
+-----
+[coax] in short
+[2 conductors share same axis]
+-----
+copper conductor, transmit signals
+flexible plastic insulation
+surrounded in a woven copper braid
+second wire in circuit
+shield for inner conductor
+cable jacket:
+prevent minor physical damage.
+-----
+different types of connectors:
+-=- BNC
+-=- N type
+-=- F type
+-----
+UTP replaced coax in
+ethernet installations
+still used in:
+[ wireless installations ]
+[ cable internet installations ]
+-----
+-=- ~ coaxial cable -> radio frequency
+between [ antenna to radio equipment ]
+(that stick processor?)
+-----
+-=- ~
+cable service providers
+replace portions of coaxial cable
+supporting amplification elements
+with fibre-optic cable
+wiring inside customer's premises
+still coax cable.
+-----
+outer jacket
+braided copper shielding
+plastic insulation
+copper conductor
+-----
+
+---------------
+TEST:
+-----
+coaxial cable =
+attaches antennas to wireless devices.
+-----
+bundle with fibre-optic cable for
+2-way data transmission.
+-----
+
+=========================
+UTP CABLING:
+
+---------------
+PROPERTIES:
+-----
+UTP -> 4 pairs
+colour coded copper wires
+twisted together
+encased in flexible plastic sheath.
+small in size.
+-----
+[no shielding to counter EMI]
+[ need shield for EMI ]
+-----
+other ways to counter it:
+-=- cancellation:
+pair wires in circuit
+magnetic fields exact opposite
+fields cancel
+cancel any outside
+EMI, RFI signals.
+-=- varying number of twists:
+no of twists per metre
+orange pair twisted less than blue...
+-----
+cancellation effect
+self-shielding for wire
+limit signal degradation
+twist limit
+-----
+
+---------------
+STANDARDS, CONNECTORS:
+-----
+ANSI/TIA
+~ ANSI/TIA-568
+cabling standards for LAN installations
+-----
+Cable:
+types, lengths,
+connectors, termination
+cable testing methods
+-----
+~ IEEE:
+electrical characteristics of copper cabling
+rate cable according to performance
+categorized on ability to carry high bandwidth rates
+example:
+category 5 cable
+100BASE-TX
+fast ethernet installations.
+others = 5e, 6, 6a.
+----
+higher category cable
+higher data rates.
+gigabit speed Ethernet technologies
+-----
+cat 3 = voice comm, later for data transmission
+cat 5, 5e = 100Mbps, 1000Mbps
+cat 6 = separator between each pair for speed
+10 Gbps
+cat 7 = 10 Gbps
+cat 8 = 40 Gbps
+-----
+some makers exceed ANSI/TIA cat 6a specifications
+referred as cat 7...
+-----
+cat 3 = 4 pairs without a twist
+cat 5 = UTP
+cat 6 = STP
+-----
+ANSI/TIA-568 standard
+describes pinouts for ethernet cables
+" RJ45 " = male component
+" socket " = female component
+-----
+[ RJ45 -> socket ]
+-----
+~ poorly terminated cable = bad
+impacts transmission performance.
+-----
+-=- ~
+IEEE for wires
+IANA for numbers
+ANSI for pinouts
+-----
+
+---------------
+STRAIGHT THROUGH, CROSSOVER UTP CABLES:
+-----
+different wiring conventions:
+-=- ethernet straight through:
+connect "unlike" devices (straight)
+-=- ethernet crossover:
+connect "similar" devices (gay)
+-----
+now it has become legacy
+-=- ~
+NICs use [~ auto-MDIX]
+-----
+medium-dependent interface crossover
+detect cable type, make connection.
+-----
+-=- rollover cable = cisco proprietary
+workstation - network device console port
+-----
+using wrong cable
+won't damage but won't connect
+-----
+> T568A
+> T568B
+-----
+-=- straight through = both T568A/B
+-=- crossover = one end A, other B.
+-----
+-=- rollover = adapter:
+workstation serial port - router console port
+-----
+ANSI/TIA standards
+-----
+
+=========================
+FIBER OPTIC CABLING:
+
+---------------
+PROPERTIES:
+-----
+expensive
+best option in situations
+long distance transmission
+higher bandwidths
+less [attenuation]
+immune to interference
+-----
+commonly used to:
+interconnect network devices
+-----
+flexible
+thin
+transparent strand
+bits -> light impulses
+waveguide/ light pipe
+transmit light between 2 ends
+minimal signal loss
+-----
+
+---------------
+FIBRE MEDIA TYPES:
+-----
+-=-
+~> single-mode fibre:
+small [core]
+expensive [laser] tech
+send [single] ray of light
+long distance 100's of KM
+-----
+-=-
+~> multi-mode fibre:
+larger [core]
+[LED] emitters
+popular in LAN
+[cheaper] than SMF
+bandwidth up to 10 Gbps (<550m)
+-----
+SMF vs MMF = amount of [dispersion]
+spreading out of light pulse over time.
+dispersion = signal strength loss
+MMF > SMF in dispersion
+MMF = travel up to 500 m before signal loss
+-----
+-=- ~
+life on single mode:
+sharper, durable, valuable
+100 km > 550 m
+-----
+
+---------------
+USAGE:
+-----
+* enterprise networks:
+interconnect infra devices
+----
+* fibre to the home ("FTTH"):
+always-on broadband services
+-----
+* long haul networks:
+connect countries and cities.
+-----
+* submarine cable networks:
+survive harsh undersea environment
+up to " transoceanic " distances
+=====
+"search":
+submarine cables tele geography map
+=====
+
+---------------
+FIBRE OPTIC CONNECTORS:
+-----
+connectors at cable end
+dimensions, coupling method varies
+connector types
+-----
+* -=- ~
+[ small form-factor pluggable ]
+(SFP) transceiver
+support fibre-optic connections
+-----
+"SFP" types:
+-----
+> straight tip connectors - ST:
+first used type...
+> square/subscriber/standard connectors - SC: [SSS]
+widely-adopted LAN, WAN connector
+> lucent connector/simplex connectors - LC:
+smaller version of SC
+> duplex multimode LC connectors:
+like LC but uses duplex connector.
+-----
+-=- ~
+straight tip
+subscriber
+lucent
+duplex
+-----
+2 fibres were required
+for full duplex ops.
+cable in pairs. duplex connector.
+-----
+
+---------------
+FIBRE PATCH CORDS:
+-----
+interconnect infra devices
+colour distinguishes between
+[ single, multi mode patch cords ]
+[ yellow = single. orange = multi ]
+fibre cables.
+-----
+-=-
+protect with small plastic cap
+when not in use.
+-----
+> SC-SC multi mode
+> LC-LC single mode
+> ST-LC multi mode
+> SC-ST single mode
+-----
+SC - subscriber
+LC - lucent
+-----
+straight subscriber = single
+straight loose = multi
+loose loose = single
+subscriber subscribed = multi
+-----
+
+---------------
+FIBRE VS COPPER:
+-----
+Fibre:
+backbone cabling for high-traffic
+point to point connections
+between data distribution facilities
+interconnect buildings in campuses
+-----
+fibre:
+10 Mbps - 100 Gbps
+range of 100Km
+immune to EMI
+immune to electrical hazards
+but dispersion
+costly media
+skilled person to install
+safe
+-----
+UTP:
+10 Mbps - 10 Gbps
+range 100 meters
+-----
+
+---------------
+TEST:
+-----
+multimode:
+make data travel for 500m
+uses LED
+lasers = SMF
+-----
+connect long-distance telephony
+cable TV applications = SMF
+-----
+SMF = 100km approx.
+-----
+MMF in campus network
+-----
+
+===============================================
+M2 = DATA LINK LAYER:
+
+=========================
+INTRODUCTION:
+
+-----
+[ examine topologies in company ]
+end, intermediate devices connected
+media used to connect...
+-----
+logical topology for network framing type
+and MAC used.
+-----
+physical topology = map of devices around
+-----
+
+=========================
+TOPOLOGIES:
+
+---------------
+PHYSICAL, LOGICAL TOPOLOGIES:
+-----
+L2 prepares
+network data -> physical network
+[requirements to transfer frame]
+-----
+topology = arrangement of network
+interconnections between them
+-----
+2 topology types for LAN, WAN:
+-----
+> physical topology:
+identifies physical connections
+usually [point-to-point or star]
+-----
+> logical topology:
+how frames transferred
+find [virtual connections]
+uses device interfaces, IP
+-----
+L2 = see logical topology,
+CONTROL data access to media
+-----
+logical topology determine
+MAC, network framing type.
+-----
+physical =
+rack 1, shelf 1
+-----
+logical =
+192.168.11.0/24
+G0/0/0, G0/1
+-----
+
+---------------
+LOGICAL TOPOLOGY:
+-----
+represents flow of info
+through network
+-----
+interface, IP, subnet
+gives layout view to engineers
+how it communicates
+-----
+use this to analyse network
+for enhancement, security,
+troubleshooting process.
+-----
+-=- includes:
+- plans
+- firewall policies
+- backups...
+-----
+
+---------------
+WAN TOPOLOGIES:
+-----
+-=- point to point:
+simple, common WAN topology
+permanent link
+between 2 end points
+-----
+-=- hub and spoke:
+[WAN version of star topology]
+central site interconnect branch sites
+point to point links
+always through central site.
+-----
+-=- mesh:
+high availability
+interconnected to each other
+point-to-point link to other
+-----
+-=- hybrid:
+combo of topologies
+partial mesh:
+some are interconnected, not all
+-----
+-=- ~
+~ point to point
+~ hub and spoke
+~ mesh
+~ hybrid
+-----
+
+---------------
+POINT TO POINT WAN TECHNOLOGY:
+-----
+-=-
+physical PTP topology:
+directly connect 2 nodes.
+not always share same media.
+limited to 2 nodes.
+-----
+serial comm protocol
+P2P: no need to determine if incoming
+[frame destined to it or another node]
+-----
+PTP connection over ethernet need to
+determine if incoming frame for self
+-----
+indirectly connected to each other
+with multiple intermediary devices.
+-----
+logical point-to-point connection is same
+connected to network cloud over WAN links.
+-----
+
+---------------
+LAN TOPOLOGIES:
+-----
+[multiaccess LANs]
+nodes with star/ extended star topologies
+central intermediary device
+interconnect multiple Ethernet switches
+scalable (~add, remove end devices easily)
+troubleshoot easily
+-----
+2 interconnected routers
+Ethernet used on P2P topology.
+-----
+Legacy LAN topologies:
+early ethernet, token ring LAN used:
+> bus - coax
+> ring - token ring - fibre distributed data interface
+-----
+~ star - switch/hub
+~ extended star - switch/hub
+~ bus - T connector
+~ ring - circle
+-----
+LAN vs WAN topologies
+-----
+
+---------------
+TEST:
+-----
+logical topology displays IP address
+-----
+physical network common in WANs:
+PTP
+hub, spoke
+mesh
+-----
+extended star = hybrid topology
+-----
+hosts chained to each other
+terminated at the end: bus.
+-----
+
+=========================
+MAC METHODS:
+
+---------------
+HALF, FULL DUPLEX COMM:
+-----
+duplex communication
+direction of data transmission
+-----
+2 common modes:
+-----
+> half-duplex:
+both can share but
+not simultaneously
+one at a time
+shared medium
+-----
+> full-duplex:
+transmit, receive simultaneously
+on shared media.
+L2 assume media available for transmission
+for both nodes at a time.
+-----
+E switch -> full-duplex by default
+[can also in half-duplex]
+if connected to hub like devices
+-----
+[duplex mismatch] creates
+inefficiency, latency on link.
+-----
+
+---------------
+ACCESS CONTROL METHODS:
+-----
+ELAN, WLAN = example of multiaccess networks
+multiaccess networks =
+~ [multiple host attempt to access network at a time]
+-----
+rules to govern
+how devices share physical media:
+~ contention-based access
+~ controlled access
+-----
+contention based:
+all half-duplex nodes
+fight for using medium
+if more than 1 transmit at a time:
+CSMA/CD = legacy bus topology ethernet LANs
+CSMA/CA = WLAN
+-----
+controlled access:
+each node with own time to use medium
+deterministic types of legacy networks
+inefficient
+wait for it's turn...
+-=- legacy token ring
+-=- legacy 'ARCNET'
+-----
+- contention = fight -> solution = CD/CA
+- controlled = time table - commie
+-----
+ELAN today = operate on full duplex
+no need an access method.
+-----
+
+---------------
+CONTENTION BASED ACCESS - CSMA/CD:
+-----
+contention = heated disagreement
+-----
+~ Wireless LAN (CSMA/CA)
+~ Legacy bus-topology ELAN (CSMA/CD)
+~ Legacy ELAN with hub (CSMA/CD)
+-----
+these network operate in half duplex
+needs a process to govern when 1 can send
+what happens if sent at same time
+-----
+2 send at same time = collision occur
+legacy ELAN -> both host detects collision
+due to CD of CSMA/CD
+NIC compares data transmitted, received
+signal amplitude more than normal
+both device's data corrupted.
+need to be resent.
+-----
+WLAN, legacy ELAN -> half duplex
+-----
+amplitude:
+measure of amount of energy
+transferred by wave
+-----
+PC1 - hub - PC2
+-----
+host NIC determine if others transmitting.
+no carrier signal detected on medium = send.
+-----
+hub = [multiport repeater]
+bits received are [regenerated],
+sent to all ports
+wait until channel is clear
+with hub, host with that D MAC [copies data],
+others ignore...
+-----
+
+---------------
+CONTENTION BASED ACCESS - CSMA/CA:
+-----
+form of CSMA used by 802.11 WLAN
+carrier sense multiple access/collision avoidance
+(CSMA/CA).
+-----
+similar to CSMA/CD to detect
+use additional techniques
+CMSA/CA does not detect collisions
+~ hard to do in wireless...
+~ but avoids by waiting before transmitting
+device transmitting has
+time duration for transmission
+all other host knows how long
+medium will be unavailable.
+-----
+I'm receiving this wireless frame.
+-----
+I see in the wireless frame
+channel is going to be unavailable
+for a specific amount of time
+so I cannot send.
+-----
+sender -> 802.11 frame
+receiver -> ack
+sender knows it arrived
+-----
+hub ELAN or WLAN,
+CSMA do not scale well in heavy media use
+-----
+ELAN switch don't use contention based system
+switch, host NIC operate in full-duplex mode.
+-----
+
+---------------
+TEST:
+-----
+contention based access = CSMA/CD, CSMA/CA = fight
+controlled access = ARCNET, token ring = time table
+-----
+access control method that needs D send
+ack so sender knows frame arrived:
+[~ CSMA/CA]
+-----
+
+===============================================
+M3 = ROUTING AT THE NETWORK LAYER:
+
+=========================
+HOW A HOST ROUTES:
+
+---------------
+HOST FORWARDING DECISION:
+-----
+routing tables.
+network layer.
+-----
+> route packet from S to D
+> direct packets between hosts.
+-----
+host -> packet ->
+-=- ~ itself:
+send to { 127.0.0.1 or ::1 }
+loopback interface
+[ loopback - front, backdoor loop ]
+-----
+test TCP/IP
+protocol stack on host
+-----
+-=- ~ local host:
+D on same network
+S, D share same
+network address
+-----
+-=- ~ remote host:
+D in remote network
+diff network IP
+-----
+packet from local/remote:
+IPv4: S use subnet mask, match
+IPv6: local router advertise prefix
+(local network address)
+-----
+[intermediary device provides interconnections
+between local hosts on the local network]
+-----
+packet forwarded out of host interface
+through intermediary device,
+to destination device directly.
+-----
+connect beyond local segment:
+other's home/business/internet.
+remote hosts
+routers and routing is needed.
+routing: best path to D
+referred to as default gateway.
+-----
+
+---------------
+DEFAULT GATEWAY:
+-----
+network device (router or L3 switch)
+route traffic to other networks.
+door of a room.
+-----
+default gateway usually router with:
+has local IP range same as internal hosts
+get packet from LAN -> forward out of LAN
+routes traffic to other networks.
+-----
+send traffic outside LAN
+no DG or not configured or down
+-----
+
+---------------
+A HOST ROUTES TO DG:
+-----
+host routing table
+has DGA.
+statically or DHCP in IPv4
+IPv6 -> router advertise DGA
+-----
+DGA to a host
+default route in routing table
+default route.
+-----
+
+---------------
+HOST ROUTING TABLES:
+-----
+-=- ~
+-=- route print
+-=- netstat -r
+display host routing table.
+-----
+3 sections:
+-----
+> interface list:
+list MAC address,
+assigned interface number of
+NICs (E, W, Bluetooth adapters)
+-----
+> ipv4 route table:
+list all known IPv4 routes
+-----
+> ipv6 route table:
+list all known IPv6 routes
+-----
+TEST:
+Local hosts can reach each other without
+need of a router.
+default gateway address is IP address of
+router on local network.
+-----
+
+=========================
+ROUTING TABLE:
+
+---------------
+ROUTER PACKET FORWARDING DECISION:
+-----
+host routing tables...
+Router routing tables.
+router operations
+at network layer.
+-----
+host -> packet -> another host:
+consult routing table,
+determine where to send
+D on remote network ->
+forward to DGA (usually router).
+-----
+host -> packet -> router interface:
+router examine D IP
+searches routing table
+determines where to send
+-----
+routing table:
+list of known network addresses [prefixes]
+where to forward packet.
+-----
+route entries or routes.
+to best (longest) matching route entry.
+-----
+packet -> G0/0/0 interface -> router
+de-encapsulate L2 E header, trailer ->
+examine D IP, search for best match in table ->
+encapsulate in new E header, trailer, forward
+to next hop.
+-----
+route | next hop or exit interface
+-----
+
+---------------
+IP ROUTER ROUTING TABLE:
+-----
+routing table of router
+has network route entries
+lists known network D
+-----
+stores 3 types of route entries:
+-----
+~> directly connected networks
+-----
+~> remote networks: -=- ~
+learn with [dynamic routing protocol]
+or [statically by admin].
+-----
+~> default route:
+default route entry or
+gateway of last resort
+last option if none found
+-----
+neighbour
+outside intel
+final way
+-----
+
+---------------
+STATIC ROUTING:
+-----
+-=- ~
+manually configured routes
+includes:
+[ remote network address + IP of next hop router ]
+-=- ip route 10.1.1.0 255.255.255.0 209.165.200.226
+-----
+10.1.1.0 255.255.255.0 = remote network address
+209.165.200.226 = IP address of next hop router
+-----
+~ does not automatically adjust for
+topology changes.
+reconfigure.
+ok for small network with few or no redundant links.
+-----
+static ones:
+> give the target
+> give the path
+static is blind
+-----
+
+---------------
+DYNAMIC ROUTING:
+-----
+auto learn remote networks
+from other routers
+also default routes.
+routers using
+dynamic routing protocols
+auto share routing info
+with other routers.
+change in topology,
+share info, auto update
+routing tables.
+-----
+-=- ~
+[dynamic routing protocols]:
+-----
+~> OSPF
+open shortest path first
+-----
+~> EIGRP
+enhanced interior gateway routing protocol
+-----
+-=- ~ *
+EIGR:
+enhanced interior
+gateway routing
+- her futuristic home interior,
+you are sent to outside gate
+as you are a watchman
+-----
+basic configs:
+enable directly connected networks within
+[dynamic routing protocol] - DRP
+dynamic routing protocol automatically does:
+~> discover remote networks
+~> maintain up-to-date routing info
+~> choose best path to D
+~> find new best path if current unavailable
+------
+static or dynamic routing:
+- remote network address,
+- next hop address
+entered into IP routing table.
+-----
+some routers use static,
+dynamic routing combo...
+-----
+
+---------------
+IPv4 ROUTER ROUTING TABLES:
+-----
+unlike host routing table,
+different items included in
+each entry of routing table.
+-----
+~ [entries in routing table]:
+> network topology:
+5 networks. 4 LAN, 1 WAN.
+learn about D before sending
+through static or dynamic routing.
+-=- show ip route
+see routing table
+see route source, entries
+see more specific...
+-----
+direct or remote network
+route source: O = OSPF
+trust worthiness
+metric for best path
+hop count/ bandwidth
+time stamp
+exit interface Serial0/1/0
+L = local route
+R1 aware of all network in topology
+-----
+
+---------------
+INTRO TO IPv4 ADDRESSING:
+-----
+~ L = Directly connected local interface IP
+~ C = Directly connected network
+~ S = Static route manually configured by admin
+~ O = OSPF
+~ D = EIGRP
+-----
+2 route entries with codes
+C, L.
+exit interface to reach network.
+-----
+use OSPF, exchange router info
+-----
+* -=- ~
+default route = network address of all zeroes
+0.0.0.0
+-----
+static route entry:
+start with S* code
+-----
+
+---------------
+TEST:
+-----
+-=- show ip route
+O = route learned dynamically with OSPF
+default route = gateway of last resort.
+-----
+
+===============================================
+M4 = IPv6 ADDRESSING:
+
+=========================
+SUMMARY:
+
+---------------
+IPv6 ADDRESS TYPES:
+-----
+3 types:
+-> unicast
+-> multicast
+-> anycast
+-----
+does not use dotted-decimal
+subnet mask notation.
+prefix length represented in slash notation
+indicates the network portion.
+-----
+-=- unicast address:
+uniquely identifies an [interface]
+on an IPv6-enabled device.
+IPv6 -> 2 unicast addresses:
+[GUA, LLA]
+-----
+~ IPv6 unique local addresses:
+local addressing within a site or
+between a limited number of sites.
+devices that never need to access another network
+not globally routed or
+translated to global IPv6 address
+-----
+~ IPv6 global unicast addresses:
+globally unique and routable on the IPv6 internet
+equivalent to public IPv4 addresses
+-----
+-> GUA has 3 parts:
+[ global routing prefix ]
+[ subnet ID ]
+[ interface ID ]
+-----
+IPv6 LLA:
+enables a device to communicate with
+other IPv6-enabled devices on [same link]
+and only on that link (subnet).
+get LLA statically/dynamically.
+-----
+
+---------------
+GUA AND LLA STATIC CONFIGURATIONS:
+-----
+CIOS command to configure an IPv4 address
+on an interface is:
+-=- [ip address ip-address subnet-mask]
+-----
+command to configure IPv6 GUA on an interface is:
+-=- [ipv6 address ipv6-address/prefix-length]
+-----
+configuring static addresses on clients
+does not scale to larger environments.
+enable dynamic assignment of IPv6 addresses.
+-----
+-=-
+configuring LLA manually lets you create an
+address recognizable, easier to remember.
+-----
+[only necessary to create LLAs on routers]
+-----
+LLAs can be configured manually using:
+-=- ipv6 address ipv6-link-local-address link-local
+[link-local]
+-----
+* -=- ~
+-=- GUA: ipv6 address ipv6-address/prefix-length
+-=- LLA: ipv6 address link-local
+-=- IPv4: ip address ip-address subnet-mask
+-----
+
+---------------
+DYNAMIC ADDRESSING FOR IPV6 GUAs:
+-----
+device get [dynamic GUA with ICMPv6] messages
+IPv6 router: [periodically send ICMPv6 RA messages]
+every 200 seconds
+to all IPv6-enabled devices on the network
+RA message also sent [in response to RS message]
+[RS = request for an RA message]
+-----
+ICMPv6 RA message includes:
+-=- network prefix
+-=- prefix length
+-=- default gateway address
+-=- DNS addresses
+-=- domain name.
+-----
+mask, DGA, DNS address, etc
+-----
+RA messages have 3 methods:
+-=- SLAAC
+-=- SLAAC with stateless DHCPv6 server
+-=- stateful DHCPv6 (no SLAAC)
+-----
+SLAAC:
+stateless address auto-configuration
+-----
+SLAAC - state
+-----
+-=- SLAAC:
+client use info in RA message
+create its own GUA because message
+has prefix, interface ID.
+-----
+-=- SLAAC with stateless DHCPv6 server:
+RA message suggest device use SLAAC
+to create own IPv6 GUA, use router LLA
+as default gateway address, use a stateless
+DHCPv6 server to obtain other necessary info.
+-----
+-=- stateful DHCPv6:
+RA suggests that devices use router LLA
+as default gateway address,
+stateful DHCPv6 server to obtain GUA,
+DNS server address, domain name etc.
+-----
+* -=- ~
+1> SLAAC - get all with 1 RA message - auto GUA
+2> SLAAC + stateless DHCP recommended - auto GUA, R LLA as DGA, DHCP for others
+3> SLAAC + stateful DHCP recommended - use DHCP for GUA, DNS. R LLA as DGA
+-----
+create [interface ID] using:
+> EUI-64 process or
+> randomly generated 64-bit number.
+-----
+EUIs process uses 48-bit Ethernet MAC address
+of client and inserts another 16 bits in middle
+of MAC address to create 64-bit interface ID.
+-----
+Depending upon OS, device may use a
+randomly generated interface ID.
+-----
+ICMPv6 -> GUA
+3 ways for ICMPv6:
+[ SLAAC, SLAAC DHCP, no SLAAC ]
+-----
+got GUA
+get LLA
+-----
+
+---------------
+DYNAMIC ADDRESSING FOR IPv6 LLAs:
+-----
+All IPv6 devices must have an IPv6 LLA
+configure manually or created dynamically
+[ LLA = must ]
+-----
+OS like Windows will use same method for
+[ SLAAC-created GUA ],
+[ dynamically assigned LLA ].
+-----
+Cisco routers automatically create IPv6 LLA
+whenever a GUA is assigned to the interface
+-----
+-=-
+use EUI-64 to generate Interface ID for all
+LLAs on IPv6 interfaces.
+-----
+For serial interfaces, router uses MAC address
+of an Ethernet interface.
+common to statically configure IPv6 LLAs on routers
+easy to remember.
+* -=- ~
+verify IPv6 address config with 3 commands:
+-=- [show ipv6 interface brief]
+-=- [show ipv6 route]
+-=- ping
+-----
+after getting GUA,
+create own LLA.
+-----
+
+---------------
+IPv6 MULTICAST ADDRESSES:
+-----
+2 types of IPv6 multicast addresses:
+-=- well-known multicast addresses
+-=- solicited-node multicast addresses
+-----
+-> assigned multicast addresses:
+are reserved multicast addresses for
+predefined groups of devices.
+-----
+well-known multicast addresses are assigned.
+-----
+-> common IPv6 assigned multicast groups are:
+ff02::1 = all-nodes multicast group
+ff02::2 = all-routers multicast group.
+remember what is fe80 and ff00 ?
+-----
+found so far:
+* -=- ~
+> fe80 - linklocal
+> fffe - eui64
+> ff00 - multicast
+> 2001 - some unicast
+-----
+solicited-node multicast address is similar
+to all-nodes multicast address.
+advantage of a solicited-node multicast address:
+it is
+[mapped to special Ethernet multicast address]
+-----
+well known = assigned = reserved
+solicited-node = all-nodes
+-----
+
+===============================================
+M5 = IPv6 ND:
+
+=========================
+NEIGHBOUR DISCOVERY OPERATION:
+
+---------------
+IPv6 ND:
+-----
+address resolution
+[ICMPv6 - NS, NA]
+like IPv4's ARP
+-----
+-=- ~
+[ ND(NS, NA) for ARP ]
+-----
+RA, RS, NA, NS
+for diff ops remember?
+RA, RS to assign address
+-----
+host -> neighbour cache
+[IP - MAC] mapping table.
+[no entries -> ICMPv6 NS]
+-----
+IPv4 -> ARP request - over ethernet.
+IPv6 -> ICMPv6 with IP header -> E frame header, trailer
+-----
+* -=- ~
+> D MAC multicast
+> S MAC.
+> S IPv6
+> D IPv6.
+> target IPv6
+> target MAC.
+-----
+ICMPv6 >> ethernet broadcast ARP request
+reduce processing. efficiency
+examine D MAC
+router don't forward it. LLA?
+-----
+
+---------------
+IPv6 ND MESSAGES:
+-----
+IPv6 NDP
+-----
+* -=- ~
+ND provides:
+-=- address resolution
+-=- router discovery
+-=- redirection services
+for IPv6 using ICMPv6.
+-----
+[ICMPv6 ND] uses 5 ICMPv6 messages
+to perform these services:
+-=- NS
+-=- NA
+-=- RS
+-=- RA
+-=- [redirect message]
+-----
+[device to device] messaging
+address resolution like ARP
+[NS, NA messages]
+-----
+[RS, RA] for router to device
+[router discovery] in
+[dynamic address allocation]
+and [SLAAC]
+-----
+NS NA = device - device
+RS RA = router - device
+-----
+-=-
+redirect message =
+better next-hop selection
+-----
+IPv6 ND is defined in the
+* -=- ~ IETF RFC 4861.
+-----
+
+---------------
+IPv6 ND - ADDRESS RESOLUTION:
+-----
+IPv6 ND - determine MAC of a device
+[NS, NA for MAC address resolution]
+like  ARP Requests and ARP Replies
+-----
+ICMPv6 NS:
+* -=- ~
+[special ethernet, IPv6 multicast addresses]
+less processing.
+[no need to send to OS]
+-----
+
+---------------
+IPv6 ND -=- LAB:
+-----
+IPv6 ND local network
+IPv6 ND remote network
+-----
+
+===============================================
+M6 = CISCO SWITCHES AND ROUTERS:
+
+=========================
+SUMMARY:
+
+---------------
+CISCO SWITCHES:
+-----
+switch:
+connect devices on same network
+-----
+router:
+connect multiple networks
+-----
+selecting switch for your LAN:
+-=- number, type of ports
+-----
+Lower-cost switches may support
+only copper twisted-pair interface ports.
+-----
+Higher priced switches may have
+fibre-optic connections.
+-----
+~ link switch to other switches that
+may be located over long distances.
+-----
+-=-
+like switch ports,
+[Ethernet NICs operate at specific bandwidths]
+such as 10/100 or 10/100/1000 Mbps.
+actual bandwidth of attached device will be
+highest common bandwidth between device NIC, switch port.
+-----
+-=-
+networking devices with:
+fixed and modular physical configurations.
+-----
+-=-
+[managed switch] using Cisco OS
+enables control over individual ports
+or over the switch as a whole.
+-----
+* -=- ~
+Cisco Catalyst 2960 Series Ethernet switches
+suitable for small and medium-sized networks.
+-----
+recommend catalyst 2 96 0 series
+I am a sales person ^_^
+-----
+
+---------------
+SWITCH SPEEDS, FORWARDING METHODS:
+-----
+too much information zone
+* -=- ~
+-----
+switch use a
+[forwarding method for switching]
+-----
+data between network ports:
+-=- store-and-forward switching
+-=- cut-through switching - [fast forward, fragment-free]
+-----
+2 methods of [memory buffering]:
+-=- port-based memory
+-=- shared memory.
+-----
+2 types of duplex settings used
+for communications on an Ethernet network:
+-=- full-duplex,
+-=- half-duplex.
+-----
+[auto-negotiation]:
+optional function
+found on most Ethernet switches, NICs.
+-----
+enables 2 devices to auto negotiate best speed
+and duplex capabilities.
+Full-duplex is chosen if both devices have capability
+along with their highest common bandwidth.
+-----
+Most switch devices now support
+automatic medium-dependent interface crossover
+(auto-MDIX) feature.
+switch automatically detects type of cable attached
+to port and configures interfaces accordingly.
+-----
+summary:
+-----
+-=- store and forward
+-=- cut through -> fast forward / fragment free
+-----
+port based, shared memory buffering
+-----
+auto negotiation:
+-=- bandwidth
+-=- duplex
+-----
+auto-MDIX
+-=- cable type
+-----
+
+---------------
+SWITCH BOOT PROCESS:
+-----
+Cisco switches,
+preconfigured to operate in LAN
+as soon as they are powered on.
+-----
+configure basic security settings
+before placing switch into network
+-----
+3 basic steps to "power up" a switch:
+-=- check components
+-=- Connect cables to switch
+-=- Power up switch
+-----
+* -=- ~
+switch ON -> POST begins:
+[power-on self-test]
+-----
+2 methods to connect a PC to a network device
+to perform configuration and monitoring tasks:
+-=- out-of-band management
+-=- in-band management
+-----
+Out-of-band management:
+computer directly connected to console port
+of network device that is being configured.
+-----
+in-band management:
+monitor, configure a device
+over a network connection.
+-----
+-=- out = physical
+-=- in = wireless?
+-----
+Cisco device loads following 2 files
+into RAM when it is booted: 
+-=- [IOS image file]
+-=- [start-up configuration file]
+-----
+IOS image file stored in flash memory
+start-up config file stored in NVRAM.
+-----
+* -=- ~
+> check components
+> check cables
+> ON switch
+> POST
+> IOS image = flash
+> start-up = NVRAM.
+-----
+
+---------------
+CISCO ROUTERS:
+-----
+Routers require:
+> CPU
+> RAM
+> ROM
+> NVRAM
+> OS
+-----
+Cisco routers have same general hardware components:
+-=- console ports
+-=- LAN interfaces
+-=- expansion slots
+-----
+for different types of [interface modules]
+ex: [EHWIC, serial, wireless, DSL, switch ports]
+-----
+storage slots for expanded capabilities
+ex: compact flash memory, USB ports.
+-----
+
+---------------
+ROUTER BOOT PROCESS:
+-----
+remember switch boot process?
+-----
+steps to power up a Cisco router:
+-=- mount device to rack
+-=- ground device
+-=- connect power cable
+-=- connect console cable
+-=- turn on router
+-=- observe start-up messages on PC
+within terminal window as router boots.
+-----
+common methods to access CLI on Cisco router:
+-=- console
+-=- SSH
+-=- aux ports.
+-----
+router also has [network interfaces]
+to receive and forward IP packets.
+-----
+* -=- ~
+> ground
+> power cables
+> console cable
+> ON
+> see
+-----
+
+===============================================
+M7 = TROUBLESHOOT COMMON NETWORK PROBLEMS:
+
+=========================
+TROUBLESHOOT PROCESS:
+
+---------------
+NETWORK TROUBLESHOOTING:
+-----
+troubleshoot problems
+better learning.
+-----
+protocols, technologies.
+-----
+misconfigurations
+cabling mistakes.
+-----
+systematic approach
+isolate problem.
+-----
+-=- ipconfig
+ok
+-=- ping another host
+ok
+-=- ping DGA
+failed
+-=- ping DNS, DHCP servers
+failed
+-----
+found:
+traffic from S1 can't reach S2.
+S2 can connect to internet.
+problem is between S1, S2.
+= faulty port on S1
+move cable to another port.
+all OK.
+I'm a DOCTOR for networks now!?
+-----
+troubleshoot:
+-=- [ identify ]
+-=- [ locate ]
+-=- [ correct ]
+problems.
+-----
+[structured techniques] there to
+determine most probable cause, solution.
+instinct troubleshoot also OK (experts).
+-----
+maintain proper documentation:
+-=- problem encountered
+-=- steps taken to determine cause
+-=- steps to correct,
+ensure it won't reoccur.
+-----
+-=- issue
+-=- approach
+-=- fix, advices
+-----
+* -=- ~
+document all steps.
+even the ones that
+did not solve issue
+valuable reference.
+good documentation
+saves hours of time.
+-----
+
+---------------
+GATHER INFORMATION:
+-----
+problem discovered
+verify, determine it
+-----
+gather information:
+-=- problem nature
+-=- equipment: [manufacturer, model, versions]
+-=- configuration, topology: logs, configs
+-=- previous troubleshooting
+-----
+question the affected user
+get logs from management software
+versions of firmware, software
+compatibility problems.
+-----
+gather info with [network monitoring tools]
+info of state of network, devices
+may not be available for smaller networks.
+-----
+gathered info
+troubleshoot.
+-----
+
+---------------
+STRUCTURED TROUBLESHOOTING:
+-----
+several exists
+depends on situation
+each approach with
+own pros and cons.
+-----
+methods, choose one:
+-----
+-=- bottom-up:
+start from L1 in OSI
+good approach if L1 is sus
+network problems.
+need to check all
+lot of paper work
+which to examine first?
+-----
+-=- top-down:
+start with user apps
+go down until OK.
+software, simple problems.
+check all app
+which app to start?
+-----
+-=- divide and conquer:
+select a layer
+[test in both direction]
+document symptoms
+-----
+-=- follow the path:
+most basic troubleshooting techniques
+eliminate links, devices irrelevant
+to troubleshooting at that time.
+complements other approaches.
+-----
+-=- substitution:
+swap the component
+fixed = ok.
+border router down?
+replace > troubleshoot
+-----
+-=- comparison:
+spot-the-differences approach
+be consistent with working ones.
+compare, spot differences.
+might lead to a working solution
+~ without revealing root cause.
+-----
+-=- educated guess non-operational elements:
+~ shoot-from-the-hip
+less-structured
+~ based on the symptoms of problem
+-----
+less experienced network admin
+[random, ineffective].
+-----
+-=- bottom up
+-=- top down
+-=- divide and conquer
+-=- follow the path
+-=- substitution
+-=- comparison
+-=- educate guess
+-----
+
+---------------
+GUIDELINES TO SELECT A TROUBLESHOOTING METHOD:
+-----
+take the time to
+select the most effective method.
+quickly resolve network problems.
+-----
+define problem
+problem type
+troubleshooting method
+-----
+
+=========================
+PHYSICAL LAYER PROBLEMS:
+
+---------------
+COMMON L1 PROBLEMS:
+-----
+components - hardware aspects
+networking device, host device, cables
+L1 = physical connectivity of devices.
+-----
+common L1 problems:
+-=- power OFF
+-=- power unplugged
+-=- loose cable connection
+-=- incorrect cable type
+-=- faulty cable
+-=- faulty WAP
+-----
+may seem as an obvious solution
+person reporting overlooks it.
+-----
+5 senses to troubleshoot:
+-=- sense of light - just see
+-=- sense of smell, taste - overheating
+-=- sense of touch - overheating, vibration
+-=- sense of hearing - fan sound?
+-----
+* -=- ~
+[ see touch smell hear ]
++69 rads :)
+-----
+
+---------------
+WIRELESS ROUTER LEDs:
+-----
+1st = examine LED in bottom-up strategy
+change colour or flash -> convey info
+[meaning differs with manufacturers, devices]
+-----
+WPS = QSS too
+have known vulnerabilities
+disable it
+documentation -> disable WPS/QSS.
+Wi-Fi protected setup?
+-----
+activity LEDs -> link lights
+-----
+
+---------------
+CABLING PROBLEMS:
+-----
+central nervous system 
+of wired networks.
+common when facing issues
+-----
+-=- correct type
+-=- proper termination
+-=- max length
+-=- correct ports
+-=- physical damage
+-----
+
+=========================
+TROUBLESHOOT WIRELESS ISSUES:
+
+---------------
+CAUSES:
+-----
+compatibility:
+802.11ac (5 GHz band) not compatible with
+802.11b/n/g standards (2.4 GHz band).
+-----
+-=- ac = 5 Ghz
+-=- bng = 2.4 Ghz
+-----
+EXTRAS:
+-----
+2.4 GHz vs. 5 GHz vs. 6 GHz
+frequency bands approved for unlicensed wireless use.
+All waves have a pattern and can be described by a
+wavelength and a frequency.
+Radio waves transmit information over a specific range
+of frequencies, also referred to as RF spectrum.
+specific groups of frequencies for comm.
+use of frequency bands and channels
+regulated by government agencies.
+lower number means fewer wave pattern repetitions over time
+and therefore a longer wave with longer range,
+while a higher number means more repetitions that can
+transmit more data over shorter distances.
+1 hertz (Hz) represents one repetition per second, and
+1 gigahertz (GHz) represents one billion repetitions per second.
+2.4 GHz Wi-Fi spectrum is 70 MHz wide
+devices are typically limited to three 20 MHz channels.
+GHz Wi-Fi spectrum is approximately 500 MHz wide
+devices can use up to six larger 80 MHz channels
+2 of 6 channels ready to use
+other 4 for weather or airport radar.
+6 GHz Wi-Fi spectrum is 1200 MHz wide
+supports up to seven even larger 160 MHz channels
+only accessible to new Wi-Fi 6E devices
+allow operations free from legacy Wi-Fi interference.
+-----
+Within the 2.4 GHz band,
+[each standard uses different tech]
+-----
+Each wireless conversation must occur on
+separate, non-overlapping channel.
+-----
+strength of an RF signal decreases with distance
+NIC client utility -> [display signal strength]
+-----
+RF signals are susceptible to interference
+-----
+-=- ~
+[APs share available bandwidth between devices]
+-----
+
+---------------
+AUTHENTICATION, ASSOCIATION ERRORS:
+-----
+SSID?
+-----
+
+---------------
+TROUBLESHOOT A WIRELESS CONNECTION -=- LAB:
+-----
+
+=========================
+COMMON INTERNET CONNECTIVITY ISSUES:
+
+---------------
+DHCP SERVER CONFIGURATION ERRORS:
+-----
+physical connection OK
+but still host cannot communicate on remote networks
+check IP configuration of client.
+-----
+-=- ipconfig/all
+-=- ipconfig/release
+-=- ipconfig/renew
+-----
+[release all to renew]
+-----
+
+---------------
+CHECK INTERNET CONFIGURATION:
+-----
+-=- ping 10.18.32.12
+-----
+
+---------------
+CHECK FIREWALL SETTINGS:
+-----
+L1 through L3 all OK?
+time to check [hidden layers]
+network firewall used along path
+TCP or UDP port is open and
+no filter lists are
+blocking traffic to that port.
+-----
+client:
+connect to correct IP configuration
+connect to W router
+unable to ping a remote server
+problem may be in [rules on router]
+-----
+
+=========================
+CUSTOMER SUPPORT:
+
+---------------
+SOURCES OF HELP:
+-----
+-=- documentation
+-=- online FAQs
+-=- internet searches
+-=- colleagues
+-----
+
+---------------
+WHEN TO CALL FOR HELP:
+-----
+sometimes we can't solve issue by self
+contact vendor or ISP support desk for assistance
+support desk is first stop for end user assistance.
+group of individuals with knowledge and tools
+required to help diagnose and correct common problems.
+support desks to assist their users.
+-----
+
+---------------
+SUPPORT DESK INTERACTION:
+-----
+-=- What symptoms were encountered?
+-=- Who encountered the problem?
+-=- When did the problem manifest?
+-=- What steps have been taken to identify the problem?
+-=- What were the results of steps taken?
+-----
+
+---------------
+ISSUE RESOLUTION:
+-----
+-=- Time/date of call
+-=- Name/ID of technician
+-=- Problem reported
+-=- Course of action taken
+-=- Resolution/escalation
+-=- Next steps (follow-up)
+-----
+record these...
+-----
+
+---------------
+SUPPORT DESK TICKETS, WORK ORDERS:
+-----
+Level 1 support desk technician receives call
+process followed to [gather information].
+specific systems for storing and retrieving
+relevant information.
+escalated to a Level 2 technician, or require
+an on-site visit.
+-----
+work order
+generate a new ticket
+problem description
+problem solution
+-----
+
+***********************************************
+***********************************************
+NETWORK SUPPORT AND SECURITY:
+
+===============================================
+M1 = NETWORK SUPPORT:
+
+=========================
+DIAGNOSTICS, TROUBLESHOOTING METHODOLOGIES:
+
+TROUBLESHOOT PROCESS
+7 STEP PROCESS
+LAYERED MODELS
+STRUCTURED METHODS
+GUIDELINES TO CHOOSE METHOD
+DOCUMENT FINDINGS, ACTIONS, OUTCOMES
+
+=========================
+NETWORK DOCUMENTATION:
+
+DOCUMENTATION OVERVIEW
+NETWORK TOPOLOGIES, DESCRIPTIONS
+ENTERPRISE NETWORK TOPOLOGIES
+NETWORK CLOUD SERVICES, APPS
+WIRELESS STANDARDS
+NETWORK DEVICE DOCUMENTATION
+ESTABLISH NETWORK BASELINE
+[CISCO DISCOVERY PROTOCOL]
+DISCOVER DEVICES WITH CDP
+CDP -> MAP NETWORK -=- LAB
+DOCUMENT NETWORK -=- LAB
+
+=========================
+HELP DESKS:
+
+SECURITY POLICY
+HELP DESKS
+TICKETING SYSTEMS
+QUESTION END USERS
+ACTIVE LISTENING
+GATHER INFO FOR HOST RELATED TICKETS
+GATHER INFO FOR CISCO DEVICE TICKETS
+ANALYSE INFO
+
+=========================
+TROUBLESHOOT ENDPOINT CONNECTIVITY:
+
+[WINDOWS NETWORK SETUP]
+VERIFY CONNECTIVITY IN WINDOWS
+[LINUX NETWORK SETUP]
+VERIFY CONNECTIVITY IN LINUX
+[MACOS NETWORK SETUP]
+VERIFY CONNECTIVITY IN MACOS
+SETUP, VERIFY NETWORKING IN IOS
+SETUP, VERIFY NETWORKING IN [ANDROID]
+VERIFY ADDRESS WITH [SUBNET CALCULATOR]
+
+=========================
+TROUBLESHOOT A NETWORK:
+
+NETWORK DEVICES AS SOURCES OF NETWORK INFORMATION
+PACKET CAPTURE, PROTOCOL ANALYSIS
+INSTALL WIRESHARK -=- LAB
+USE NETWORK TOOLS TO LEARN ABOUT NETWORK -=- LAB
+MEASURE NETWORK THROUGHPUT
+USE DOCUMENTATION, SOLVE ISSUES -=- LAB
+
+=========================
+TROUBLESHOOT CONNECTIVITY REMOTELY:
+
+SUPPORTING REMOTE USERS
+REMOTE ACCESS WITH [TELNET, SSH, RDP]
+REMOTE DESKTOP, REMOTE ASSISTANCE -=- VID
+UNDERSTANDING [VPN]
+NETWORK MANAGEMENT SYSTEMS
+NETWORK MANAGEMENT -=- VID
+-=- SCRIPTS, AUTOMATION, PROGRAMMABILITY
+
+-----
+-=- fix
+-=- document
+-=- PR
+-=- fix - endpoint, network, remote
+-----
+
+=========================
+SUMMARY:
+
+---------------
+DIAGNOSTICS, TROUBLESHOOTING METHODOLOGIES:
+-----
+systematically apply troubleshooting process
+-----
+1 approach = 7-step process
+-=- technician define problem
+-=- gather relevant info
+-=- analyse information
+-=- eliminate possible causes
+-=- hypothesis of likely cause
+-----
+other:
+follow layers of OSI model
+-----
+structured troubleshooting:
+-=- seven different methods
+-=- bottom-up
+-=- top-down
+-=- divide and conquer
+-=- follow the path
+-=- comparison
+-=- educated guess
+-----
+choice of method depends
+on issue type, technician experience
+document issues according to
+company procedures
+provide info of eventual resolution
+of problem.
+-----
+
+---------------
+NETWORK DOCUMENTATION:
+-----
+essential to
+maintain, secure, troubleshoot
+networks.
+physical, logical network diagrams
+written documents,
+network performance baselines.
+-----
+* -=- ~ 
+9 network topologies to document:
+-=- PAN
+-=- LAN
+-=- VLAN
+-=- WLAN
+-=- WMN - wireless mesh networks
+-=- CAN
+-=- MAN
+-=- WAN
+-=- VPN
+-----
+-=- ad-hoc?
+-=- peer to peer?
+-----
+> physical topology diagrams:
+physical locations of devices
+documents their connections.
+-----
+> Logical topology diagrams:
+IP addresses, networking device details
+such as connected ports.
+-----
+> also:
+cloud services, routing policies, security,
+remote access policies on topology diagrams.
+-----
+-=- cloud services: SaaS, PaaS, IaaS
+-> XaaS = anything/everything as a service
+includes:
+-> DaaS (desktop as a service)
+-> DRaaS (disaster recovery as a service)
+-> CaaS (communication as a service)
+-> MaaS (monitoring as a service)
+-----
+wireless [standards] define
+operating characteristics of wireless ops
+signalling specifications,
+data rates,
+power efficiency.
+-----
+wireless standards form [IEEE 802.11]
+-=- what is 802.1X?
+wireless Ethernet family of standards
+like * -=- ~
+802.11 [b, n, g, ac]
+exist in [unlicensed] wireless spectrum.
+-----
+Licensed wireless frequencies are
+controlled by
+* -=- ~ Federal Communications Commission [FCC]
+licenses granted to radio stations,
+cellular companies, television stations.
+-----
+device documentation differs
+with device type.
+OS, software, licensing info,
+interface status, addressing,
+routing protocols...
+-----
+Network baselines:
+series of measurements of network performance
+taken during different types of network usage.
+help to understand parameters of a properly
+working network.
+-=- network performance or security problems
+can be identified.
+-----
+-=- [CDP] - cisco discovery protocol
+runs on Cisco networking devices
+sends:
+[CDP advertisements] to directly
+attached neighbour devices.
+-----
+info in it includes:
+- configured device name,
+- port identifier,
+- hardware platform,
+- software versions,
+- IP addresses.
+-----
+displayed with IOS commands:
+-=- show cdp neighbors
+-=- show cdp neighbors detail
+-----
+CDP: reveal network topology info...
+-----
+-=-
+CDP protocol used for
+intelligence
+get to know about neighbours
+-----
+
+---------------
+HELP DESK:
+-----
+-=- ~
+[security policies specify]:
+- employee's task to secure network
+companies with security policies
+-----
+-=- ~
+[policies regarding user]:
+identification, authentication,
+password strength, complexity,
+refresh interval, acceptable behaviour,
+remote access requirements.
+-----
+-=- ~
+[standard operating procedure] - SOP:
+- defines procedures to follow
+to replace network devices,
+install or remove software,
+[new employee onboarding],
+employee termination.
+-----
+-=- ~
+guidelines are suggestions for
+proper procedure that exists when
+no SOPs are defined.
+-----
+-=-
+guidelines when no SOP
+-----
+-=- security policy
+-=- policies regarding users
+-=- standard operating procedure
+-=- guidelines
+-----
+help desk:
+specialized team of IT professionals
+central point of contact for
+employees & customers
+who need technical assistance.
+uses communication tools such as:
+chat, telephone, email to receive issues
+from customers, facilitate
+troubleshooting process.
+[ticketing system] to manage trouble tickets
+that consist of issue details reported.
+user initiate tickets,
+technicians validate issues,
+work with users to address issues,
+escalate tickets if higher degree of expertise
+is required to resolve issue.
+-----
+support technician should:
+be considerate, empathize with users
+who may be under stress and anxious to
+resolve a problem quickly.
+should never belittle, insult, talk down to,
+or accuse users of causing the problem.
+-----
+know, relate, understand skill set
+useful way to relate to customers.
+know the customer
+relate to the customer
+determine their level of technical knowledge
+to speak to them at an appropriate level
+open-ended or closed-ended questions
+-----
+gather info about:
+device, OS, network environment,
+results of connectivity tests
+such as ping and tracert.
+-----
+also:
+beep codes, event viewer logs, device manager
+settings, task manager data, diagnostic tool results.
+-----
+use IOS commands, packet captures, device logs to
+gather info for cisco devices.
+ping, traceroute
+-=- show ip interface brief
+-=- show ip route
+-=- show protocols
+-----
+analyse info gathered
+solve the problem
+consult the ticket system software
+to locate similar issues
+access vendor information resources and FAQs,
+search internet for relevant information.
+can’t solve the problem,
+escalate it to a higher-level technician
+for resolution.
+-----
+
+---------------
+TROUBLESHOOT ENDPOINT CONNECTIVITY:
+-----
+verify network config of windows host
+check status in:
+network and sharing centre
+-=- ipconfig/all
+ping, tracert to test connectivity
+-----
+Linux:
+-=- ifconfig
+speedtest, ncat (nc)
+for network testing
+-----
+* -=- ~
+MacOS:
+Network Preferences > Advanced -> IP info
+-=- ifconfig
+-=- networksetup -listallnetworkservices
+-=- networksetup -getinfo <network service>
+MacOS wireless diagnostics tool
+-----
+* -=- ~
+android:
+About phone > Status settings
+iOS:
+Wi-Fi settings
+3rd party apps enhance networks
+diagnostics for Android.
+-----
+
+---------------
+TROUBLESHOOT A NETWORK:
+-----
+gather info to troubleshoot a network problem
+CIOS: [show commands] provide detailed info
+-----
+CIOS software separates management access
+into 2 privilege levels:
+-=- User EXEC
+-=- Privileged EXEC
+-----
+-=- enable
+IOS context sensitive help
+locate commands, get info about their usage
+[context-sensitive help with '?']
+-----
+packet capture, protocol analysis
+investigate packet content as it flows
+through the network.
+software decodes protocol layers housed
+within a packet.
+[wireshark]
+-----
+Bandwidth, throughput are characteristics
+of network data flow.
+Bandwidth is theoretical amount of data that
+can be transmitted from a device to another
+in an amount of time.
+measured in the number of bits per second.
+-----
+Throughput is measurement of actual number
+of bits per second that are being transmitted
+across the media.
+Throughput is always lower than bandwidth
+because of latency and delay.
+-----
+bandwidth is theoretical
+throughput is actual.
+-----
+Online internet speed test tools
+[iPerf] Windows tool for:
+measurement of throughput.
+-----
+
+---------------
+TROUBLESHOOT CONNECTIVITY REMOTELY:
+-----
+use remote desktop applications
+to assist remote users.
+can create security vulnerabilities and many
+orgs have desktop sharing disabled.
+-=- Microsoft Remote Desktop
+-=- Apple Remote Desktop
+-=- [TeamViewer]
+-=- remote desktop software...
+-----
+~ telnet, SSH, [RDP]
+protocols for remote access to systems.
+Telnet is old [virtual terminal app],
+used to access [CLI of a remote system].
+TCP port 23
+no mechanism for encrypting transmitted data
+SSH includes encryption and should be used.
+Virtual terminal clients such as:
+* -=- ~
+[PuTTY and Tera Term] available for
+connection to Telnet and SSH servers.
+-----
+-=- tera term
+-=- PuTTY
+-=- team viewer
+-=- RDP
+-----
+RDP by Microsoft
+uses a client-server model
+client accesses an OS GUI on a remote computer.
+available with:
+Windows, OS X, Linux, and Unix via [xrdp].
+for MacOS:
+Virtual Network Computing [VNC] software
+-----
+* -=- ~
+VPN enable secure remote network access
+over unsecured networks like internet.
+VPN uses dedicated secure connections that
+encrypt network traffic.
+[Site-to-site VPNs] - connect entire remote facilities
+[Remote-access VPNs] [ user - corporate network
+-----
+[VPN - PM ride on public road]
+-=- site to site
+-=- remote access
+-----
+-=- ~
+user - corporate with VPN gateway
+[AnyConnect] - cisco VPN client
+M Windows has its own VPN client.
+-----
+network management:
+configure, monitor, manage
+network performance.
+advanced analytics, ML, automate intel to
+continually optimize network performance.
+-----
+Network management systems typically use:
+-=- [SNMP] and [RMON]
+remote network monitoring
+gather information.
+-----
+deploy in cloud-based or on-premises models
+cloud is good for distributed environments
+that are geographically dispersed.
+On-premises systems require a lot of computing power
+and storage but are good for situations where
+compliance with data-sovereignty regulations is
+required.
+-----
+-=- [cisco Meraki]:
+leading cloud-based network management platform 
+network management capabilities without consuming
+user bandwidth.
+-----
+network automation:
+automate:
+configuring, managing, testing, deploying, operating
+of physical, virtual devices within a network.
+Common labour-intensive tasks can be automated
+using scripts and network programmability.
+[Python] is a popular scripting language for
+[network automation].
+-----
+* -=- ~
+what are all the cisco products
+and solutions?
+hardware and software
+research...
+website, blogs, AI
+-----
+
+===============================================
+M2: CYBERSECURITY THREATS, VULNERABILITIES, ATTACKS:
+
+=========================
+COMMON THREATS:
+
+THREAT DOMAINS
+CYBER THREAT TYPES
+INTERNAL, EXTERNAL THREATS
+USER THREATS & VULNERABILITIES
+THREATS TO DEVICES
+THREATS TO LAN
+THREAT TO PRIVATE CLOUD
+THREAT TO PUBLIC CLOUD
+THREAT TO APPLICATIONS
+DOMAINS
+THREAT COMPLEXITY
+BACKDOOR & ROOTKITS
+-=- THREAT INTEL & RESEARCH SOURCES:
+
+=========================
+DECEPTION:
+
+SOCIAL ENGINEERING:
+SOCIAL ENGINEERING TACTICS:
+SHOULDER SURFING & DUMPSTER DIVING:
+IMPERSONATION AND HOAXES:
+PIGGYBACKING & TAILGATING:
+OTHERS:
+DEFEND AGAINST DECEPTION:
+EXPLORE SOCIAL ENGINEERING TECHNIQUES - LAB:
+
+=========================
+CYBER ATTACKS:
+
+DIFFERENT MALWARES
+LOGIC BOMBS
+RANSOMWARE
+DOS:
+DNS:
+L2 ATTACK
+DDoS
+MItM, MItMo
+0 DAY ATTACKS
+KEYBOARD LOGGING
+DEFEND AGAINST ATTACKS
+-----
+-=- ~
+OFFENCE
+[threats - way in - attacks]
+
+=========================
+WIRELESS AND MOBILE DEVICE ATTACKS:
+
+GRAYWARE
+SMISHING - spam
+ROGUE AP
+RF JAMMING
+BLUETOOTH ATTACKS
+ATTACK AGAINST WI-FI PROTOCOLS
+WI-FI & MOBILE DEFENCE
+
+=========================
+-=- APPLICATION ATTACKS:
+
+CROSS-SITE SCRIPTING:
+CODE INJECTION:
+BUFFER OVERFLOW:
+REMOTE CODE EXE:
+OTHER APPLICATION ATTACKS:
+-----
+APPLICATION ATTACK DEFENCE:
+-----
+SPAM MAIL:
+PHISHING:
+VISHING, PHARMING, WHALING:
+EMAIL, BROWSER DEFENCE:
+MORE:
+
+===============================================
+M3: NETWORK SECURITY:
+
+=========================
+SECURITY FOUNDATIONS:
+
+CYBERSECURITY CUBE
+CIA
+
+=========================
+ACCESS CONTROLS:
+
+PHYSICAL
+LOGICAL
+ADMINISTRATIVE
+-----
+AAA
+IDENTIFICATION
+FEDERATED IDENTITY MANAGEMENT
+AUTHENTICATION METHODS
+-----
+PASSWORDS
+MFA
+AUTHORIZATION
+ACCOUNTING
+CONFIGURE ACCESS CONTROL -=- LAB
+
+=========================
+DEFENDING SYSTEMS, DEVICES:
+
+OS SECURITY
+ANTIMALWARE TYPES
+PATCH MANAGEMENT
+ENDPOINT SECURITY
+HOST ENCRYPTION
+BOOT INTEGRITY
+APPLE SYSTEM SECURITY FEATURES
+PHYSICAL PROTECTION OF DEVICES
+
+=========================
+ANTIMAWARE PROTECTION:
+
+ENDPOINT THREATS
+ENDPOINT SECURITY
+HOST BASED MALWARE PROTECTION
+NETWORK BASED MALWARE PROTECTION
+
+=========================
+FIREWALLS, HIPS:
+
+FIREWALLS
+ITS TYPES
+PACKET FILTERING FIREWALLS
+STATEFUL FOREWALLS
+HFW
+ANTIMALWARE PROGRAMS
+WINDOWS DEFENDER FIREWALL
+
+=========================
+SECURE WIRELESS ACCESS:
+
+WLAN THREATS
+WIRELESS SECURITY
+DOS ATTACKS
+RAP
+MITM
+SECURE WLAN
+SSID CLOAKING, MAC ADDRESS FILTERING
+802.11 ORIGINAL AUTHENTICATION METHODS
+SHARED KEY AUTHENTICATION
+AUTHENTICATE HOME USER
+ENCRYPTION METHODS
+AUTHENTICATION IN ENTERPRISE
+WPA3
+CONFIGURE BASIC WIRELESS SECURITY
+
+-=- ~
+DEFENCE:
+endpoint
+network
+boot integrity
+OS
+encrypt
+patch
+anti malware
+FW, IPS
+IAAA
+
+=========================
+SUMMARY:
+
+---------------
+SECURITY FOUNDATIONS:
+-----
+cybersecurity cube
+- useful way to think for [data protection]
+1D = CIA triad
+-----
+[Data states] are:
+in transit, at rest in storage, in process.
+2D
+-----
+pillars of defence are
+people, technology, policies and practices.
+3D
+-----
+ensure integrity with:
+hashing,
+[data validation checks],
+[data consistency checks],
+[access controls].
+-----
+availability:
+make data accessible to all authorized
+users whenever they need it.
+Cyberattacks and system failures can disconnect
+users from the data they need.
+-----
+-=- properly [maintain] equipment
+-=- keep software and systems up to date
+-=- test backups and fallbacks
+-=- implement new technologies
+-=- monitor network activity
+-=- analyse vulnerabilities to detect threats.
+-----
+
+---------------
+ACCESS CONTROLS:
+-----
+-=- ~
+physical access controls:
+prevent unauthorized users from
+accessing:
+equipment, networks, data.
+determine:
+who, where, when people can
+enter or exit a facility.
+-----
+-=- guards, perimeter fences, motion detectors,
+-=- device locks, locked doors that can only
+be accessed with swipe cards or combinations.
+-=- guard dogs, video cameras, alarms.
+-----
+-=- ~
+logical access controls:
+hardware, software solutions to
+manage access to resources.
+technology-based solutions include
+tools and protocols that computer systems
+use for [IAAA].
+-----
+examples:
+-=- encryption,
+-=- smart cards with embedded chips,
+-=- passwords,
+-=- biometrics,
+-=- ACLs,
+-=- firewalls,
+-=- IDS.
+-----
+-=- ~
+administrative access controls:
+[policies and procedures]
+defined by orgs implement and enforce
+all aspects of controlling
+unauthorized access.
+-----
+examples:
+-=- approved policies,
+-=- defined procedures,
+-=- background checks,
+-=- data classification.
+-----
+involves three security services:
+[AAA].
+verification of identity of each user
+determine which resources users can access
+keeps track of what users do on network.
+-----
+-=- verify ID
+-=- what can they do?
+-=- keep track
+-----
+-=- ~
+identification enforces rules established by
+authorization policy.
+-----
+unique identifiers are:
+[usernames and passwords],
+personal identification numbers - [PIN],
+[biometrics] such as fingerprints,
+retina scans, or voice recognition.
+-----
+-=- Federated identity management [FIM]
+multiple enterprises that let their users
+use same identification credentials to gain access
+to networks of all enterprises in group.
+convenience and also a vulnerability.
+-----
+Password [policies] help ensure that
+passwords meet length, complexity requirements.
+Combining other means of identity
+with passwords, such as MFA is
+increasingly popular.
+-----
+-=-
+accounting information for
+auditing and billing.
+-----
+
+---------------
+DEFENDING SYSTEMS, DEVICES:
+-----
+an org needs good admin to configure OS
+to protect against outside threats.
+[systematic approach] is required to establish
+security monitoring procedures, evaluate software
+updates, install updates using a documented plan.
+-----
+[Baselines] help to indicate system compromise when
+performance [deviates] significantly from baseline.
+-----
+[Fileless malware] attacks are difficult to
+detect and leave no [footprint].
+can exploit scriptable command shells.
+-=- Python, Bash, Visual Basic for apps
+(VBA) scripts can be malicious.
+-----
+-=- stay ahead of cybercriminals,
+[proactively] patch software to
+eliminate vulnerabilities.
+evaluate patches before they are installed.
+Automated patch management systems provide
+admins with control over date and time of updates
+and reporting about status of systems and patches.
+-----
+Host-based endpoint security includes:
+-=- firewalls that can block incoming/outgoing traffic
+-=- IDS: monitor systems, login security, system events
+-=- IPS: detect malicious activity, alert, log, reset, drop
+-=- EDR: integrated security soln. monitor, collect data
+-=- DLP: centralized way, ensure sensitive data not breached
+-=- NGFW: FW + other network-device-filtering functions.
+-----
+host encryption by [Windows EFS]
+Encrypting Files System
+encrypt files or entire drives
+full-disk encryption – [FDE] with -=- [BitLocker].
+BitLocker requires a Trusted Platform Module [TPM] in BIOS
+BitLocker To [Go] is a tool that encrypts removable drives.
+-----
+-=- Boot integrity ensures:
+system can be trusted and has [not altered]
+while OS loads.
+[Secure Boot] is a security standard to ensure that
+a device boots using trusted software.
+boot integrity -> secure boot
+-----
+Apple provides system hardware and macOS security
+features that offer robust endpoint protection.
+Mac hardware platform has enhanced security features
+such as:
+-=- a special security processor,
+-=- boot integrity,
+-=- a dedicated AES encryption engine.
+-----
+Apple [Data Protection] and [File Vault] data storage
+encryption are supported by
+hardware-based [AES encryption engine].
+Biometric data is processed in [security hardware],
+isolated from OS.
+-=- find my device feature,
+-=- [XProtect] antimalware technology,
+-=- a malware removal tool [MRT],
+-=- Gatekeeper:
+ensures that only authentic, digitally-signed
+Apple software can be installed (sucks)
+RE4 from Telegram not possible :(
+-----
+Physical protection of devices includes:
+-=- controlling access to resources,
+-=- using cable locks,
+-=- keyed or cipher door locks,
+-=- device inventory and tracking
+with (RFID).
+-----
+
+---------------
+ANTIMAWARE PROTECTION:
+-----
+various network security devices required to protect
+network perimeter from outside access.
+-----
+-> hardened router that is providing:
+-=- VPN service
+-=- NGFW
+-=- IPS
+-=- AAA server
+-----
+securing an internal LAN is nearly as important as
+securing the outside network perimeter.
+-----
+Endpoints and the network infrastructure require
+protection.
+-----
+* -=- ~
+3 types of antimalware programs:
+-=- [signature-based]:
+DB of known malwares
+like fingerprints of known malwares
+faster
+-=- [heuristics-based]:
+sus patterns or code structures
+flag if new one behave similar to
+existing signature
+-=- [behaviour-based]:
+watch how a program behave
+if it does unusual
+flag as malicious
+catch new malwares
+slows system, false positives
+-----
+[HIDS] = agent based
+-----
+antivirus runs on every protected machine.
+[agentless antivirus] protection scans on
+hosts from a centralized system.
+-----
+[host based firewalls]:
+-=- Windows Defender Firewall
+with advanced security features.
+-=- iptables, TCP Wrappers on Linux.
+-----
+Protecting endpoints in a [borderless network]
+-=- Cisco Secure Endpoint
+-=- Cisco Secure Email
+-=- Cisco Umbrella
+-=- Network Admission and Control systems - [NAC]
+These technologies work together with
+host-based systems to secure enterprise.
+-----
+
+---------------
+FIREWALLS, HIPS:
+-----
+resist network attacks
+only point between internal and external networks
+enforce:
+-=- access control policies,
+-=- protect hosts from exposure,
+-=- sanitize protocol flow,
+-=- block malicious data from servers, clients.
+-----
+ineffective if misconfigured or out of date.
+can slow networks and some data cannot
+be passed over them.
+-----
+various types of firewalls:
+-=- Packet filtering (stateless) firewalls:
+usually part of a router firewall.
+permit or deny traffic based on [L3, L4 info].
+-=- Stateful firewalls:
+versatile and most commonly used. 
+Stateful filtering is a firewall architecture
+that is classified at network layer.
+analyses traffic at OSI [L4, L5].
+-=- application gateway firewall (proxy firewall):
+filters info at [L3, 4, 5, 7].
+-=- Next-generation firewalls (NGFW):
+goes beyond stateful firewalls.
+-=- Transparent firewalls:
+filter traffic between 2 bridged interfaces.
+-=- Hybrid firewalls:
+combine attributes of other firewall types.
+-----
+-=- stateless firewalls:
+simple permit or deny rules
+low impact on network performance
+easy to implement
+initial security at network layer.
+[susceptible to IP spoofing]
+ineffective against fragmented packets
+can use complex [ACLs] that are
+difficult to use and maintain.
+-----
+-=- stateful firewalls:
+primary means of defence
+filter unwanted, unnecessary, undesirable traffic
+more effective than stateless firewalls.
+[cannot prevent L7 attacks]
+less effective against:
+[stateless protocols]
+difficult to track:
+[dynamic port negotiation]
+do not use authentication.
+-----
+-=- Host-based personal firewalls
+standalone software programs
+control traffic entering or leaving a computer
+use a set of predefined policies, or profiles.
+can have rules, can be modified or created to control
+access based on addresses, protocols, ports.
+[Windows Defender FW],
+[iptables],
+[nftables],
+[TCP Wrappers].
+-----
+-=- Antimalware protection consists of:
+antivirus, adware, phishing, spyware protection.
+some antimalware software combines features of
+different types.
+-----
+
+---------------
+SECURE WIRELESS ACCESS:
+-----
+Wireless networks susceptible to threats:
+interception of data,
+wireless intruders,
+DoS attacks,
+rogue APs.
+-----
+DoS attacks can result from
+improperly configured devices,
+malicious user interference,
+accidental interference.
+-----
+Rogue APs can be used by attacker to capture
+MAC addresses, capture data packets,
+gain access to network resources, or launch a
+man-in-the-middle (MitM) attack.
+-----
+in MitM:
+hacker is positioned between 2 legitimate entities
+in order to read or modify data that passes between
+the 2 parties.
+-----
+SSID cloaking:
+SSID beacon frame is disabled.
+manually permit or deny clients
+wireless access based on their
+physical MAC hardware address.
+-----
+Open system authentication should only be used in
+situations where security is of no concern.
+-----
+Shared key authentication provides mechanisms
+such as WEP, WPA, WPA2, and WPA3
+to authenticate and encrypt data between a wireless
+client and AP.
+WEP and WPA authentication are outdated and insecure.
+WPA2 is recommended at a minimum with WPA3 preferred
+when it becomes available.
+-----
+Personal authentication requires to
+configure username, pre-shared password.
+Enterprise authentication requires
+RADIUS authentication server using 802.1x
+with Extensible Authentication Protocol (EAP).
+-----
+Encryption protects data by making it unreadable
+if intercepted.
+WPA2 uses Temporal Key Integrity Protocol (TKIP)
+or Advanced Encryption Standard (AES).
+-----
+WPA3 when available is the
+recommended 802.11 authentication method.
+includes WPA3-Personal, WPA3-Enterprise,
+Open Networks, and IoT onboarding.
+WPA3 open or public Wi-Fi networks still do not
+use any authentication.
+they do use
+Opportunistic Wireless Encryption (OWE)
+to encrypt all wireless traffic.
+For IoT onboarding,
+WPA3 uses Device Provisioning Protocol (DPP)
+to securely onboard IoT devices.
+-----
