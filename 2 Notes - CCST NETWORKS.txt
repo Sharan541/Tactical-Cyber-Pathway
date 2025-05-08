@@ -1870,7 +1870,7 @@ some dropped, out of order
 won't notice until packet is long stream
 ---------------
 each packet matters in bank transfer
-T> CP
+TCP
 few may drop but retransmitted, reliable
 sequence number -> order
 -----
