@@ -164,6 +164,8 @@ SUMMARY:
 -------------------------
 [web, file, email]
 [client & server.]
+TP (transfer protocols)
+HTTP - FTP - SMTP
 -----
 host = participate directly in network
 host = client/server/both
@@ -943,9 +945,9 @@ to save addresses.
 ~ -=-
 private IPv4 addresses:
 - [RFC 1918]
--=- 10.0.0.0/8     = 10.0.0.0 - 10.255.255.255     = 255.0.0.0
--=- 172.16.0.0/12  = 172.16.0.0 - 172.31.255.255   = 255.255.0.0
--=- 192.168.0.0/16 = 192.168.0.0 - 192.168.255.255 = 255.255.255.0
+-=- 10.0.0.0/8     = 10.0.0.0 - 10.255.255.255     = 255.0.0.0     =
+-=- 172.16.0.0/12  = 172.16.0.0 - 172.31.255.255   = 255.255.0.0   = 16 to 32
+-=- 192.168.0.0/16 = 192.168.0.0 - 192.168.255.255 = 255.255.255.0 =
 ---------------
 private IPv4 -> intranet
 [NAT] -> private to public -> ISP forward packet
@@ -973,6 +975,7 @@ LOOPBACK ADDRESSES:
 ---------------
 ~ -=-
 127.0.0.1 is our home
+big home (16,777,216 usable addresses)
 do a loopback at home
 -----
 
@@ -987,15 +990,16 @@ link-local addresses assigned from address block:
 - 169.254.0.0/16, has 65,536 possible addresses,
 - fe80::/10,  has 2^64 possible addresses in IPv6.
 ---------------
+let nearby devices talk without internet or setup
+---------------
 windows client self configure
 if client can't get IP address
-used in P2P,
-not commonly used.
+used in P2P | not commonly used.
 ---------------
 ~ -=-
 - 169.254.0.0/16
 - fe80::/10
-link with locals, do 69
+(FIGHTY 69 with locals)
 APIPA!
 ---------------
 
