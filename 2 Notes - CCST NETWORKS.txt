@@ -138,7 +138,7 @@ clients and servers
 client and server roles
 peer to peer networks, applications
 multiple roles in network
-~ [ad Hoc network]
+~ [ad Hoc network - connectivity without infrastructure]
 -----
 
 -------------------------
