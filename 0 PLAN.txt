@@ -1,38 +1,40 @@
+---------------------------
+
 - A+
 - [code]
 - Net
 - OS
-- sec+
-- blue
+= sec+
+= blue
 - [red]
 
 - video, CCCS notes
-+ java, python
-- CCST, other files
+- [java, python]
+- CCST, net+
 - CCST, OS base
-- CCST, sec+ notes, IBM CA
-- LDIO, CySA+ notes, videos
-+ pentest+ notes, my notes
+= CCST, sec+, IBM CA
+= LDIO, YT videos
+- [pentest+ notes, my notes]
 
 - news, YT blogs, Q&A
-- make blogs on medium
+= make blogs on medium
 - update all profiles
-
 
 ---------------------------
 
-- aptitude
+= aptitude
 - communication
 
 - CC NDI
 
 ---------------------------
-next:
-AWS security
-AZ900 / SC200 / AZ500
-write sec+?
+NEXT:
 
-job?
-masters?
+= AWS security
+AZ900 / SC200 / AZ500
+= write sec+?
+
+= job?
+- masters?
 
 ---------------------------
